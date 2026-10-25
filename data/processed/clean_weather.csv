@@ -1,0 +1,361 @@
+district,province,year,season,seasonal_rainfall_mm,consecutive_dry_days,rainy_days_count,extreme_rainfall_days,avg_temperature_c,max_temperature_c,min_temperature_c
+Gasabo,Kigali City,2021,Season A,566.7,8,44,1,19.7,26.1,12.8
+Kicukiro,Kigali City,2021,Season A,525.4,18,46,2,20.2,27.8,15.0
+Nyarugenge,Kigali City,2021,Season A,605.8,8,52,2,20.3,27.3,13.9
+Bugesera,Eastern,2021,Season A,422.4,28,43,0,22.3,30.1,16.2
+Gatsibo,Eastern,2021,Season A,632.1,9,57,1,20.6,27.2,15.4
+Kayonza,Eastern,2021,Season A,367.5,16,33,2,21.4,29.2,14.9
+Kirehe,Eastern,2021,Season A,441.5,10,47,0,21.1,27.7,16.0
+Ngoma,Eastern,2021,Season A,582.0,10,52,0,21.0,27.4,13.8
+Nyagatare,Eastern,2021,Season A,515.8,27,44,0,21.2,29.1,14.6
+Rwamagana,Eastern,2021,Season A,482.0,9,41,2,19.9,27.9,13.8
+Burera,Northern,2021,Season A,740.9,9,68,2,16.4,22.9,9.7
+Gakenke,Northern,2021,Season A,885.0,5,77,3,17.6,25.4,12.5
+Gicumbi,Northern,2021,Season A,743.5,6,57,6,16.3,23.8,11.1
+Musanze,Northern,2021,Season A,733.0,5,61,3,16.4,22.8,9.2
+Rulindo,Northern,2021,Season A,765.7,10,67,1,18.6,24.2,11.2
+Gisagara,Southern,2021,Season A,458.5,13,39,0,19.9,25.8,14.7
+Huye,Southern,2021,Season A,541.0,17,48,1,19.1,27.0,13.8
+Kamonyi,Southern,2021,Season A,524.9,17,41,0,20.7,26.3,15.7
+Muhanga,Southern,2021,Season A,416.9,10,33,1,19.5,27.2,12.0
+Nyamagabe,Southern,2021,Season A,695.9,5,54,6,17.9,25.6,11.7
+Nyanza,Southern,2021,Season A,629.4,15,59,2,19.7,27.7,12.6
+Nyaruguru,Southern,2021,Season A,793.8,4,62,4,17.6,23.4,12.1
+Ruhango,Southern,2021,Season A,511.3,11,50,2,19.0,26.6,12.6
+Karongi,Western,2021,Season A,697.4,10,67,2,20.3,28.5,14.5
+Ngororero,Western,2021,Season A,655.6,12,55,1,19.0,25.0,11.9
+Nyabihu,Western,2021,Season A,721.3,7,73,2,14.6,23.0,9.0
+Nyamasheke,Western,2021,Season A,670.0,10,72,5,19.8,27.8,13.8
+Rubavu,Western,2021,Season A,643.4,4,51,5,20.8,26.6,15.7
+Rusizi,Western,2021,Season A,795.4,12,70,3,23.0,31.1,15.6
+Rutsiro,Western,2021,Season A,699.3,7,72,1,18.0,23.9,11.1
+Gasabo,Kigali City,2021,Season B,680.3,9,59,0,20.5,28.1,15.2
+Kicukiro,Kigali City,2021,Season B,708.9,14,67,1,20.5,27.3,15.5
+Nyarugenge,Kigali City,2021,Season B,559.2,13,49,2,20.4,26.7,15.1
+Bugesera,Eastern,2021,Season B,527.2,17,52,2,21.0,27.1,15.9
+Gatsibo,Eastern,2021,Season B,662.5,12,60,1,20.2,28.2,13.2
+Kayonza,Eastern,2021,Season B,499.1,16,50,2,21.4,27.9,16.4
+Kirehe,Eastern,2021,Season B,815.8,10,80,1,21.0,27.4,14.3
+Ngoma,Eastern,2021,Season B,678.4,15,56,1,20.6,27.0,13.2
+Nyagatare,Eastern,2021,Season B,514.0,27,47,2,21.4,28.5,15.3
+Rwamagana,Eastern,2021,Season B,734.1,9,63,0,20.9,27.0,13.6
+Burera,Northern,2021,Season B,880.6,4,76,1,16.4,23.8,9.4
+Gakenke,Northern,2021,Season B,947.1,7,77,5,17.9,24.0,12.4
+Gicumbi,Northern,2021,Season B,968.6,4,85,3,15.0,21.3,8.8
+Musanze,Northern,2021,Season B,985.8,5,85,2,15.9,22.4,9.8
+Rulindo,Northern,2021,Season B,799.4,5,76,4,18.1,26.0,12.2
+Gisagara,Southern,2021,Season B,604.4,15,61,1,19.8,26.3,12.7
+Huye,Southern,2021,Season B,649.9,10,65,2,19.2,25.8,11.7
+Kamonyi,Southern,2021,Season B,616.5,12,63,0,19.7,26.8,14.6
+Muhanga,Southern,2021,Season B,686.3,10,53,2,18.7,24.8,13.3
+Nyamagabe,Southern,2021,Season B,973.5,12,85,4,17.5,25.1,10.2
+Nyanza,Southern,2021,Season B,693.2,14,69,0,18.2,26.4,12.7
+Nyaruguru,Southern,2021,Season B,894.6,12,83,5,17.1,23.7,11.8
+Ruhango,Southern,2021,Season B,635.2,12,57,0,19.2,25.0,12.8
+Karongi,Western,2021,Season B,673.3,10,59,5,19.2,26.4,12.6
+Ngororero,Western,2021,Season B,734.5,5,67,1,18.6,24.1,11.8
+Nyabihu,Western,2021,Season B,860.2,8,79,1,15.1,20.9,8.3
+Nyamasheke,Western,2021,Season B,841.6,12,85,1,20.7,27.5,15.3
+Rubavu,Western,2021,Season B,789.9,5,84,5,20.5,26.8,13.2
+Rusizi,Western,2021,Season B,908.8,9,85,1,22.4,28.5,15.8
+Rutsiro,Western,2021,Season B,864.1,10,73,2,17.4,24.3,12.4
+Gasabo,Kigali City,2022,Season A,528.2,9,52,1,20.5,28.8,14.0
+Kicukiro,Kigali City,2022,Season A,418.7,8,45,2,20.4,28.6,15.2
+Nyarugenge,Kigali City,2022,Season A,512.0,16,44,0,20.5,28.0,13.5
+Bugesera,Eastern,2022,Season A,325.3,25,26,2,21.1,27.4,14.6
+Gatsibo,Eastern,2022,Season A,466.8,20,36,2,21.4,28.4,15.0
+Kayonza,Eastern,2022,Season A,211.9,34,20,2,21.2,27.9,15.4
+Kirehe,Eastern,2022,Season A,381.8,18,30,0,21.1,27.9,14.5
+Ngoma,Eastern,2022,Season A,410.7,23,44,2,20.7,28.6,15.3
+Nyagatare,Eastern,2022,Season A,212.3,23,20,1,20.4,28.2,15.1
+Rwamagana,Eastern,2022,Season A,313.9,16,31,2,20.6,26.5,14.0
+Burera,Northern,2022,Season A,667.0,12,60,1,16.7,24.6,10.7
+Gakenke,Northern,2022,Season A,707.0,7,75,1,18.3,24.7,13.0
+Gicumbi,Northern,2022,Season A,821.8,12,65,1,15.9,23.2,9.3
+Musanze,Northern,2022,Season A,739.0,5,65,4,16.2,22.3,9.6
+Rulindo,Northern,2022,Season A,738.6,12,58,3,18.8,27.3,12.9
+Gisagara,Southern,2022,Season A,712.8,13,78,2,18.8,25.1,12.7
+Huye,Southern,2022,Season A,483.2,9,53,1,19.7,25.3,14.7
+Kamonyi,Southern,2022,Season A,475.8,12,52,1,19.1,27.1,12.8
+Muhanga,Southern,2022,Season A,687.5,12,64,1,18.7,24.3,11.4
+Nyamagabe,Southern,2022,Season A,723.7,9,60,5,16.9,22.6,11.8
+Nyanza,Southern,2022,Season A,587.8,9,54,0,18.6,25.3,12.7
+Nyaruguru,Southern,2022,Season A,855.3,11,67,4,16.9,23.5,9.5
+Ruhango,Southern,2022,Season A,546.6,14,46,2,19.0,25.8,13.6
+Karongi,Western,2022,Season A,747.0,8,79,3,20.4,26.7,13.8
+Ngororero,Western,2022,Season A,910.1,9,79,5,19.3,25.7,12.3
+Nyabihu,Western,2022,Season A,805.8,11,67,6,15.2,23.0,7.9
+Nyamasheke,Western,2022,Season A,820.1,10,85,6,20.0,27.8,12.9
+Rubavu,Western,2022,Season A,761.6,4,73,5,21.1,27.1,15.6
+Rusizi,Western,2022,Season A,779.4,9,72,4,22.2,28.2,15.7
+Rutsiro,Western,2022,Season A,640.4,4,57,3,18.1,24.4,11.5
+Gasabo,Kigali City,2022,Season B,688.8,17,53,0,20.6,28.3,15.6
+Kicukiro,Kigali City,2022,Season B,683.8,8,54,0,20.3,26.7,13.1
+Nyarugenge,Kigali City,2022,Season B,748.5,15,78,0,21.0,29.4,15.2
+Bugesera,Eastern,2022,Season B,382.9,21,38,2,20.5,28.0,15.3
+Gatsibo,Eastern,2022,Season B,688.4,22,54,0,20.8,29.3,13.6
+Kayonza,Eastern,2022,Season B,507.8,27,44,2,21.6,28.0,14.8
+Kirehe,Eastern,2022,Season B,811.0,25,77,1,21.0,27.6,13.5
+Ngoma,Eastern,2022,Season B,675.6,25,53,2,21.0,27.6,15.8
+Nyagatare,Eastern,2022,Season B,533.3,22,48,1,20.9,28.7,15.5
+Rwamagana,Eastern,2022,Season B,710.4,20,61,1,20.4,26.7,14.4
+Burera,Northern,2022,Season B,1002.5,9,85,2,16.7,23.1,9.4
+Gakenke,Northern,2022,Season B,824.5,7,79,6,17.1,25.3,9.9
+Gicumbi,Northern,2022,Season B,863.6,12,74,4,15.5,23.5,9.4
+Musanze,Northern,2022,Season B,842.5,9,84,4,16.3,24.6,10.0
+Rulindo,Northern,2022,Season B,885.3,12,85,6,18.3,25.6,12.4
+Gisagara,Southern,2022,Season B,770.5,11,82,1,19.7,26.2,13.5
+Huye,Southern,2022,Season B,856.4,9,85,0,19.1,27.2,12.4
+Kamonyi,Southern,2022,Season B,653.6,8,64,1,19.1,25.5,13.3
+Muhanga,Southern,2022,Season B,594.6,17,57,0,19.3,27.4,12.4
+Nyamagabe,Southern,2022,Season B,912.2,4,85,2,17.1,24.0,10.0
+Nyanza,Southern,2022,Season B,665.4,8,58,1,18.7,27.0,11.9
+Nyaruguru,Southern,2022,Season B,859.2,5,70,1,16.6,25.1,11.0
+Ruhango,Southern,2022,Season B,548.9,15,46,2,19.7,25.5,14.1
+Karongi,Western,2022,Season B,738.2,11,63,3,20.0,27.4,12.9
+Ngororero,Western,2022,Season B,867.1,9,67,2,18.6,27.0,13.4
+Nyabihu,Western,2022,Season B,827.8,9,66,6,16.0,23.3,9.8
+Nyamasheke,Western,2022,Season B,916.7,4,85,4,20.5,26.6,14.5
+Rubavu,Western,2022,Season B,858.4,6,77,1,20.5,28.2,13.7
+Rusizi,Western,2022,Season B,927.6,9,85,6,23.2,31.5,17.8
+Rutsiro,Western,2022,Season B,961.0,4,85,4,17.8,25.0,11.8
+Gasabo,Kigali City,2023,Season A,553.7,10,51,2,20.3,27.2,15.2
+Kicukiro,Kigali City,2023,Season A,533.0,8,45,2,20.1,26.8,12.9
+Nyarugenge,Kigali City,2023,Season A,560.8,18,45,1,20.7,28.4,15.0
+Bugesera,Eastern,2023,Season A,424.0,17,35,2,21.3,27.6,14.0
+Gatsibo,Eastern,2023,Season A,507.2,17,40,1,21.1,27.7,13.6
+Kayonza,Eastern,2023,Season A,416.1,15,32,1,20.7,27.2,13.5
+Kirehe,Eastern,2023,Season A,611.7,18,56,1,21.9,27.8,15.6
+Ngoma,Eastern,2023,Season A,547.3,16,48,2,20.4,27.7,15.4
+Nyagatare,Eastern,2023,Season A,311.1,14,27,0,21.7,28.9,16.7
+Rwamagana,Eastern,2023,Season A,515.8,18,41,1,20.2,26.2,15.1
+Burera,Northern,2023,Season A,666.6,11,52,4,16.9,23.9,11.5
+Gakenke,Northern,2023,Season A,617.0,12,54,1,17.8,24.0,12.4
+Gicumbi,Northern,2023,Season A,763.1,5,75,4,16.1,22.1,8.8
+Musanze,Northern,2023,Season A,771.3,8,84,1,15.6,22.6,9.5
+Rulindo,Northern,2023,Season A,713.2,5,76,6,17.8,23.3,12.1
+Gisagara,Southern,2023,Season A,473.8,17,40,1,18.6,24.8,12.1
+Huye,Southern,2023,Season A,581.1,14,46,0,19.6,27.9,12.2
+Kamonyi,Southern,2023,Season A,512.9,11,39,0,20.2,26.7,13.7
+Muhanga,Southern,2023,Season A,584.9,16,57,1,18.4,24.7,12.6
+Nyamagabe,Southern,2023,Season A,732.6,4,64,3,17.2,23.4,11.4
+Nyanza,Southern,2023,Season A,598.0,14,52,0,19.2,27.2,12.4
+Nyaruguru,Southern,2023,Season A,626.7,8,66,5,17.4,25.7,11.7
+Ruhango,Southern,2023,Season A,575.3,9,58,0,18.8,24.5,12.8
+Karongi,Western,2023,Season A,640.1,10,66,6,19.4,26.2,14.1
+Ngororero,Western,2023,Season A,717.2,9,72,1,18.2,24.9,12.8
+Nyabihu,Western,2023,Season A,709.1,10,78,6,14.7,22.5,9.6
+Nyamasheke,Western,2023,Season A,776.1,9,65,3,19.6,27.8,14.2
+Rubavu,Western,2023,Season A,775.0,5,73,3,20.8,27.4,15.7
+Rusizi,Western,2023,Season A,642.3,7,67,6,22.3,29.9,15.5
+Rutsiro,Western,2023,Season A,799.1,8,73,1,17.9,25.3,12.3
+Gasabo,Kigali City,2023,Season B,736.3,12,75,2,20.7,27.6,15.7
+Kicukiro,Kigali City,2023,Season B,606.8,11,53,2,20.3,28.4,14.5
+Nyarugenge,Kigali City,2023,Season B,698.8,8,74,1,20.4,27.4,13.6
+Bugesera,Eastern,2023,Season B,541.5,25,58,2,22.0,28.9,15.5
+Gatsibo,Eastern,2023,Season B,666.7,12,53,1,20.9,28.8,13.4
+Kayonza,Eastern,2023,Season B,511.3,21,56,1,20.1,28.0,14.8
+Kirehe,Eastern,2023,Season B,625.0,8,62,2,21.4,28.9,15.2
+Ngoma,Eastern,2023,Season B,649.4,13,56,1,21.4,29.2,15.4
+Nyagatare,Eastern,2023,Season B,589.5,14,49,0,21.1,28.1,14.0
+Rwamagana,Eastern,2023,Season B,748.6,17,59,0,20.1,27.8,13.7
+Burera,Northern,2023,Season B,888.9,5,68,3,16.3,21.8,10.5
+Gakenke,Northern,2023,Season B,781.6,12,62,3,17.4,23.6,12.2
+Gicumbi,Northern,2023,Season B,761.8,9,62,6,16.2,24.3,9.5
+Musanze,Northern,2023,Season B,957.6,4,85,5,16.6,24.8,10.4
+Rulindo,Northern,2023,Season B,849.3,6,82,1,18.5,26.3,11.8
+Gisagara,Southern,2023,Season B,552.6,8,52,2,20.0,25.5,14.6
+Huye,Southern,2023,Season B,800.3,9,64,2,19.4,27.2,12.1
+Kamonyi,Southern,2023,Season B,646.8,11,50,2,20.2,27.8,12.8
+Muhanga,Southern,2023,Season B,683.5,9,61,2,18.3,26.3,11.1
+Nyamagabe,Southern,2023,Season B,781.5,7,75,3,17.0,25.4,11.3
+Nyanza,Southern,2023,Season B,681.4,16,71,0,17.9,23.6,11.8
+Nyaruguru,Southern,2023,Season B,1059.1,5,85,1,16.3,23.1,11.0
+Ruhango,Southern,2023,Season B,764.2,15,62,0,19.3,27.4,12.7
+Karongi,Western,2023,Season B,1192.4,4,85,6,20.9,26.5,14.7
+Ngororero,Western,2023,Season B,1074.4,6,85,4,18.3,24.7,11.9
+Nyabihu,Western,2023,Season B,1148.6,7,85,5,15.7,23.7,9.3
+Nyamasheke,Western,2023,Season B,1124.0,6,85,4,20.1,27.5,13.4
+Rubavu,Western,2023,Season B,1018.9,5,85,5,20.5,29.0,14.6
+Rusizi,Western,2023,Season B,1043.0,7,85,4,22.5,29.2,15.2
+Rutsiro,Western,2023,Season B,1188.8,8,85,3,18.0,24.4,12.7
+Gasabo,Kigali City,2024,Season A,572.6,8,55,0,19.4,25.2,13.6
+Kicukiro,Kigali City,2024,Season A,581.2,15,51,1,20.2,28.7,13.1
+Nyarugenge,Kigali City,2024,Season A,423.5,13,40,1,21.2,26.8,14.8
+Bugesera,Eastern,2024,Season A,373.4,16,32,2,21.3,28.4,14.9
+Gatsibo,Eastern,2024,Season A,580.7,8,45,0,21.5,28.0,14.8
+Kayonza,Eastern,2024,Season A,340.9,28,30,1,21.9,28.0,16.6
+Kirehe,Eastern,2024,Season A,547.1,13,51,0,21.1,28.1,14.5
+Ngoma,Eastern,2024,Season A,557.1,8,60,2,20.7,28.7,14.2
+Nyagatare,Eastern,2024,Season A,383.3,22,35,0,22.3,30.4,16.2
+Rwamagana,Eastern,2024,Season A,427.1,8,42,0,20.4,26.7,13.3
+Burera,Northern,2024,Season A,738.9,7,79,6,16.3,21.9,10.6
+Gakenke,Northern,2024,Season A,709.7,5,57,3,18.2,24.6,12.1
+Gicumbi,Northern,2024,Season A,700.6,9,63,5,14.4,21.2,9.0
+Musanze,Northern,2024,Season A,641.9,8,55,5,16.0,22.5,10.8
+Rulindo,Northern,2024,Season A,798.8,8,79,3,18.4,24.3,11.6
+Gisagara,Southern,2024,Season A,409.7,8,36,2,19.8,26.6,14.2
+Huye,Southern,2024,Season A,557.0,10,45,2,18.8,26.6,11.6
+Kamonyi,Southern,2024,Season A,516.8,13,56,0,20.1,25.9,13.1
+Muhanga,Southern,2024,Season A,568.9,12,46,1,18.3,25.8,11.6
+Nyamagabe,Southern,2024,Season A,669.2,5,73,6,17.2,24.9,11.1
+Nyanza,Southern,2024,Season A,670.4,13,62,0,19.7,27.2,13.8
+Nyaruguru,Southern,2024,Season A,778.6,9,78,5,16.0,23.9,10.4
+Ruhango,Southern,2024,Season A,497.0,14,44,1,19.6,26.8,13.3
+Karongi,Western,2024,Season A,792.0,8,71,5,19.4,26.4,14.2
+Ngororero,Western,2024,Season A,729.1,11,56,3,18.1,23.7,13.1
+Nyabihu,Western,2024,Season A,702.3,5,74,3,15.7,21.9,9.4
+Nyamasheke,Western,2024,Season A,721.6,11,72,2,19.7,26.0,14.4
+Rubavu,Western,2024,Season A,643.5,11,53,6,20.4,27.0,14.2
+Rusizi,Western,2024,Season A,719.9,11,61,6,23.2,31.2,18.0
+Rutsiro,Western,2024,Season A,684.6,10,69,1,17.4,23.8,11.5
+Gasabo,Kigali City,2024,Season B,720.7,9,75,0,20.3,28.6,15.1
+Kicukiro,Kigali City,2024,Season B,679.6,15,64,2,20.6,28.8,13.4
+Nyarugenge,Kigali City,2024,Season B,650.0,18,64,0,20.5,26.3,15.3
+Bugesera,Eastern,2024,Season B,569.6,26,45,0,20.7,27.0,14.9
+Gatsibo,Eastern,2024,Season B,737.7,12,60,2,21.4,27.9,15.4
+Kayonza,Eastern,2024,Season B,486.2,17,38,2,22.6,28.5,16.2
+Kirehe,Eastern,2024,Season B,802.6,10,77,0,20.6,28.1,13.7
+Ngoma,Eastern,2024,Season B,746.3,8,59,1,21.4,28.9,16.3
+Nyagatare,Eastern,2024,Season B,449.6,26,48,0,21.8,30.1,14.4
+Rwamagana,Eastern,2024,Season B,649.4,14,63,2,20.8,28.4,14.6
+Burera,Northern,2024,Season B,806.9,9,63,4,16.0,24.1,9.0
+Gakenke,Northern,2024,Season B,992.7,6,82,6,17.9,24.4,11.7
+Gicumbi,Northern,2024,Season B,920.4,12,72,5,16.3,21.9,9.2
+Musanze,Northern,2024,Season B,861.4,12,80,3,16.0,23.0,8.6
+Rulindo,Northern,2024,Season B,903.2,9,70,6,19.1,25.6,11.9
+Gisagara,Southern,2024,Season B,690.3,18,55,0,19.7,25.5,12.7
+Huye,Southern,2024,Season B,668.2,14,66,0,19.2,27.0,13.3
+Kamonyi,Southern,2024,Season B,647.7,14,53,0,20.0,28.2,14.1
+Muhanga,Southern,2024,Season B,744.5,10,66,1,19.6,27.4,13.9
+Nyamagabe,Southern,2024,Season B,931.6,11,85,3,17.4,24.1,10.8
+Nyanza,Southern,2024,Season B,808.9,14,85,0,19.1,26.4,12.2
+Nyaruguru,Southern,2024,Season B,858.9,6,70,2,15.6,23.3,9.4
+Ruhango,Southern,2024,Season B,701.6,9,56,1,19.6,27.0,12.5
+Karongi,Western,2024,Season B,943.2,12,83,2,19.8,26.1,14.4
+Ngororero,Western,2024,Season B,1021.7,11,85,5,18.9,27.2,13.2
+Nyabihu,Western,2024,Season B,801.4,11,72,3,15.4,22.9,8.8
+Nyamasheke,Western,2024,Season B,869.7,12,85,1,20.8,28.0,15.6
+Rubavu,Western,2024,Season B,873.6,5,71,5,20.1,27.6,14.4
+Rusizi,Western,2024,Season B,891.2,9,68,6,22.2,29.3,16.9
+Rutsiro,Western,2024,Season B,756.7,9,82,3,17.4,24.7,10.8
+Gasabo,Kigali City,2025,Season A,560.4,18,43,1,19.9,26.5,13.6
+Kicukiro,Kigali City,2025,Season A,635.2,10,52,0,19.8,26.2,13.7
+Nyarugenge,Kigali City,2025,Season A,500.1,11,54,2,20.0,26.6,12.9
+Bugesera,Eastern,2025,Season A,401.1,20,33,2,22.0,30.0,16.5
+Gatsibo,Eastern,2025,Season A,551.5,16,45,0,20.7,26.5,13.9
+Kayonza,Eastern,2025,Season A,471.7,23,40,0,22.3,28.2,15.3
+Kirehe,Eastern,2025,Season A,576.0,8,57,1,20.5,27.2,15.3
+Ngoma,Eastern,2025,Season A,468.5,8,41,1,21.3,27.9,14.3
+Nyagatare,Eastern,2025,Season A,414.7,22,43,2,20.4,27.4,13.4
+Rwamagana,Eastern,2025,Season A,583.7,10,44,0,20.7,26.6,14.1
+Burera,Northern,2025,Season A,652.8,5,58,6,17.3,24.2,11.2
+Gakenke,Northern,2025,Season A,751.5,8,67,2,18.1,25.6,10.9
+Gicumbi,Northern,2025,Season A,704.8,5,62,4,16.7,22.5,11.6
+Musanze,Northern,2025,Season A,893.3,6,85,1,16.3,22.3,9.4
+Rulindo,Northern,2025,Season A,839.7,6,84,2,17.6,24.6,10.3
+Gisagara,Southern,2025,Season A,555.0,10,44,1,19.0,24.8,12.8
+Huye,Southern,2025,Season A,540.4,13,43,0,18.6,25.6,12.0
+Kamonyi,Southern,2025,Season A,532.4,16,52,0,20.2,27.5,14.1
+Muhanga,Southern,2025,Season A,445.1,16,37,0,18.2,24.3,12.1
+Nyamagabe,Southern,2025,Season A,715.0,10,69,3,17.5,24.8,12.1
+Nyanza,Southern,2025,Season A,665.3,13,56,2,19.0,25.8,14.0
+Nyaruguru,Southern,2025,Season A,737.4,12,63,2,16.3,23.9,9.8
+Ruhango,Southern,2025,Season A,511.7,18,44,1,19.4,27.1,12.0
+Karongi,Western,2025,Season A,710.2,11,57,6,20.2,27.9,14.2
+Ngororero,Western,2025,Season A,727.5,12,78,4,18.8,27.2,12.6
+Nyabihu,Western,2025,Season A,810.9,11,66,5,15.5,22.7,8.9
+Nyamasheke,Western,2025,Season A,692.4,10,54,4,20.4,28.8,12.9
+Rubavu,Western,2025,Season A,786.7,8,72,3,20.4,28.2,13.2
+Rusizi,Western,2025,Season A,837.6,5,80,5,22.4,30.7,16.4
+Rutsiro,Western,2025,Season A,706.9,7,57,1,17.5,23.9,12.3
+Gasabo,Kigali City,2025,Season B,699.3,10,64,1,20.5,27.9,15.0
+Kicukiro,Kigali City,2025,Season B,667.6,17,51,0,21.0,26.9,14.0
+Nyarugenge,Kigali City,2025,Season B,807.4,14,85,0,20.1,26.7,13.3
+Bugesera,Eastern,2025,Season B,565.7,25,56,1,22.0,28.3,14.7
+Gatsibo,Eastern,2025,Season B,645.0,14,59,0,20.2,26.1,14.5
+Kayonza,Eastern,2025,Season B,559.6,16,55,0,21.4,28.1,15.2
+Kirehe,Eastern,2025,Season B,637.5,16,65,0,21.8,28.2,15.1
+Ngoma,Eastern,2025,Season B,703.6,15,65,1,21.0,28.9,14.5
+Nyagatare,Eastern,2025,Season B,559.3,15,51,0,21.4,28.9,15.4
+Rwamagana,Eastern,2025,Season B,717.7,17,57,1,19.1,25.3,13.2
+Burera,Northern,2025,Season B,841.3,12,83,4,16.5,23.4,10.9
+Gakenke,Northern,2025,Season B,796.2,6,63,2,17.7,25.8,12.0
+Gicumbi,Northern,2025,Season B,830.8,11,76,3,15.9,21.8,10.1
+Musanze,Northern,2025,Season B,785.6,10,65,3,15.5,23.1,9.1
+Rulindo,Northern,2025,Season B,797.2,8,66,1,17.7,24.3,10.3
+Gisagara,Southern,2025,Season B,606.0,16,66,1,19.5,26.4,14.2
+Huye,Southern,2025,Season B,801.6,17,73,1,19.5,25.8,12.5
+Kamonyi,Southern,2025,Season B,575.5,8,44,1,20.5,26.4,13.9
+Muhanga,Southern,2025,Season B,723.2,11,77,2,18.8,25.9,11.9
+Nyamagabe,Southern,2025,Season B,797.6,10,85,2,18.0,24.1,12.3
+Nyanza,Southern,2025,Season B,616.9,9,59,1,19.0,26.8,11.7
+Nyaruguru,Southern,2025,Season B,979.2,8,85,5,16.7,23.2,9.4
+Ruhango,Southern,2025,Season B,727.3,18,79,1,19.3,27.3,14.3
+Karongi,Western,2025,Season B,860.0,12,70,3,19.9,28.4,14.1
+Ngororero,Western,2025,Season B,957.2,11,85,5,18.5,26.3,12.0
+Nyabihu,Western,2025,Season B,913.3,6,83,2,14.5,23.0,8.0
+Nyamasheke,Western,2025,Season B,904.6,7,80,5,20.4,27.3,13.0
+Rubavu,Western,2025,Season B,878.8,8,81,6,21.1,28.8,14.1
+Rusizi,Western,2025,Season B,968.5,9,85,3,23.0,31.3,16.7
+Rutsiro,Western,2025,Season B,881.1,12,71,6,18.0,26.4,11.7
+Gasabo,Kigali City,2026,Season A,566.1,8,45,2,20.6,28.2,15.1
+Kicukiro,Kigali City,2026,Season A,485.8,16,38,1,19.7,28.0,14.0
+Nyarugenge,Kigali City,2026,Season A,624.2,12,65,1,19.8,27.6,12.4
+Bugesera,Eastern,2026,Season A,256.3,25,23,2,22.0,29.5,15.9
+Gatsibo,Eastern,2026,Season A,510.8,11,41,0,20.0,26.6,13.1
+Kayonza,Eastern,2026,Season A,461.3,24,37,2,21.1,28.2,14.1
+Kirehe,Eastern,2026,Season A,528.9,14,47,2,21.4,28.0,14.1
+Ngoma,Eastern,2026,Season A,548.1,16,43,2,21.2,27.4,15.3
+Nyagatare,Eastern,2026,Season A,353.5,24,28,2,21.6,29.8,16.6
+Rwamagana,Eastern,2026,Season A,549.6,11,53,1,19.2,26.6,13.8
+Burera,Northern,2026,Season A,645.3,8,55,2,16.0,22.6,9.5
+Gakenke,Northern,2026,Season A,725.1,9,75,2,18.0,26.0,12.6
+Gicumbi,Northern,2026,Season A,858.8,9,85,6,15.2,21.9,10.1
+Musanze,Northern,2026,Season A,757.3,5,83,4,16.4,24.0,9.8
+Rulindo,Northern,2026,Season A,805.4,7,78,6,18.1,25.9,11.2
+Gisagara,Southern,2026,Season A,570.7,18,48,0,19.6,28.1,13.7
+Huye,Southern,2026,Season A,591.0,10,60,0,19.3,27.8,13.0
+Kamonyi,Southern,2026,Season A,357.5,14,37,2,19.7,26.8,12.5
+Muhanga,Southern,2026,Season A,567.4,15,44,1,18.0,24.9,12.4
+Nyamagabe,Southern,2026,Season A,834.3,10,80,4,17.0,25.0,10.6
+Nyanza,Southern,2026,Season A,622.5,15,66,2,18.6,27.0,12.3
+Nyaruguru,Southern,2026,Season A,732.2,10,57,2,16.5,23.7,9.3
+Ruhango,Southern,2026,Season A,515.8,18,56,1,18.9,27.1,12.5
+Karongi,Western,2026,Season A,769.3,7,61,2,20.0,26.9,13.4
+Ngororero,Western,2026,Season A,718.5,6,79,4,19.0,25.2,12.8
+Nyabihu,Western,2026,Season A,770.2,7,71,4,15.0,21.8,7.9
+Nyamasheke,Western,2026,Season A,643.8,7,53,5,20.7,28.9,13.8
+Rubavu,Western,2026,Season A,744.5,4,65,5,20.0,27.9,13.8
+Rusizi,Western,2026,Season A,629.0,6,65,3,23.3,29.6,17.8
+Rutsiro,Western,2026,Season A,751.7,6,70,4,17.4,23.1,10.3
+Gasabo,Kigali City,2026,Season B,662.9,10,57,2,19.2,25.3,13.3
+Kicukiro,Kigali City,2026,Season B,743.4,16,60,1,20.6,27.7,15.6
+Nyarugenge,Kigali City,2026,Season B,733.9,9,61,2,19.6,27.0,13.8
+Bugesera,Eastern,2026,Season B,541.4,17,47,1,21.1,29.1,14.2
+Gatsibo,Eastern,2026,Season B,715.1,9,67,0,20.9,29.2,15.5
+Kayonza,Eastern,2026,Season B,498.4,17,51,2,20.7,27.7,14.8
+Kirehe,Eastern,2026,Season B,647.0,9,65,0,20.8,29.1,14.9
+Ngoma,Eastern,2026,Season B,669.2,16,51,2,22.0,28.9,16.2
+Nyagatare,Eastern,2026,Season B,576.5,25,60,2,22.0,28.0,16.0
+Rwamagana,Eastern,2026,Season B,701.7,18,57,2,20.7,27.8,13.9
+Burera,Northern,2026,Season B,867.0,6,85,1,16.0,23.2,9.5
+Gakenke,Northern,2026,Season B,812.6,7,85,2,18.4,26.6,12.5
+Gicumbi,Northern,2026,Season B,830.5,9,85,2,15.8,22.1,9.2
+Musanze,Northern,2026,Season B,923.5,10,79,3,16.0,24.2,10.5
+Rulindo,Northern,2026,Season B,899.8,12,85,1,17.6,25.7,11.4
+Gisagara,Southern,2026,Season B,657.7,10,57,2,19.2,26.9,13.0
+Huye,Southern,2026,Season B,721.6,15,56,1,19.3,26.5,12.0
+Kamonyi,Southern,2026,Season B,712.9,8,78,2,19.8,28.0,13.5
+Muhanga,Southern,2026,Season B,712.1,18,65,2,18.5,26.9,13.3
+Nyamagabe,Southern,2026,Season B,842.5,7,69,2,17.5,23.2,11.4
+Nyanza,Southern,2026,Season B,672.3,15,57,1,18.7,24.7,13.5
+Nyaruguru,Southern,2026,Season B,869.7,12,68,4,17.2,25.6,9.9
+Ruhango,Southern,2026,Season B,663.4,8,57,2,19.3,27.4,13.0
+Karongi,Western,2026,Season B,919.4,11,77,5,20.4,26.0,13.0
+Ngororero,Western,2026,Season B,895.3,11,83,3,18.3,23.8,11.0
+Nyabihu,Western,2026,Season B,926.0,4,85,1,14.8,23.2,8.7
+Nyamasheke,Western,2026,Season B,1006.0,6,85,2,19.8,26.2,14.4
+Rubavu,Western,2026,Season B,922.4,8,85,2,20.1,26.5,13.7
+Rusizi,Western,2026,Season B,955.0,11,85,5,21.3,26.9,14.6
+Rutsiro,Western,2026,Season B,822.0,12,75,5,16.9,23.6,11.5

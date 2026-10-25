@@ -1,0 +1,20 @@
+{
+  "policy_context": "Rwanda Second National Strategy for Transformation (NST2, 2024-2029)",
+  "current_credit_share_pct": 6.0,
+  "target_credit_share_pct": 10.0,
+  "current_portfolio_bn_rwf": 180.0,
+  "target_portfolio_bn_rwf": 300.0,
+  "additional_credit_unlocked_bn_rwf": 120.0,
+  "new_smallholders_funded_estimate": 266666,
+  "traditional_underwriting": {
+    "npl_default_rate_pct": 14.2,
+    "projected_portfolio_loss_bn_rwf": 42.6,
+    "systemic_friction": "High collateral hurdles, low smallholder reach, vulnerable to climate shocks"
+  },
+  "agriresilience_underwriting": {
+    "npl_default_rate_pct": 4.8,
+    "projected_portfolio_loss_bn_rwf": 14.4,
+    "capital_preserved_bn_rwf": 28.2,
+    "systemic_advantage": "Evidence-based risk screening, NAIS insurance bundling, automated shock alerts"
+  }
+}

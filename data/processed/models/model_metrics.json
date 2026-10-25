@@ -1,0 +1,65 @@
+{
+  "train_samples": 4387,
+  "test_samples": 2256,
+  "train_years": "2021-2024",
+  "test_years": "2025-2026",
+  "yield_regression": {
+    "baseline_mae_kg_ha": 810.23,
+    "baseline_rmse_kg_ha": 1344.41,
+    "baseline_r2": 0.9147,
+    "ml_mae_kg_ha": 840.92,
+    "ml_rmse_kg_ha": 1368.31,
+    "ml_r2": 0.9117,
+    "mae_reduction_pct": -3.79
+  },
+  "shortfall_classification": {
+    "roc_auc": 0.5788,
+    "f1_score": 0.0328,
+    "precision": 0.0682,
+    "recall": 0.0216,
+    "brier_score": 0.059,
+    "threshold_used": 0.4
+  },
+  "top_features": [
+    {
+      "feature": "cultivated_area_ha",
+      "importance": 0.295754771993071
+    },
+    {
+      "feature": "ndvi_anomaly_pct",
+      "importance": 0.1987861894646158
+    },
+    {
+      "feature": "seasonal_rainfall_mm",
+      "importance": 0.1930572489427969
+    },
+    {
+      "feature": "regional_benchmark_yield",
+      "importance": 0.08507855097345962
+    },
+    {
+      "feature": "ndvi_vigor_ratio",
+      "importance": 0.023406479316233544
+    },
+    {
+      "feature": "ndvi_mid_season",
+      "importance": 0.023292764935600754
+    },
+    {
+      "feature": "rainfall_intensity_mm_day",
+      "importance": 0.02089295329736706
+    },
+    {
+      "feature": "ndvi_senescence_drop",
+      "importance": 0.018939819460115553
+    },
+    {
+      "feature": "dry_spell_ratio",
+      "importance": 0.016525894714182452
+    },
+    {
+      "feature": "ndvi_seasonal_mean",
+      "importance": 0.012456483732198459
+    }
+  ]
+}

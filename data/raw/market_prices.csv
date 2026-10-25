@@ -1,0 +1,961 @@
+district,crop,year,season,wholesale_price_rwf_kg,farmgate_price_rwf_kg,price_volatility_index
+Nyagatare,Maize,2022,Season A,266,218,0.154
+Nyagatare,Maize,2022,Season B,287,240,0.18
+Nyagatare,Maize,2023,Season A,320,255,0.105
+Nyagatare,Maize,2023,Season B,327,279,0.081
+Nyagatare,Maize,2024,Season A,329,279,0.148
+Nyagatare,Maize,2024,Season B,374,301,0.134
+Nyagatare,Maize,2025,Season A,387,305,0.188
+Nyagatare,Maize,2025,Season B,396,329,0.085
+Nyagatare,Irish Potato,2022,Season A,215,175,0.112
+Nyagatare,Irish Potato,2022,Season B,232,198,0.201
+Nyagatare,Irish Potato,2023,Season A,270,228,0.207
+Nyagatare,Irish Potato,2023,Season B,289,231,0.138
+Nyagatare,Irish Potato,2024,Season A,328,264,0.163
+Nyagatare,Irish Potato,2024,Season B,314,257,0.112
+Nyagatare,Irish Potato,2025,Season A,368,305,0.111
+Nyagatare,Irish Potato,2025,Season B,337,278,0.093
+Nyagatare,Beans,2022,Season A,625,522,0.211
+Nyagatare,Beans,2022,Season B,581,454,0.11
+Nyagatare,Beans,2023,Season A,749,628,0.116
+Nyagatare,Beans,2023,Season B,739,591,0.095
+Nyagatare,Beans,2024,Season A,861,733,0.088
+Nyagatare,Beans,2024,Season B,859,673,0.178
+Nyagatare,Beans,2025,Season A,1017,802,0.181
+Nyagatare,Beans,2025,Season B,954,758,0.212
+Nyagatare,Cassava,2022,Season A,159,134,0.136
+Nyagatare,Cassava,2022,Season B,150,125,0.085
+Nyagatare,Cassava,2023,Season A,175,145,0.21
+Nyagatare,Cassava,2023,Season B,190,157,0.11
+Nyagatare,Cassava,2024,Season A,213,169,0.101
+Nyagatare,Cassava,2024,Season B,217,173,0.083
+Nyagatare,Cassava,2025,Season A,245,210,0.205
+Nyagatare,Cassava,2025,Season B,239,204,0.152
+Gatsibo,Maize,2022,Season A,274,226,0.082
+Gatsibo,Maize,2022,Season B,271,214,0.128
+Gatsibo,Maize,2023,Season A,309,257,0.211
+Gatsibo,Maize,2023,Season B,319,265,0.102
+Gatsibo,Maize,2024,Season A,329,275,0.118
+Gatsibo,Maize,2024,Season B,357,307,0.151
+Gatsibo,Maize,2025,Season A,400,323,0.122
+Gatsibo,Maize,2025,Season B,388,317,0.217
+Gatsibo,Irish Potato,2022,Season A,221,173,0.172
+Gatsibo,Irish Potato,2022,Season B,212,170,0.217
+Gatsibo,Irish Potato,2023,Season A,271,219,0.08
+Gatsibo,Irish Potato,2023,Season B,288,225,0.119
+Gatsibo,Irish Potato,2024,Season A,298,235,0.214
+Gatsibo,Irish Potato,2024,Season B,325,271,0.217
+Gatsibo,Irish Potato,2025,Season A,352,277,0.193
+Gatsibo,Irish Potato,2025,Season B,358,299,0.216
+Gatsibo,Beans,2022,Season A,615,513,0.127
+Gatsibo,Beans,2022,Season B,624,502,0.08
+Gatsibo,Beans,2023,Season A,793,636,0.201
+Gatsibo,Beans,2023,Season B,756,645,0.165
+Gatsibo,Beans,2024,Season A,927,752,0.217
+Gatsibo,Beans,2024,Season B,918,785,0.213
+Gatsibo,Beans,2025,Season A,987,799,0.125
+Gatsibo,Beans,2025,Season B,938,742,0.08
+Gatsibo,Cassava,2022,Season A,146,120,0.216
+Gatsibo,Cassava,2022,Season B,151,123,0.158
+Gatsibo,Cassava,2023,Season A,181,150,0.147
+Gatsibo,Cassava,2023,Season B,176,140,0.182
+Gatsibo,Cassava,2024,Season A,202,168,0.132
+Gatsibo,Cassava,2024,Season B,215,174,0.15
+Gatsibo,Cassava,2025,Season A,246,207,0.117
+Gatsibo,Cassava,2025,Season B,249,202,0.09
+Kayonza,Maize,2022,Season A,254,208,0.184
+Kayonza,Maize,2022,Season B,277,221,0.127
+Kayonza,Maize,2023,Season A,313,260,0.116
+Kayonza,Maize,2023,Season B,322,269,0.185
+Kayonza,Maize,2024,Season A,328,269,0.11
+Kayonza,Maize,2024,Season B,358,283,0.139
+Kayonza,Maize,2025,Season A,390,312,0.181
+Kayonza,Maize,2025,Season B,397,325,0.137
+Kayonza,Irish Potato,2022,Season A,222,190,0.159
+Kayonza,Irish Potato,2022,Season B,213,180,0.092
+Kayonza,Irish Potato,2023,Season A,295,231,0.103
+Kayonza,Irish Potato,2023,Season B,294,233,0.191
+Kayonza,Irish Potato,2024,Season A,312,256,0.155
+Kayonza,Irish Potato,2024,Season B,309,244,0.105
+Kayonza,Irish Potato,2025,Season A,362,303,0.182
+Kayonza,Irish Potato,2025,Season B,366,308,0.208
+Kayonza,Beans,2022,Season A,585,502,0.16
+Kayonza,Beans,2022,Season B,630,494,0.194
+Kayonza,Beans,2023,Season A,765,618,0.114
+Kayonza,Beans,2023,Season B,722,616,0.114
+Kayonza,Beans,2024,Season A,928,788,0.176
+Kayonza,Beans,2024,Season B,925,732,0.09
+Kayonza,Beans,2025,Season A,925,742,0.084
+Kayonza,Beans,2025,Season B,1003,826,0.091
+Kayonza,Cassava,2022,Season A,149,126,0.214
+Kayonza,Cassava,2022,Season B,157,134,0.18
+Kayonza,Cassava,2023,Season A,176,144,0.093
+Kayonza,Cassava,2023,Season B,185,145,0.136
+Kayonza,Cassava,2024,Season A,203,172,0.151
+Kayonza,Cassava,2024,Season B,220,183,0.085
+Kayonza,Cassava,2025,Season A,233,190,0.143
+Kayonza,Cassava,2025,Season B,243,209,0.199
+Rwamagana,Maize,2022,Season A,271,228,0.091
+Rwamagana,Maize,2022,Season B,264,227,0.203
+Rwamagana,Maize,2023,Season A,314,245,0.207
+Rwamagana,Maize,2023,Season B,320,256,0.208
+Rwamagana,Maize,2024,Season A,357,279,0.17
+Rwamagana,Maize,2024,Season B,363,298,0.195
+Rwamagana,Maize,2025,Season A,383,312,0.218
+Rwamagana,Maize,2025,Season B,387,332,0.102
+Rwamagana,Irish Potato,2022,Season A,226,179,0.137
+Rwamagana,Irish Potato,2022,Season B,225,182,0.11
+Rwamagana,Irish Potato,2023,Season A,296,250,0.119
+Rwamagana,Irish Potato,2023,Season B,269,214,0.09
+Rwamagana,Irish Potato,2024,Season A,322,276,0.146
+Rwamagana,Irish Potato,2024,Season B,311,257,0.17
+Rwamagana,Irish Potato,2025,Season A,365,293,0.095
+Rwamagana,Irish Potato,2025,Season B,360,294,0.099
+Rwamagana,Beans,2022,Season A,627,531,0.189
+Rwamagana,Beans,2022,Season B,605,476,0.089
+Rwamagana,Beans,2023,Season A,791,673,0.168
+Rwamagana,Beans,2023,Season B,754,594,0.134
+Rwamagana,Beans,2024,Season A,932,775,0.216
+Rwamagana,Beans,2024,Season B,901,707,0.135
+Rwamagana,Beans,2025,Season A,966,827,0.182
+Rwamagana,Beans,2025,Season B,941,734,0.187
+Rwamagana,Cassava,2022,Season A,147,123,0.19
+Rwamagana,Cassava,2022,Season B,158,136,0.16
+Rwamagana,Cassava,2023,Season A,174,146,0.169
+Rwamagana,Cassava,2023,Season B,176,151,0.095
+Rwamagana,Cassava,2024,Season A,214,175,0.081
+Rwamagana,Cassava,2024,Season B,214,167,0.093
+Rwamagana,Cassava,2025,Season A,244,201,0.177
+Rwamagana,Cassava,2025,Season B,250,212,0.131
+Kirehe,Maize,2022,Season A,259,219,0.187
+Kirehe,Maize,2022,Season B,273,229,0.197
+Kirehe,Maize,2023,Season A,317,262,0.118
+Kirehe,Maize,2023,Season B,339,284,0.145
+Kirehe,Maize,2024,Season A,347,271,0.204
+Kirehe,Maize,2024,Season B,347,297,0.084
+Kirehe,Maize,2025,Season A,392,330,0.134
+Kirehe,Maize,2025,Season B,401,330,0.145
+Kirehe,Irish Potato,2022,Season A,215,182,0.204
+Kirehe,Irish Potato,2022,Season B,232,196,0.211
+Kirehe,Irish Potato,2023,Season A,284,237,0.154
+Kirehe,Irish Potato,2023,Season B,271,217,0.127
+Kirehe,Irish Potato,2024,Season A,318,268,0.207
+Kirehe,Irish Potato,2024,Season B,317,260,0.202
+Kirehe,Irish Potato,2025,Season A,370,314,0.132
+Kirehe,Irish Potato,2025,Season B,354,282,0.135
+Kirehe,Beans,2022,Season A,618,520,0.12
+Kirehe,Beans,2022,Season B,578,466,0.12
+Kirehe,Beans,2023,Season A,726,575,0.134
+Kirehe,Beans,2023,Season B,749,632,0.129
+Kirehe,Beans,2024,Season A,874,699,0.13
+Kirehe,Beans,2024,Season B,902,734,0.126
+Kirehe,Beans,2025,Season A,928,726,0.145
+Kirehe,Beans,2025,Season B,952,743,0.196
+Kirehe,Cassava,2022,Season A,153,127,0.133
+Kirehe,Cassava,2022,Season B,153,125,0.138
+Kirehe,Cassava,2023,Season A,179,143,0.141
+Kirehe,Cassava,2023,Season B,188,150,0.21
+Kirehe,Cassava,2024,Season A,221,178,0.206
+Kirehe,Cassava,2024,Season B,218,176,0.175
+Kirehe,Cassava,2025,Season A,243,193,0.104
+Kirehe,Cassava,2025,Season B,243,195,0.21
+Ngoma,Maize,2022,Season A,254,202,0.193
+Ngoma,Maize,2022,Season B,288,228,0.09
+Ngoma,Maize,2023,Season A,319,265,0.16
+Ngoma,Maize,2023,Season B,339,275,0.173
+Ngoma,Maize,2024,Season A,354,290,0.092
+Ngoma,Maize,2024,Season B,345,271,0.208
+Ngoma,Maize,2025,Season A,392,326,0.152
+Ngoma,Maize,2025,Season B,392,325,0.116
+Ngoma,Irish Potato,2022,Season A,223,186,0.214
+Ngoma,Irish Potato,2022,Season B,220,186,0.133
+Ngoma,Irish Potato,2023,Season A,276,221,0.168
+Ngoma,Irish Potato,2023,Season B,284,224,0.148
+Ngoma,Irish Potato,2024,Season A,325,275,0.146
+Ngoma,Irish Potato,2024,Season B,302,248,0.181
+Ngoma,Irish Potato,2025,Season A,362,294,0.204
+Ngoma,Irish Potato,2025,Season B,367,299,0.08
+Ngoma,Beans,2022,Season A,589,465,0.214
+Ngoma,Beans,2022,Season B,616,514,0.202
+Ngoma,Beans,2023,Season A,746,598,0.099
+Ngoma,Beans,2023,Season B,778,633,0.194
+Ngoma,Beans,2024,Season A,924,792,0.099
+Ngoma,Beans,2024,Season B,921,786,0.219
+Ngoma,Beans,2025,Season A,984,818,0.099
+Ngoma,Beans,2025,Season B,962,791,0.104
+Ngoma,Cassava,2022,Season A,155,121,0.111
+Ngoma,Cassava,2022,Season B,155,123,0.186
+Ngoma,Cassava,2023,Season A,190,157,0.174
+Ngoma,Cassava,2023,Season B,176,149,0.19
+Ngoma,Cassava,2024,Season A,208,176,0.178
+Ngoma,Cassava,2024,Season B,211,168,0.174
+Ngoma,Cassava,2025,Season A,240,202,0.08
+Ngoma,Cassava,2025,Season B,251,213,0.159
+Bugesera,Maize,2022,Season A,270,218,0.137
+Bugesera,Maize,2022,Season B,280,221,0.163
+Bugesera,Maize,2023,Season A,314,259,0.104
+Bugesera,Maize,2023,Season B,328,259,0.186
+Bugesera,Maize,2024,Season A,354,280,0.189
+Bugesera,Maize,2024,Season B,366,299,0.166
+Bugesera,Maize,2025,Season A,393,321,0.145
+Bugesera,Maize,2025,Season B,383,306,0.162
+Bugesera,Irish Potato,2022,Season A,229,197,0.195
+Bugesera,Irish Potato,2022,Season B,221,186,0.134
+Bugesera,Irish Potato,2023,Season A,292,228,0.142
+Bugesera,Irish Potato,2023,Season B,270,216,0.131
+Bugesera,Irish Potato,2024,Season A,302,254,0.179
+Bugesera,Irish Potato,2024,Season B,314,245,0.214
+Bugesera,Irish Potato,2025,Season A,342,273,0.119
+Bugesera,Irish Potato,2025,Season B,367,291,0.176
+Bugesera,Beans,2022,Season A,616,488,0.162
+Bugesera,Beans,2022,Season B,609,487,0.2
+Bugesera,Beans,2023,Season A,750,630,0.19
+Bugesera,Beans,2023,Season B,743,586,0.218
+Bugesera,Beans,2024,Season A,878,727,0.094
+Bugesera,Beans,2024,Season B,907,725,0.08
+Bugesera,Beans,2025,Season A,942,789,0.164
+Bugesera,Beans,2025,Season B,988,831,0.185
+Bugesera,Cassava,2022,Season A,150,120,0.104
+Bugesera,Cassava,2022,Season B,145,124,0.098
+Bugesera,Cassava,2023,Season A,187,148,0.11
+Bugesera,Cassava,2023,Season B,182,151,0.135
+Bugesera,Cassava,2024,Season A,219,185,0.154
+Bugesera,Cassava,2024,Season B,205,162,0.122
+Bugesera,Cassava,2025,Season A,249,210,0.13
+Bugesera,Cassava,2025,Season B,232,197,0.084
+Musanze,Maize,2022,Season A,272,218,0.139
+Musanze,Maize,2022,Season B,278,239,0.192
+Musanze,Maize,2023,Season A,300,249,0.081
+Musanze,Maize,2023,Season B,319,259,0.183
+Musanze,Maize,2024,Season A,340,278,0.171
+Musanze,Maize,2024,Season B,352,278,0.192
+Musanze,Maize,2025,Season A,390,329,0.192
+Musanze,Maize,2025,Season B,402,342,0.181
+Musanze,Irish Potato,2022,Season A,216,185,0.177
+Musanze,Irish Potato,2022,Season B,225,189,0.165
+Musanze,Irish Potato,2023,Season A,279,236,0.135
+Musanze,Irish Potato,2023,Season B,270,214,0.147
+Musanze,Irish Potato,2024,Season A,325,257,0.161
+Musanze,Irish Potato,2024,Season B,317,256,0.199
+Musanze,Irish Potato,2025,Season A,363,297,0.138
+Musanze,Irish Potato,2025,Season B,361,301,0.207
+Musanze,Beans,2022,Season A,593,488,0.122
+Musanze,Beans,2022,Season B,614,526,0.174
+Musanze,Beans,2023,Season A,765,653,0.187
+Musanze,Beans,2023,Season B,793,632,0.15
+Musanze,Beans,2024,Season A,869,739,0.081
+Musanze,Beans,2024,Season B,915,758,0.203
+Musanze,Beans,2025,Season A,996,828,0.167
+Musanze,Beans,2025,Season B,1001,807,0.094
+Musanze,Cassava,2022,Season A,148,115,0.209
+Musanze,Cassava,2022,Season B,157,134,0.161
+Musanze,Cassava,2023,Season A,183,150,0.14
+Musanze,Cassava,2023,Season B,188,148,0.207
+Musanze,Cassava,2024,Season A,202,167,0.174
+Musanze,Cassava,2024,Season B,218,171,0.106
+Musanze,Cassava,2025,Season A,242,191,0.127
+Musanze,Cassava,2025,Season B,240,195,0.149
+Burera,Maize,2022,Season A,266,225,0.14
+Burera,Maize,2022,Season B,268,215,0.107
+Burera,Maize,2023,Season A,299,238,0.145
+Burera,Maize,2023,Season B,322,261,0.082
+Burera,Maize,2024,Season A,333,285,0.14
+Burera,Maize,2024,Season B,368,313,0.097
+Burera,Maize,2025,Season A,366,297,0.142
+Burera,Maize,2025,Season B,416,352,0.201
+Burera,Irish Potato,2022,Season A,218,182,0.131
+Burera,Irish Potato,2022,Season B,221,182,0.206
+Burera,Irish Potato,2023,Season A,276,227,0.121
+Burera,Irish Potato,2023,Season B,278,236,0.165
+Burera,Irish Potato,2024,Season A,309,264,0.179
+Burera,Irish Potato,2024,Season B,320,264,0.137
+Burera,Irish Potato,2025,Season A,347,277,0.081
+Burera,Irish Potato,2025,Season B,341,284,0.122
+Burera,Beans,2022,Season A,628,508,0.101
+Burera,Beans,2022,Season B,579,483,0.185
+Burera,Beans,2023,Season A,745,581,0.123
+Burera,Beans,2023,Season B,759,625,0.101
+Burera,Beans,2024,Season A,878,749,0.144
+Burera,Beans,2024,Season B,925,755,0.196
+Burera,Beans,2025,Season A,938,750,0.16
+Burera,Beans,2025,Season B,939,775,0.174
+Burera,Cassava,2022,Season A,155,125,0.134
+Burera,Cassava,2022,Season B,153,129,0.09
+Burera,Cassava,2023,Season A,188,149,0.166
+Burera,Cassava,2023,Season B,177,149,0.186
+Burera,Cassava,2024,Season A,211,178,0.148
+Burera,Cassava,2024,Season B,206,164,0.089
+Burera,Cassava,2025,Season A,247,211,0.142
+Burera,Cassava,2025,Season B,253,202,0.206
+Gicumbi,Maize,2022,Season A,266,221,0.21
+Gicumbi,Maize,2022,Season B,274,227,0.176
+Gicumbi,Maize,2023,Season A,316,260,0.146
+Gicumbi,Maize,2023,Season B,315,252,0.215
+Gicumbi,Maize,2024,Season A,345,283,0.151
+Gicumbi,Maize,2024,Season B,354,281,0.22
+Gicumbi,Maize,2025,Season A,396,333,0.162
+Gicumbi,Maize,2025,Season B,386,308,0.081
+Gicumbi,Irish Potato,2022,Season A,231,196,0.125
+Gicumbi,Irish Potato,2022,Season B,214,177,0.18
+Gicumbi,Irish Potato,2023,Season A,285,230,0.215
+Gicumbi,Irish Potato,2023,Season B,278,238,0.097
+Gicumbi,Irish Potato,2024,Season A,318,258,0.119
+Gicumbi,Irish Potato,2024,Season B,319,255,0.119
+Gicumbi,Irish Potato,2025,Season A,339,278,0.172
+Gicumbi,Irish Potato,2025,Season B,360,302,0.181
+Gicumbi,Beans,2022,Season A,595,464,0.152
+Gicumbi,Beans,2022,Season B,616,503,0.156
+Gicumbi,Beans,2023,Season A,751,614,0.203
+Gicumbi,Beans,2023,Season B,752,590,0.083
+Gicumbi,Beans,2024,Season A,853,715,0.17
+Gicumbi,Beans,2024,Season B,903,711,0.164
+Gicumbi,Beans,2025,Season A,951,743,0.087
+Gicumbi,Beans,2025,Season B,979,814,0.162
+Gicumbi,Cassava,2022,Season A,155,129,0.163
+Gicumbi,Cassava,2022,Season B,144,122,0.18
+Gicumbi,Cassava,2023,Season A,183,154,0.089
+Gicumbi,Cassava,2023,Season B,187,148,0.195
+Gicumbi,Cassava,2024,Season A,203,159,0.204
+Gicumbi,Cassava,2024,Season B,210,180,0.171
+Gicumbi,Cassava,2025,Season A,252,213,0.212
+Gicumbi,Cassava,2025,Season B,246,202,0.176
+Rulindo,Maize,2022,Season A,265,222,0.197
+Rulindo,Maize,2022,Season B,273,225,0.147
+Rulindo,Maize,2023,Season A,299,242,0.147
+Rulindo,Maize,2023,Season B,340,277,0.184
+Rulindo,Maize,2024,Season A,359,305,0.204
+Rulindo,Maize,2024,Season B,353,282,0.124
+Rulindo,Maize,2025,Season A,371,315,0.19
+Rulindo,Maize,2025,Season B,410,333,0.144
+Rulindo,Irish Potato,2022,Season A,212,172,0.184
+Rulindo,Irish Potato,2022,Season B,229,185,0.206
+Rulindo,Irish Potato,2023,Season A,269,228,0.151
+Rulindo,Irish Potato,2023,Season B,288,239,0.211
+Rulindo,Irish Potato,2024,Season A,300,258,0.095
+Rulindo,Irish Potato,2024,Season B,300,255,0.21
+Rulindo,Irish Potato,2025,Season A,366,303,0.08
+Rulindo,Irish Potato,2025,Season B,360,306,0.204
+Rulindo,Beans,2022,Season A,624,503,0.091
+Rulindo,Beans,2022,Season B,627,532,0.13
+Rulindo,Beans,2023,Season A,736,587,0.108
+Rulindo,Beans,2023,Season B,739,579,0.084
+Rulindo,Beans,2024,Season A,921,787,0.168
+Rulindo,Beans,2024,Season B,906,763,0.171
+Rulindo,Beans,2025,Season A,983,781,0.101
+Rulindo,Beans,2025,Season B,989,849,0.082
+Rulindo,Cassava,2022,Season A,157,131,0.186
+Rulindo,Cassava,2022,Season B,156,125,0.107
+Rulindo,Cassava,2023,Season A,183,150,0.124
+Rulindo,Cassava,2023,Season B,190,162,0.149
+Rulindo,Cassava,2024,Season A,212,167,0.132
+Rulindo,Cassava,2024,Season B,203,174,0.202
+Rulindo,Cassava,2025,Season A,242,203,0.122
+Rulindo,Cassava,2025,Season B,248,196,0.111
+Gakenke,Maize,2022,Season A,255,214,0.081
+Gakenke,Maize,2022,Season B,270,229,0.107
+Gakenke,Maize,2023,Season A,322,274,0.08
+Gakenke,Maize,2023,Season B,322,262,0.172
+Gakenke,Maize,2024,Season A,346,276,0.092
+Gakenke,Maize,2024,Season B,368,291,0.09
+Gakenke,Maize,2025,Season A,370,315,0.18
+Gakenke,Maize,2025,Season B,406,347,0.119
+Gakenke,Irish Potato,2022,Season A,231,191,0.091
+Gakenke,Irish Potato,2022,Season B,224,180,0.099
+Gakenke,Irish Potato,2023,Season A,274,229,0.131
+Gakenke,Irish Potato,2023,Season B,289,248,0.129
+Gakenke,Irish Potato,2024,Season A,299,236,0.091
+Gakenke,Irish Potato,2024,Season B,300,247,0.176
+Gakenke,Irish Potato,2025,Season A,362,303,0.144
+Gakenke,Irish Potato,2025,Season B,336,278,0.193
+Gakenke,Beans,2022,Season A,631,497,0.091
+Gakenke,Beans,2022,Season B,619,515,0.104
+Gakenke,Beans,2023,Season A,762,622,0.166
+Gakenke,Beans,2023,Season B,767,634,0.178
+Gakenke,Beans,2024,Season A,905,725,0.084
+Gakenke,Beans,2024,Season B,855,732,0.163
+Gakenke,Beans,2025,Season A,937,789,0.089
+Gakenke,Beans,2025,Season B,996,826,0.187
+Gakenke,Cassava,2022,Season A,156,123,0.108
+Gakenke,Cassava,2022,Season B,155,128,0.215
+Gakenke,Cassava,2023,Season A,177,151,0.094
+Gakenke,Cassava,2023,Season B,182,145,0.086
+Gakenke,Cassava,2024,Season A,212,171,0.157
+Gakenke,Cassava,2024,Season B,218,173,0.145
+Gakenke,Cassava,2025,Season A,244,203,0.214
+Gakenke,Cassava,2025,Season B,246,193,0.154
+Huye,Maize,2022,Season A,259,221,0.175
+Huye,Maize,2022,Season B,268,222,0.185
+Huye,Maize,2023,Season A,326,280,0.187
+Huye,Maize,2023,Season B,313,250,0.092
+Huye,Maize,2024,Season A,350,295,0.213
+Huye,Maize,2024,Season B,361,294,0.193
+Huye,Maize,2025,Season A,371,310,0.114
+Huye,Maize,2025,Season B,391,309,0.147
+Huye,Irish Potato,2022,Season A,227,189,0.204
+Huye,Irish Potato,2022,Season B,218,186,0.152
+Huye,Irish Potato,2023,Season A,294,242,0.162
+Huye,Irish Potato,2023,Season B,277,229,0.166
+Huye,Irish Potato,2024,Season A,302,247,0.1
+Huye,Irish Potato,2024,Season B,322,251,0.119
+Huye,Irish Potato,2025,Season A,344,290,0.216
+Huye,Irish Potato,2025,Season B,344,292,0.096
+Huye,Beans,2022,Season A,624,533,0.202
+Huye,Beans,2022,Season B,606,483,0.21
+Huye,Beans,2023,Season A,774,613,0.108
+Huye,Beans,2023,Season B,738,616,0.207
+Huye,Beans,2024,Season A,866,713,0.105
+Huye,Beans,2024,Season B,866,682,0.215
+Huye,Beans,2025,Season A,922,769,0.103
+Huye,Beans,2025,Season B,1003,860,0.115
+Huye,Cassava,2022,Season A,156,123,0.177
+Huye,Cassava,2022,Season B,159,130,0.168
+Huye,Cassava,2023,Season A,187,156,0.216
+Huye,Cassava,2023,Season B,187,148,0.168
+Huye,Cassava,2024,Season A,210,173,0.161
+Huye,Cassava,2024,Season B,217,185,0.126
+Huye,Cassava,2025,Season A,240,189,0.151
+Huye,Cassava,2025,Season B,253,211,0.13
+Nyanza,Maize,2022,Season A,261,216,0.124
+Nyanza,Maize,2022,Season B,278,237,0.215
+Nyanza,Maize,2023,Season A,308,241,0.162
+Nyanza,Maize,2023,Season B,325,259,0.111
+Nyanza,Maize,2024,Season A,356,299,0.19
+Nyanza,Maize,2024,Season B,371,317,0.134
+Nyanza,Maize,2025,Season A,379,319,0.129
+Nyanza,Maize,2025,Season B,404,341,0.14
+Nyanza,Irish Potato,2022,Season A,212,181,0.204
+Nyanza,Irish Potato,2022,Season B,214,175,0.162
+Nyanza,Irish Potato,2023,Season A,296,254,0.149
+Nyanza,Irish Potato,2023,Season B,296,249,0.082
+Nyanza,Irish Potato,2024,Season A,322,274,0.102
+Nyanza,Irish Potato,2024,Season B,305,254,0.145
+Nyanza,Irish Potato,2025,Season A,369,306,0.201
+Nyanza,Irish Potato,2025,Season B,345,277,0.202
+Nyanza,Beans,2022,Season A,606,494,0.209
+Nyanza,Beans,2022,Season B,620,528,0.092
+Nyanza,Beans,2023,Season A,733,585,0.138
+Nyanza,Beans,2023,Season B,733,586,0.211
+Nyanza,Beans,2024,Season A,846,709,0.094
+Nyanza,Beans,2024,Season B,886,726,0.175
+Nyanza,Beans,2025,Season A,925,786,0.086
+Nyanza,Beans,2025,Season B,999,859,0.204
+Nyanza,Cassava,2022,Season A,148,120,0.14
+Nyanza,Cassava,2022,Season B,146,122,0.119
+Nyanza,Cassava,2023,Season A,183,145,0.152
+Nyanza,Cassava,2023,Season B,175,140,0.14
+Nyanza,Cassava,2024,Season A,202,165,0.201
+Nyanza,Cassava,2024,Season B,215,176,0.097
+Nyanza,Cassava,2025,Season A,251,203,0.155
+Nyanza,Cassava,2025,Season B,232,198,0.208
+Gisagara,Maize,2022,Season A,252,200,0.131
+Gisagara,Maize,2022,Season B,278,231,0.199
+Gisagara,Maize,2023,Season A,320,267,0.16
+Gisagara,Maize,2023,Season B,345,270,0.132
+Gisagara,Maize,2024,Season A,349,296,0.168
+Gisagara,Maize,2024,Season B,370,306,0.094
+Gisagara,Maize,2025,Season A,398,341,0.137
+Gisagara,Maize,2025,Season B,404,332,0.206
+Gisagara,Irish Potato,2022,Season A,226,180,0.178
+Gisagara,Irish Potato,2022,Season B,216,177,0.094
+Gisagara,Irish Potato,2023,Season A,285,243,0.194
+Gisagara,Irish Potato,2023,Season B,296,245,0.196
+Gisagara,Irish Potato,2024,Season A,322,262,0.162
+Gisagara,Irish Potato,2024,Season B,318,267,0.107
+Gisagara,Irish Potato,2025,Season A,358,301,0.174
+Gisagara,Irish Potato,2025,Season B,336,275,0.154
+Gisagara,Beans,2022,Season A,613,502,0.156
+Gisagara,Beans,2022,Season B,631,520,0.138
+Gisagara,Beans,2023,Season A,767,621,0.195
+Gisagara,Beans,2023,Season B,729,589,0.094
+Gisagara,Beans,2024,Season A,905,770,0.209
+Gisagara,Beans,2024,Season B,929,785,0.192
+Gisagara,Beans,2025,Season A,971,772,0.151
+Gisagara,Beans,2025,Season B,1015,833,0.097
+Gisagara,Cassava,2022,Season A,156,131,0.125
+Gisagara,Cassava,2022,Season B,157,126,0.218
+Gisagara,Cassava,2023,Season A,187,146,0.191
+Gisagara,Cassava,2023,Season B,185,155,0.101
+Gisagara,Cassava,2024,Season A,207,167,0.129
+Gisagara,Cassava,2024,Season B,209,166,0.142
+Gisagara,Cassava,2025,Season A,250,199,0.097
+Gisagara,Cassava,2025,Season B,238,203,0.127
+Ruhango,Maize,2022,Season A,273,221,0.193
+Ruhango,Maize,2022,Season B,274,224,0.164
+Ruhango,Maize,2023,Season A,299,239,0.113
+Ruhango,Maize,2023,Season B,326,269,0.142
+Ruhango,Maize,2024,Season A,352,284,0.156
+Ruhango,Maize,2024,Season B,363,306,0.125
+Ruhango,Maize,2025,Season A,375,301,0.217
+Ruhango,Maize,2025,Season B,422,353,0.155
+Ruhango,Irish Potato,2022,Season A,225,193,0.19
+Ruhango,Irish Potato,2022,Season B,223,185,0.104
+Ruhango,Irish Potato,2023,Season A,286,244,0.219
+Ruhango,Irish Potato,2023,Season B,274,222,0.153
+Ruhango,Irish Potato,2024,Season A,305,258,0.127
+Ruhango,Irish Potato,2024,Season B,318,255,0.183
+Ruhango,Irish Potato,2025,Season A,354,303,0.142
+Ruhango,Irish Potato,2025,Season B,362,310,0.094
+Ruhango,Beans,2022,Season A,619,486,0.161
+Ruhango,Beans,2022,Season B,582,493,0.21
+Ruhango,Beans,2023,Season A,723,608,0.143
+Ruhango,Beans,2023,Season B,771,640,0.121
+Ruhango,Beans,2024,Season A,918,739,0.207
+Ruhango,Beans,2024,Season B,846,711,0.143
+Ruhango,Beans,2025,Season A,946,779,0.094
+Ruhango,Beans,2025,Season B,1017,836,0.179
+Ruhango,Cassava,2022,Season A,157,132,0.185
+Ruhango,Cassava,2022,Season B,151,121,0.211
+Ruhango,Cassava,2023,Season A,183,144,0.133
+Ruhango,Cassava,2023,Season B,190,160,0.111
+Ruhango,Cassava,2024,Season A,202,160,0.15
+Ruhango,Cassava,2024,Season B,219,180,0.147
+Ruhango,Cassava,2025,Season A,237,191,0.177
+Ruhango,Cassava,2025,Season B,245,197,0.101
+Muhanga,Maize,2022,Season A,255,206,0.162
+Muhanga,Maize,2022,Season B,265,210,0.206
+Muhanga,Maize,2023,Season A,312,245,0.145
+Muhanga,Maize,2023,Season B,337,265,0.209
+Muhanga,Maize,2024,Season A,340,290,0.199
+Muhanga,Maize,2024,Season B,359,289,0.141
+Muhanga,Maize,2025,Season A,375,294,0.158
+Muhanga,Maize,2025,Season B,389,326,0.179
+Muhanga,Irish Potato,2022,Season A,219,179,0.15
+Muhanga,Irish Potato,2022,Season B,220,182,0.165
+Muhanga,Irish Potato,2023,Season A,270,216,0.085
+Muhanga,Irish Potato,2023,Season B,297,232,0.119
+Muhanga,Irish Potato,2024,Season A,316,258,0.131
+Muhanga,Irish Potato,2024,Season B,298,235,0.203
+Muhanga,Irish Potato,2025,Season A,357,301,0.209
+Muhanga,Irish Potato,2025,Season B,354,295,0.138
+Muhanga,Beans,2022,Season A,612,516,0.134
+Muhanga,Beans,2022,Season B,578,470,0.183
+Muhanga,Beans,2023,Season A,748,593,0.159
+Muhanga,Beans,2023,Season B,744,592,0.124
+Muhanga,Beans,2024,Season A,904,731,0.16
+Muhanga,Beans,2024,Season B,862,696,0.133
+Muhanga,Beans,2025,Season A,960,758,0.088
+Muhanga,Beans,2025,Season B,928,734,0.099
+Muhanga,Cassava,2022,Season A,153,119,0.105
+Muhanga,Cassava,2022,Season B,158,135,0.2
+Muhanga,Cassava,2023,Season A,184,146,0.15
+Muhanga,Cassava,2023,Season B,187,149,0.192
+Muhanga,Cassava,2024,Season A,212,173,0.109
+Muhanga,Cassava,2024,Season B,205,162,0.189
+Muhanga,Cassava,2025,Season A,251,215,0.135
+Muhanga,Cassava,2025,Season B,251,200,0.217
+Kamonyi,Maize,2022,Season A,270,227,0.134
+Kamonyi,Maize,2022,Season B,274,228,0.147
+Kamonyi,Maize,2023,Season A,327,259,0.118
+Kamonyi,Maize,2023,Season B,340,283,0.088
+Kamonyi,Maize,2024,Season A,360,305,0.184
+Kamonyi,Maize,2024,Season B,357,290,0.091
+Kamonyi,Maize,2025,Season A,372,318,0.111
+Kamonyi,Maize,2025,Season B,410,329,0.208
+Kamonyi,Irish Potato,2022,Season A,231,187,0.122
+Kamonyi,Irish Potato,2022,Season B,225,181,0.113
+Kamonyi,Irish Potato,2023,Season A,281,235,0.147
+Kamonyi,Irish Potato,2023,Season B,276,237,0.219
+Kamonyi,Irish Potato,2024,Season A,319,259,0.146
+Kamonyi,Irish Potato,2024,Season B,324,264,0.082
+Kamonyi,Irish Potato,2025,Season A,360,292,0.178
+Kamonyi,Irish Potato,2025,Season B,338,275,0.207
+Kamonyi,Beans,2022,Season A,624,523,0.209
+Kamonyi,Beans,2022,Season B,601,473,0.109
+Kamonyi,Beans,2023,Season A,736,611,0.161
+Kamonyi,Beans,2023,Season B,768,602,0.211
+Kamonyi,Beans,2024,Season A,854,722,0.112
+Kamonyi,Beans,2024,Season B,922,772,0.153
+Kamonyi,Beans,2025,Season A,1017,803,0.15
+Kamonyi,Beans,2025,Season B,995,782,0.131
+Kamonyi,Cassava,2022,Season A,151,119,0.209
+Kamonyi,Cassava,2022,Season B,149,123,0.13
+Kamonyi,Cassava,2023,Season A,186,145,0.17
+Kamonyi,Cassava,2023,Season B,190,157,0.133
+Kamonyi,Cassava,2024,Season A,208,167,0.156
+Kamonyi,Cassava,2024,Season B,222,177,0.089
+Kamonyi,Cassava,2025,Season A,236,197,0.094
+Kamonyi,Cassava,2025,Season B,234,186,0.095
+Nyamagabe,Maize,2022,Season A,271,231,0.089
+Nyamagabe,Maize,2022,Season B,288,236,0.184
+Nyamagabe,Maize,2023,Season A,318,267,0.11
+Nyamagabe,Maize,2023,Season B,339,288,0.115
+Nyamagabe,Maize,2024,Season A,342,283,0.194
+Nyamagabe,Maize,2024,Season B,376,311,0.204
+Nyamagabe,Maize,2025,Season A,403,337,0.117
+Nyamagabe,Maize,2025,Season B,404,320,0.153
+Nyamagabe,Irish Potato,2022,Season A,229,180,0.184
+Nyamagabe,Irish Potato,2022,Season B,231,199,0.089
+Nyamagabe,Irish Potato,2023,Season A,293,231,0.141
+Nyamagabe,Irish Potato,2023,Season B,278,221,0.183
+Nyamagabe,Irish Potato,2024,Season A,312,265,0.118
+Nyamagabe,Irish Potato,2024,Season B,327,271,0.216
+Nyamagabe,Irish Potato,2025,Season A,350,288,0.162
+Nyamagabe,Irish Potato,2025,Season B,359,288,0.203
+Nyamagabe,Beans,2022,Season A,589,500,0.162
+Nyamagabe,Beans,2022,Season B,591,502,0.204
+Nyamagabe,Beans,2023,Season A,754,598,0.183
+Nyamagabe,Beans,2023,Season B,722,600,0.178
+Nyamagabe,Beans,2024,Season A,863,723,0.135
+Nyamagabe,Beans,2024,Season B,876,738,0.105
+Nyamagabe,Beans,2025,Season A,982,787,0.179
+Nyamagabe,Beans,2025,Season B,944,753,0.206
+Nyamagabe,Cassava,2022,Season A,156,126,0.148
+Nyamagabe,Cassava,2022,Season B,149,124,0.138
+Nyamagabe,Cassava,2023,Season A,185,145,0.109
+Nyamagabe,Cassava,2023,Season B,186,154,0.163
+Nyamagabe,Cassava,2024,Season A,219,180,0.18
+Nyamagabe,Cassava,2024,Season B,203,163,0.16
+Nyamagabe,Cassava,2025,Season A,250,200,0.204
+Nyamagabe,Cassava,2025,Season B,235,186,0.139
+Nyaruguru,Maize,2022,Season A,263,224,0.134
+Nyaruguru,Maize,2022,Season B,280,220,0.137
+Nyaruguru,Maize,2023,Season A,321,251,0.197
+Nyaruguru,Maize,2023,Season B,317,266,0.139
+Nyaruguru,Maize,2024,Season A,354,297,0.123
+Nyaruguru,Maize,2024,Season B,362,283,0.213
+Nyaruguru,Maize,2025,Season A,382,312,0.201
+Nyaruguru,Maize,2025,Season B,405,327,0.193
+Nyaruguru,Irish Potato,2022,Season A,232,186,0.149
+Nyaruguru,Irish Potato,2022,Season B,233,190,0.098
+Nyaruguru,Irish Potato,2023,Season A,288,226,0.113
+Nyaruguru,Irish Potato,2023,Season B,273,215,0.209
+Nyaruguru,Irish Potato,2024,Season A,328,265,0.173
+Nyaruguru,Irish Potato,2024,Season B,328,270,0.141
+Nyaruguru,Irish Potato,2025,Season A,366,293,0.185
+Nyaruguru,Irish Potato,2025,Season B,362,303,0.202
+Nyaruguru,Beans,2022,Season A,619,493,0.139
+Nyaruguru,Beans,2022,Season B,607,518,0.11
+Nyaruguru,Beans,2023,Season A,787,675,0.084
+Nyaruguru,Beans,2023,Season B,734,602,0.202
+Nyaruguru,Beans,2024,Season A,862,699,0.203
+Nyaruguru,Beans,2024,Season B,898,771,0.195
+Nyaruguru,Beans,2025,Season A,963,758,0.093
+Nyaruguru,Beans,2025,Season B,988,810,0.126
+Nyaruguru,Cassava,2022,Season A,145,115,0.116
+Nyaruguru,Cassava,2022,Season B,147,121,0.208
+Nyaruguru,Cassava,2023,Season A,185,155,0.088
+Nyaruguru,Cassava,2023,Season B,179,149,0.115
+Nyaruguru,Cassava,2024,Season A,218,171,0.118
+Nyaruguru,Cassava,2024,Season B,217,176,0.189
+Nyaruguru,Cassava,2025,Season A,247,211,0.216
+Nyaruguru,Cassava,2025,Season B,235,185,0.206
+Rubavu,Maize,2022,Season A,265,222,0.115
+Rubavu,Maize,2022,Season B,274,221,0.093
+Rubavu,Maize,2023,Season A,317,268,0.127
+Rubavu,Maize,2023,Season B,319,271,0.162
+Rubavu,Maize,2024,Season A,330,282,0.142
+Rubavu,Maize,2024,Season B,355,300,0.135
+Rubavu,Maize,2025,Season A,397,334,0.085
+Rubavu,Maize,2025,Season B,401,320,0.109
+Rubavu,Irish Potato,2022,Season A,232,181,0.118
+Rubavu,Irish Potato,2022,Season B,215,172,0.158
+Rubavu,Irish Potato,2023,Season A,276,226,0.112
+Rubavu,Irish Potato,2023,Season B,293,245,0.151
+Rubavu,Irish Potato,2024,Season A,320,262,0.139
+Rubavu,Irish Potato,2024,Season B,315,269,0.165
+Rubavu,Irish Potato,2025,Season A,345,270,0.101
+Rubavu,Irish Potato,2025,Season B,337,265,0.146
+Rubavu,Beans,2022,Season A,607,499,0.107
+Rubavu,Beans,2022,Season B,585,484,0.155
+Rubavu,Beans,2023,Season A,727,605,0.194
+Rubavu,Beans,2023,Season B,750,643,0.111
+Rubavu,Beans,2024,Season A,850,678,0.134
+Rubavu,Beans,2024,Season B,849,729,0.09
+Rubavu,Beans,2025,Season A,1007,815,0.092
+Rubavu,Beans,2025,Season B,1007,818,0.201
+Rubavu,Cassava,2022,Season A,148,121,0.131
+Rubavu,Cassava,2022,Season B,153,125,0.163
+Rubavu,Cassava,2023,Season A,190,155,0.152
+Rubavu,Cassava,2023,Season B,190,150,0.168
+Rubavu,Cassava,2024,Season A,210,164,0.083
+Rubavu,Cassava,2024,Season B,218,186,0.148
+Rubavu,Cassava,2025,Season A,234,186,0.097
+Rubavu,Cassava,2025,Season B,245,197,0.106
+Nyabihu,Maize,2022,Season A,259,214,0.133
+Nyabihu,Maize,2022,Season B,286,231,0.162
+Nyabihu,Maize,2023,Season A,314,247,0.167
+Nyabihu,Maize,2023,Season B,326,275,0.158
+Nyabihu,Maize,2024,Season A,335,263,0.103
+Nyabihu,Maize,2024,Season B,369,302,0.182
+Nyabihu,Maize,2025,Season A,371,292,0.162
+Nyabihu,Maize,2025,Season B,406,339,0.179
+Nyabihu,Irish Potato,2022,Season A,230,194,0.12
+Nyabihu,Irish Potato,2022,Season B,217,174,0.173
+Nyabihu,Irish Potato,2023,Season A,278,233,0.16
+Nyabihu,Irish Potato,2023,Season B,281,234,0.126
+Nyabihu,Irish Potato,2024,Season A,315,250,0.217
+Nyabihu,Irish Potato,2024,Season B,300,254,0.152
+Nyabihu,Irish Potato,2025,Season A,346,285,0.091
+Nyabihu,Irish Potato,2025,Season B,367,303,0.097
+Nyabihu,Beans,2022,Season A,620,511,0.13
+Nyabihu,Beans,2022,Season B,582,472,0.202
+Nyabihu,Beans,2023,Season A,773,647,0.158
+Nyabihu,Beans,2023,Season B,787,627,0.189
+Nyabihu,Beans,2024,Season A,871,749,0.09
+Nyabihu,Beans,2024,Season B,918,725,0.081
+Nyabihu,Beans,2025,Season A,931,797,0.205
+Nyabihu,Beans,2025,Season B,977,794,0.174
+Nyabihu,Cassava,2022,Season A,157,129,0.131
+Nyabihu,Cassava,2022,Season B,155,129,0.108
+Nyabihu,Cassava,2023,Season A,179,148,0.117
+Nyabihu,Cassava,2023,Season B,187,158,0.128
+Nyabihu,Cassava,2024,Season A,209,170,0.103
+Nyabihu,Cassava,2024,Season B,202,158,0.116
+Nyabihu,Cassava,2025,Season A,251,214,0.205
+Nyabihu,Cassava,2025,Season B,233,183,0.193
+Rutsiro,Maize,2022,Season A,262,222,0.213
+Rutsiro,Maize,2022,Season B,276,218,0.217
+Rutsiro,Maize,2023,Season A,319,256,0.185
+Rutsiro,Maize,2023,Season B,340,267,0.127
+Rutsiro,Maize,2024,Season A,332,273,0.124
+Rutsiro,Maize,2024,Season B,351,281,0.106
+Rutsiro,Maize,2025,Season A,380,326,0.196
+Rutsiro,Maize,2025,Season B,410,348,0.105
+Rutsiro,Irish Potato,2022,Season A,213,177,0.203
+Rutsiro,Irish Potato,2022,Season B,231,189,0.185
+Rutsiro,Irish Potato,2023,Season A,284,229,0.152
+Rutsiro,Irish Potato,2023,Season B,280,238,0.099
+Rutsiro,Irish Potato,2024,Season A,310,255,0.188
+Rutsiro,Irish Potato,2024,Season B,321,267,0.189
+Rutsiro,Irish Potato,2025,Season A,338,287,0.113
+Rutsiro,Irish Potato,2025,Season B,369,307,0.195
+Rutsiro,Beans,2022,Season A,591,476,0.211
+Rutsiro,Beans,2022,Season B,611,490,0.109
+Rutsiro,Beans,2023,Season A,783,655,0.12
+Rutsiro,Beans,2023,Season B,720,611,0.134
+Rutsiro,Beans,2024,Season A,898,756,0.195
+Rutsiro,Beans,2024,Season B,912,755,0.086
+Rutsiro,Beans,2025,Season A,962,776,0.118
+Rutsiro,Beans,2025,Season B,968,831,0.147
+Rutsiro,Cassava,2022,Season A,146,124,0.123
+Rutsiro,Cassava,2022,Season B,146,122,0.099
+Rutsiro,Cassava,2023,Season A,178,152,0.16
+Rutsiro,Cassava,2023,Season B,183,157,0.114
+Rutsiro,Cassava,2024,Season A,212,169,0.182
+Rutsiro,Cassava,2024,Season B,217,174,0.129
+Rutsiro,Cassava,2025,Season A,236,188,0.205
+Rutsiro,Cassava,2025,Season B,232,183,0.094
+Karongi,Maize,2022,Season A,265,224,0.179
+Karongi,Maize,2022,Season B,285,235,0.212
+Karongi,Maize,2023,Season A,312,268,0.159
+Karongi,Maize,2023,Season B,319,270,0.163
+Karongi,Maize,2024,Season A,340,269,0.093
+Karongi,Maize,2024,Season B,345,276,0.162
+Karongi,Maize,2025,Season A,366,309,0.144
+Karongi,Maize,2025,Season B,385,330,0.128
+Karongi,Irish Potato,2022,Season A,227,186,0.088
+Karongi,Irish Potato,2022,Season B,212,182,0.1
+Karongi,Irish Potato,2023,Season A,292,245,0.207
+Karongi,Irish Potato,2023,Season B,286,229,0.14
+Karongi,Irish Potato,2024,Season A,300,245,0.205
+Karongi,Irish Potato,2024,Season B,301,257,0.189
+Karongi,Irish Potato,2025,Season A,359,296,0.13
+Karongi,Irish Potato,2025,Season B,366,314,0.124
+Karongi,Beans,2022,Season A,621,499,0.135
+Karongi,Beans,2022,Season B,578,451,0.176
+Karongi,Beans,2023,Season A,768,643,0.097
+Karongi,Beans,2023,Season B,788,640,0.151
+Karongi,Beans,2024,Season A,907,740,0.173
+Karongi,Beans,2024,Season B,892,698,0.1
+Karongi,Beans,2025,Season A,965,758,0.146
+Karongi,Beans,2025,Season B,934,761,0.157
+Karongi,Cassava,2022,Season A,150,118,0.091
+Karongi,Cassava,2022,Season B,148,127,0.161
+Karongi,Cassava,2023,Season A,182,142,0.211
+Karongi,Cassava,2023,Season B,180,144,0.191
+Karongi,Cassava,2024,Season A,204,168,0.196
+Karongi,Cassava,2024,Season B,214,177,0.099
+Karongi,Cassava,2025,Season A,236,190,0.176
+Karongi,Cassava,2025,Season B,248,211,0.09
+Ngororero,Maize,2022,Season A,272,229,0.191
+Ngororero,Maize,2022,Season B,278,227,0.174
+Ngororero,Maize,2023,Season A,307,258,0.101
+Ngororero,Maize,2023,Season B,340,267,0.128
+Ngororero,Maize,2024,Season A,350,294,0.137
+Ngororero,Maize,2024,Season B,378,303,0.111
+Ngororero,Maize,2025,Season A,382,300,0.081
+Ngororero,Maize,2025,Season B,386,324,0.088
+Ngororero,Irish Potato,2022,Season A,227,186,0.093
+Ngororero,Irish Potato,2022,Season B,217,180,0.098
+Ngororero,Irish Potato,2023,Season A,274,218,0.084
+Ngororero,Irish Potato,2023,Season B,285,240,0.193
+Ngororero,Irish Potato,2024,Season A,309,261,0.169
+Ngororero,Irish Potato,2024,Season B,320,254,0.13
+Ngororero,Irish Potato,2025,Season A,344,290,0.145
+Ngororero,Irish Potato,2025,Season B,360,304,0.162
+Ngororero,Beans,2022,Season A,610,495,0.17
+Ngororero,Beans,2022,Season B,614,513,0.088
+Ngororero,Beans,2023,Season A,779,622,0.15
+Ngororero,Beans,2023,Season B,768,625,0.11
+Ngororero,Beans,2024,Season A,906,773,0.182
+Ngororero,Beans,2024,Season B,917,762,0.091
+Ngororero,Beans,2025,Season A,958,794,0.159
+Ngororero,Beans,2025,Season B,999,801,0.137
+Ngororero,Cassava,2022,Season A,155,133,0.171
+Ngororero,Cassava,2022,Season B,150,120,0.214
+Ngororero,Cassava,2023,Season A,177,145,0.195
+Ngororero,Cassava,2023,Season B,174,137,0.125
+Ngororero,Cassava,2024,Season A,212,168,0.198
+Ngororero,Cassava,2024,Season B,217,183,0.165
+Ngororero,Cassava,2025,Season A,253,210,0.083
+Ngororero,Cassava,2025,Season B,253,204,0.137
+Nyamasheke,Maize,2022,Season A,273,224,0.142
+Nyamasheke,Maize,2022,Season B,267,218,0.196
+Nyamasheke,Maize,2023,Season A,320,257,0.132
+Nyamasheke,Maize,2023,Season B,345,278,0.186
+Nyamasheke,Maize,2024,Season A,354,281,0.104
+Nyamasheke,Maize,2024,Season B,375,316,0.163
+Nyamasheke,Maize,2025,Season A,398,330,0.098
+Nyamasheke,Maize,2025,Season B,387,323,0.2
+Nyamasheke,Irish Potato,2022,Season A,231,192,0.145
+Nyamasheke,Irish Potato,2022,Season B,226,181,0.214
+Nyamasheke,Irish Potato,2023,Season A,269,220,0.092
+Nyamasheke,Irish Potato,2023,Season B,294,234,0.195
+Nyamasheke,Irish Potato,2024,Season A,323,276,0.12
+Nyamasheke,Irish Potato,2024,Season B,320,256,0.162
+Nyamasheke,Irish Potato,2025,Season A,347,271,0.132
+Nyamasheke,Irish Potato,2025,Season B,352,287,0.167
+Nyamasheke,Beans,2022,Season A,620,506,0.178
+Nyamasheke,Beans,2022,Season B,601,516,0.181
+Nyamasheke,Beans,2023,Season A,793,671,0.182
+Nyamasheke,Beans,2023,Season B,765,600,0.206
+Nyamasheke,Beans,2024,Season A,859,683,0.154
+Nyamasheke,Beans,2024,Season B,915,778,0.179
+Nyamasheke,Beans,2025,Season A,995,851,0.131
+Nyamasheke,Beans,2025,Season B,944,806,0.1
+Nyamasheke,Cassava,2022,Season A,154,131,0.085
+Nyamasheke,Cassava,2022,Season B,156,124,0.123
+Nyamasheke,Cassava,2023,Season A,190,157,0.214
+Nyamasheke,Cassava,2023,Season B,180,141,0.18
+Nyamasheke,Cassava,2024,Season A,206,171,0.142
+Nyamasheke,Cassava,2024,Season B,219,173,0.122
+Nyamasheke,Cassava,2025,Season A,245,192,0.191
+Nyamasheke,Cassava,2025,Season B,253,207,0.105
+Rusizi,Maize,2022,Season A,274,217,0.124
+Rusizi,Maize,2022,Season B,269,214,0.1
+Rusizi,Maize,2023,Season A,301,249,0.143
+Rusizi,Maize,2023,Season B,344,271,0.214
+Rusizi,Maize,2024,Season A,344,271,0.181
+Rusizi,Maize,2024,Season B,347,296,0.15
+Rusizi,Maize,2025,Season A,374,296,0.109
+Rusizi,Maize,2025,Season B,406,347,0.191
+Rusizi,Irish Potato,2022,Season A,231,185,0.13
+Rusizi,Irish Potato,2022,Season B,232,190,0.114
+Rusizi,Irish Potato,2023,Season A,271,230,0.193
+Rusizi,Irish Potato,2023,Season B,284,226,0.116
+Rusizi,Irish Potato,2024,Season A,320,269,0.137
+Rusizi,Irish Potato,2024,Season B,314,261,0.18
+Rusizi,Irish Potato,2025,Season A,346,273,0.215
+Rusizi,Irish Potato,2025,Season B,361,292,0.143
+Rusizi,Beans,2022,Season A,615,514,0.178
+Rusizi,Beans,2022,Season B,629,538,0.191
+Rusizi,Beans,2023,Season A,720,597,0.144
+Rusizi,Beans,2023,Season B,790,619,0.197
+Rusizi,Beans,2024,Season A,854,670,0.113
+Rusizi,Beans,2024,Season B,921,736,0.097
+Rusizi,Beans,2025,Season A,941,789,0.15
+Rusizi,Beans,2025,Season B,996,803,0.217
+Rusizi,Cassava,2022,Season A,145,116,0.173
+Rusizi,Cassava,2022,Season B,159,128,0.175
+Rusizi,Cassava,2023,Season A,174,149,0.206
+Rusizi,Cassava,2023,Season B,173,138,0.146
+Rusizi,Cassava,2024,Season A,206,172,0.197
+Rusizi,Cassava,2024,Season B,206,169,0.124
+Rusizi,Cassava,2025,Season A,237,189,0.189
+Rusizi,Cassava,2025,Season B,237,201,0.188
+Gasabo,Maize,2022,Season A,257,221,0.118
+Gasabo,Maize,2022,Season B,262,224,0.119
+Gasabo,Maize,2023,Season A,319,264,0.216
+Gasabo,Maize,2023,Season B,336,263,0.216
+Gasabo,Maize,2024,Season A,354,290,0.088
+Gasabo,Maize,2024,Season B,373,300,0.093
+Gasabo,Maize,2025,Season A,386,312,0.205
+Gasabo,Maize,2025,Season B,386,328,0.194
+Gasabo,Irish Potato,2022,Season A,219,172,0.212
+Gasabo,Irish Potato,2022,Season B,225,193,0.205
+Gasabo,Irish Potato,2023,Season A,277,223,0.084
+Gasabo,Irish Potato,2023,Season B,270,223,0.122
+Gasabo,Irish Potato,2024,Season A,315,253,0.199
+Gasabo,Irish Potato,2024,Season B,318,260,0.164
+Gasabo,Irish Potato,2025,Season A,364,289,0.137
+Gasabo,Irish Potato,2025,Season B,365,290,0.165
+Gasabo,Beans,2022,Season A,610,510,0.164
+Gasabo,Beans,2022,Season B,625,533,0.101
+Gasabo,Beans,2023,Season A,787,647,0.127
+Gasabo,Beans,2023,Season B,786,657,0.126
+Gasabo,Beans,2024,Season A,900,734,0.18
+Gasabo,Beans,2024,Season B,913,728,0.096
+Gasabo,Beans,2025,Season A,1015,833,0.187
+Gasabo,Beans,2025,Season B,982,805,0.17
+Gasabo,Cassava,2022,Season A,158,128,0.203
+Gasabo,Cassava,2022,Season B,148,119,0.154
+Gasabo,Cassava,2023,Season A,181,153,0.191
+Gasabo,Cassava,2023,Season B,185,149,0.199
+Gasabo,Cassava,2024,Season A,204,163,0.134
+Gasabo,Cassava,2024,Season B,222,187,0.17
+Gasabo,Cassava,2025,Season A,231,197,0.137
+Gasabo,Cassava,2025,Season B,236,190,0.16
+Kicukiro,Maize,2022,Season A,251,206,0.183
+Kicukiro,Maize,2022,Season B,266,209,0.141
+Kicukiro,Maize,2023,Season A,308,257,0.189
+Kicukiro,Maize,2023,Season B,341,289,0.127
+Kicukiro,Maize,2024,Season A,330,278,0.182
+Kicukiro,Maize,2024,Season B,351,281,0.082
+Kicukiro,Maize,2025,Season A,391,312,0.175
+Kicukiro,Maize,2025,Season B,389,332,0.103
+Kicukiro,Irish Potato,2022,Season A,215,182,0.163
+Kicukiro,Irish Potato,2022,Season B,231,196,0.086
+Kicukiro,Irish Potato,2023,Season A,292,250,0.124
+Kicukiro,Irish Potato,2023,Season B,286,238,0.168
+Kicukiro,Irish Potato,2024,Season A,316,261,0.094
+Kicukiro,Irish Potato,2024,Season B,318,252,0.195
+Kicukiro,Irish Potato,2025,Season A,350,298,0.182
+Kicukiro,Irish Potato,2025,Season B,365,292,0.147
+Kicukiro,Beans,2022,Season A,612,500,0.207
+Kicukiro,Beans,2022,Season B,609,479,0.101
+Kicukiro,Beans,2023,Season A,720,600,0.108
+Kicukiro,Beans,2023,Season B,768,605,0.145
+Kicukiro,Beans,2024,Season A,904,774,0.182
+Kicukiro,Beans,2024,Season B,908,780,0.126
+Kicukiro,Beans,2025,Season A,963,818,0.19
+Kicukiro,Beans,2025,Season B,972,805,0.18
+Kicukiro,Cassava,2022,Season A,145,118,0.151
+Kicukiro,Cassava,2022,Season B,146,122,0.157
+Kicukiro,Cassava,2023,Season A,189,152,0.107
+Kicukiro,Cassava,2023,Season B,176,150,0.161
+Kicukiro,Cassava,2024,Season A,209,165,0.175
+Kicukiro,Cassava,2024,Season B,222,186,0.213
+Kicukiro,Cassava,2025,Season A,248,206,0.206
+Kicukiro,Cassava,2025,Season B,231,191,0.1
+Nyarugenge,Maize,2022,Season A,267,213,0.126
+Nyarugenge,Maize,2022,Season B,267,227,0.142
+Nyarugenge,Maize,2023,Season A,320,255,0.1
+Nyarugenge,Maize,2023,Season B,322,274,0.201
+Nyarugenge,Maize,2024,Season A,359,309,0.081
+Nyarugenge,Maize,2024,Season B,357,283,0.214
+Nyarugenge,Maize,2025,Season A,368,289,0.201
+Nyarugenge,Maize,2025,Season B,413,336,0.206
+Nyarugenge,Irish Potato,2022,Season A,215,176,0.088
+Nyarugenge,Irish Potato,2022,Season B,229,190,0.215
+Nyarugenge,Irish Potato,2023,Season A,276,224,0.082
+Nyarugenge,Irish Potato,2023,Season B,270,228,0.168
+Nyarugenge,Irish Potato,2024,Season A,298,245,0.18
+Nyarugenge,Irish Potato,2024,Season B,306,243,0.084
+Nyarugenge,Irish Potato,2025,Season A,346,274,0.184
+Nyarugenge,Irish Potato,2025,Season B,336,287,0.162
+Nyarugenge,Beans,2022,Season A,585,469,0.198
+Nyarugenge,Beans,2022,Season B,608,518,0.15
+Nyarugenge,Beans,2023,Season A,764,599,0.198
+Nyarugenge,Beans,2023,Season B,755,636,0.085
+Nyarugenge,Beans,2024,Season A,917,787,0.098
+Nyarugenge,Beans,2024,Season B,864,701,0.216
+Nyarugenge,Beans,2025,Season A,986,792,0.178
+Nyarugenge,Beans,2025,Season B,982,786,0.097
+Nyarugenge,Cassava,2022,Season A,149,128,0.188
+Nyarugenge,Cassava,2022,Season B,152,127,0.199
+Nyarugenge,Cassava,2023,Season A,174,137,0.092
+Nyarugenge,Cassava,2023,Season B,184,145,0.122
+Nyarugenge,Cassava,2024,Season A,214,176,0.207
+Nyarugenge,Cassava,2024,Season B,216,181,0.21
+Nyarugenge,Cassava,2025,Season A,245,199,0.13
+Nyarugenge,Cassava,2025,Season B,254,202,0.185

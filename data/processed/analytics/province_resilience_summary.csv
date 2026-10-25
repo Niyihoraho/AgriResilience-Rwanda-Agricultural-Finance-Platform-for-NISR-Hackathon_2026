@@ -1,0 +1,6 @@
+province,farmer_seasons_monitored,shortfall_frequency_pct,avg_rainfall_mm,avg_consecutive_dry_days,avg_seasonal_ndvi,avg_farm_net_margin_rwf,commercialization_rate_pct
+Eastern,1546,10.4,540.6,16.9,0.528,758670.0,61.2
+Kigali City,549,5.3,618.7,12.2,0.575,586088.0,61.4
+Northern,1221,6.2,808.7,7.9,0.635,1001353.0,61.0
+Southern,1536,6.2,662.6,11.7,0.598,656641.0,60.8
+Western,1791,8.0,823.0,8.4,0.64,987879.0,60.8
