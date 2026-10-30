@@ -178,11 +178,22 @@ def run_data_cleaning() -> dict:
     clean_sat.to_csv(PROCESSED_DIR / "clean_satellite.csv", index=False)
     clean_mkt.to_csv(PROCESSED_DIR / "clean_market.csv", index=False)
 
+    # Process and save downloaded NISR SAS microdata rounds (2019, 2024, 2025) if available
+    sas_micro_path = BASE_DIR / "data" / "raw" / "nisr_microdata" / "nisr_sas_2019_2025_microdata.csv"
+    if sas_micro_path.exists():
+        logger.info("Harmonizing full multi-year NISR SAS microdata (2019, 2024, 2025)...")
+        df_sas = pd.read_csv(sas_micro_path)
+        clean_sas = clean_nisr_records(df_sas)
+        clean_sas.to_csv(PROCESSED_DIR / "clean_sas_microdata.csv", index=False)
+        logger.info(f"Saved {len(clean_sas):,} standardized SAS microdata records to clean_sas_microdata.csv")
+
     print("\nSuccessfully cleaned and saved all tables to data/processed/:")
-    print(f"  • clean_nisr.csv:      {len(clean_nisr):,} records")
-    print(f"  • clean_weather.csv:   {len(clean_weather):,} records")
-    print(f"  • clean_satellite.csv: {len(clean_sat):,} records")
-    print(f"  • clean_market.csv:    {len(clean_mkt):,} records")
+    print(f"  • clean_nisr.csv:          {len(clean_nisr):,} records (Stage 1 Benchmark)")
+    if sas_micro_path.exists():
+        print(f"  • clean_sas_microdata.csv: {len(clean_sas):,} records (2019, 2024, 2025 SAS Microdata)")
+    print(f"  • clean_weather.csv:       {len(clean_weather):,} records")
+    print(f"  • clean_satellite.csv:     {len(clean_sat):,} records")
+    print(f"  • clean_market.csv:        {len(clean_mkt):,} records")
     print("=" * 65 + "\n")
 
     return {

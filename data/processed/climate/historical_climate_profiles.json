@@ -1,0 +1,3013 @@
+{
+  "Bugesera": {
+    "district": "Bugesera",
+    "province": "Eastern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 888.5,
+    "annual_effective_rainfall_mm": 495.7,
+    "historical_stress_score": 48.0,
+    "historical_stress_tier": "Moderate Historical Climate Stress",
+    "tier_badge": "bg-amber-100 text-amber-800",
+    "primary_stress_factors": [
+      "Recurrent mid-season dry spells exceeding 12 days",
+      "Daytime heat stress accelerating evapotranspiration (Max temp: 28.5\u00b0C)"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 367.1,
+      "mean_effective_rainfall_mm": 185.9,
+      "rainfall_p10_mm": 290.8,
+      "rainfall_p90_mm": 423.2,
+      "rainy_days_count": 32.0,
+      "rainy_days_p10": 24.5,
+      "rainy_days_p90": 39.0,
+      "consecutive_dry_days": 21.8,
+      "extreme_rainfall_days": 1.7,
+      "mean_temp_c": 21.7,
+      "max_temp_c": 28.8,
+      "min_temp_c": 15.3,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 521.4,
+      "mean_effective_rainfall_mm": 309.8,
+      "rainfall_p10_mm": 455.1,
+      "rainfall_p90_mm": 567.7,
+      "rainy_days_count": 49.3,
+      "rainy_days_p10": 41.5,
+      "rainy_days_p90": 57.0,
+      "consecutive_dry_days": 21.8,
+      "extreme_rainfall_days": 1.3,
+      "mean_temp_c": 21.2,
+      "max_temp_c": 28.1,
+      "min_temp_c": 15.1,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 19.1,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 70.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 58.3,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 70.8,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Burera": {
+    "district": "Burera",
+    "province": "Northern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1566.4,
+    "annual_effective_rainfall_mm": 1020.4,
+    "historical_stress_score": 36.6,
+    "historical_stress_tier": "Moderate Historical Climate Stress",
+    "tier_badge": "bg-amber-100 text-amber-800",
+    "primary_stress_factors": [
+      "Torrential hillside runoff & topsoil erosion risk",
+      "Highland nocturnal chill stress (Min temp: 10.2\u00b0C)"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 685.2,
+      "mean_effective_rainfall_mm": 431.0,
+      "rainfall_p10_mm": 649.0,
+      "rainfall_p90_mm": 739.9,
+      "rainy_days_count": 62.0,
+      "rainy_days_p10": 53.5,
+      "rainy_days_p90": 73.5,
+      "consecutive_dry_days": 8.7,
+      "extreme_rainfall_days": 3.5,
+      "mean_temp_c": 16.6,
+      "max_temp_c": 23.4,
+      "min_temp_c": 10.5,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 881.2,
+      "mean_effective_rainfall_mm": 589.4,
+      "rainfall_p10_mm": 824.1,
+      "rainfall_p90_mm": 945.7,
+      "rainy_days_count": 76.7,
+      "rainy_days_p10": 65.5,
+      "rainy_days_p90": 85.0,
+      "consecutive_dry_days": 7.5,
+      "extreme_rainfall_days": 2.5,
+      "mean_temp_c": 16.3,
+      "max_temp_c": 23.2,
+      "min_temp_c": 9.8,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 74.9,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 40.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 70.0,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 67.0,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Gakenke": {
+    "district": "Gakenke",
+    "province": "Northern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1591.7,
+    "annual_effective_rainfall_mm": 1040.3,
+    "historical_stress_score": 28.2,
+    "historical_stress_tier": "Low Historical Climate Stress",
+    "tier_badge": "bg-agri-green-light text-agri-forest",
+    "primary_stress_factors": [
+      "Torrential hillside runoff & topsoil erosion risk"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 732.6,
+      "mean_effective_rainfall_mm": 468.1,
+      "rainfall_p10_mm": 662.0,
+      "rainfall_p90_mm": 818.2,
+      "rainy_days_count": 67.5,
+      "rainy_days_p10": 55.5,
+      "rainy_days_p90": 76.0,
+      "consecutive_dry_days": 7.7,
+      "extreme_rainfall_days": 2.0,
+      "mean_temp_c": 18.0,
+      "max_temp_c": 25.0,
+      "min_temp_c": 12.2,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 859.1,
+      "mean_effective_rainfall_mm": 572.2,
+      "rainfall_p10_mm": 788.9,
+      "rainfall_p90_mm": 969.9,
+      "rainy_days_count": 74.7,
+      "rainy_days_p10": 62.5,
+      "rainy_days_p90": 83.5,
+      "consecutive_dry_days": 7.5,
+      "extreme_rainfall_days": 4.0,
+      "mean_temp_c": 17.7,
+      "max_temp_c": 25.0,
+      "min_temp_c": 11.8,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 77.2,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 40.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 100.0,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 68.0,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Gasabo": {
+    "district": "Gasabo",
+    "province": "Kigali City",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1256.0,
+    "annual_effective_rainfall_mm": 779.6,
+    "historical_stress_score": 29.4,
+    "historical_stress_tier": "Low Historical Climate Stress",
+    "tier_badge": "bg-agri-green-light text-agri-forest",
+    "primary_stress_factors": [
+      "Optimal agroclimatic moisture balance and thermal stability"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 558.0,
+      "mean_effective_rainfall_mm": 331.9,
+      "rainfall_p10_mm": 541.0,
+      "rainfall_p90_mm": 569.7,
+      "rainy_days_count": 48.3,
+      "rainy_days_p10": 43.5,
+      "rainy_days_p90": 53.5,
+      "consecutive_dry_days": 10.2,
+      "extreme_rainfall_days": 1.2,
+      "mean_temp_c": 20.1,
+      "max_temp_c": 27.0,
+      "min_temp_c": 14.0,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 698.0,
+      "mean_effective_rainfall_mm": 447.7,
+      "rainfall_p10_mm": 671.6,
+      "rainfall_p90_mm": 728.5,
+      "rainy_days_count": 63.8,
+      "rainy_days_p10": 55.0,
+      "rainy_days_p90": 75.0,
+      "consecutive_dry_days": 11.2,
+      "extreme_rainfall_days": 0.8,
+      "mean_temp_c": 20.3,
+      "max_temp_c": 27.6,
+      "min_temp_c": 15.0,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 57.9,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 80.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 78.3,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 68.0,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Gatsibo": {
+    "district": "Gatsibo",
+    "province": "Eastern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1227.4,
+    "annual_effective_rainfall_mm": 753.9,
+    "historical_stress_score": 34.3,
+    "historical_stress_tier": "Low Historical Climate Stress",
+    "tier_badge": "bg-agri-green-light text-agri-forest",
+    "primary_stress_factors": [
+      "Recurrent mid-season dry spells exceeding 12 days",
+      "Daytime heat stress accelerating evapotranspiration (Max temp: 27.8\u00b0C)"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 541.5,
+      "mean_effective_rainfall_mm": 318.3,
+      "rainfall_p10_mm": 487.0,
+      "rainfall_p90_mm": 606.4,
+      "rainy_days_count": 44.0,
+      "rainy_days_p10": 38.0,
+      "rainy_days_p90": 51.0,
+      "consecutive_dry_days": 13.5,
+      "extreme_rainfall_days": 0.7,
+      "mean_temp_c": 20.9,
+      "max_temp_c": 27.4,
+      "min_temp_c": 14.3,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 685.9,
+      "mean_effective_rainfall_mm": 435.6,
+      "rainfall_p10_mm": 653.8,
+      "rainfall_p90_mm": 726.4,
+      "rainy_days_count": 58.8,
+      "rainy_days_p10": 53.5,
+      "rainy_days_p90": 63.5,
+      "consecutive_dry_days": 13.5,
+      "extreme_rainfall_days": 0.7,
+      "mean_temp_c": 20.7,
+      "max_temp_c": 28.2,
+      "min_temp_c": 14.3,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 48.5,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 86.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 70.0,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 60.6,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Gicumbi": {
+    "district": "Gicumbi",
+    "province": "Northern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1628.0,
+    "annual_effective_rainfall_mm": 1069.5,
+    "historical_stress_score": 44.5,
+    "historical_stress_tier": "Moderate Historical Climate Stress",
+    "tier_badge": "bg-amber-100 text-amber-800",
+    "primary_stress_factors": [
+      "Torrential hillside runoff & topsoil erosion risk",
+      "Highland nocturnal chill stress (Min temp: 9.7\u00b0C)"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 765.4,
+      "mean_effective_rainfall_mm": 494.5,
+      "rainfall_p10_mm": 702.7,
+      "rainfall_p90_mm": 840.3,
+      "rainy_days_count": 67.8,
+      "rainy_days_p10": 59.5,
+      "rainy_days_p90": 80.0,
+      "consecutive_dry_days": 7.7,
+      "extreme_rainfall_days": 4.3,
+      "mean_temp_c": 15.8,
+      "max_temp_c": 22.4,
+      "min_temp_c": 10.0,
+      "primary_risk": "Highland nocturnal cold stress & soil waterlogging on lower terraces"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 862.6,
+      "mean_effective_rainfall_mm": 575.0,
+      "rainfall_p10_mm": 796.1,
+      "rainfall_p90_mm": 944.5,
+      "rainy_days_count": 75.7,
+      "rainy_days_p10": 67.0,
+      "rainy_days_p90": 85.0,
+      "consecutive_dry_days": 9.5,
+      "extreme_rainfall_days": 3.8,
+      "mean_temp_c": 15.8,
+      "max_temp_c": 22.5,
+      "min_temp_c": 9.4,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 74.2,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 18.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 61.7,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 66.6,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Gisagara": {
+    "district": "Gisagara",
+    "province": "Southern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1177.0,
+    "annual_effective_rainfall_mm": 724.9,
+    "historical_stress_score": 26.4,
+    "historical_stress_tier": "Low Historical Climate Stress",
+    "tier_badge": "bg-agri-green-light text-agri-forest",
+    "primary_stress_factors": [
+      "Recurrent mid-season dry spells exceeding 12 days"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 530.1,
+      "mean_effective_rainfall_mm": 312.3,
+      "rainfall_p10_mm": 434.1,
+      "rainfall_p90_mm": 641.8,
+      "rainy_days_count": 47.5,
+      "rainy_days_p10": 37.5,
+      "rainy_days_p90": 63.0,
+      "consecutive_dry_days": 13.2,
+      "extreme_rainfall_days": 1.0,
+      "mean_temp_c": 19.3,
+      "max_temp_c": 25.9,
+      "min_temp_c": 13.4,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 646.9,
+      "mean_effective_rainfall_mm": 412.6,
+      "rainfall_p10_mm": 578.5,
+      "rainfall_p90_mm": 730.4,
+      "rainy_days_count": 62.2,
+      "rainy_days_p10": 53.5,
+      "rainy_days_p90": 74.0,
+      "consecutive_dry_days": 13.0,
+      "extreme_rainfall_days": 1.2,
+      "mean_temp_c": 19.7,
+      "max_temp_c": 26.1,
+      "min_temp_c": 13.5,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 48.6,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 78.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 100.0,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 72.7,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Huye": {
+    "district": "Huye",
+    "province": "Southern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1298.7,
+    "annual_effective_rainfall_mm": 819.2,
+    "historical_stress_score": 26.2,
+    "historical_stress_tier": "Low Historical Climate Stress",
+    "tier_badge": "bg-agri-green-light text-agri-forest",
+    "primary_stress_factors": [
+      "Recurrent mid-season dry spells exceeding 12 days"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 549.0,
+      "mean_effective_rainfall_mm": 325.6,
+      "rainfall_p10_mm": 511.8,
+      "rainfall_p90_mm": 586.0,
+      "rainy_days_count": 49.2,
+      "rainy_days_p10": 44.0,
+      "rainy_days_p90": 56.5,
+      "consecutive_dry_days": 12.2,
+      "extreme_rainfall_days": 0.7,
+      "mean_temp_c": 19.2,
+      "max_temp_c": 26.7,
+      "min_temp_c": 12.9,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 749.7,
+      "mean_effective_rainfall_mm": 493.6,
+      "rainfall_p10_mm": 659.0,
+      "rainfall_p90_mm": 829.0,
+      "rainy_days_count": 68.2,
+      "rainy_days_p10": 60.0,
+      "rainy_days_p90": 79.0,
+      "consecutive_dry_days": 12.3,
+      "extreme_rainfall_days": 1.0,
+      "mean_temp_c": 19.3,
+      "max_temp_c": 26.6,
+      "min_temp_c": 12.3,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 54.9,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 84.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 90.0,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 69.3,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Kamonyi": {
+    "district": "Kamonyi",
+    "province": "Southern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1128.9,
+    "annual_effective_rainfall_mm": 680.4,
+    "historical_stress_score": 28.2,
+    "historical_stress_tier": "Low Historical Climate Stress",
+    "tier_badge": "bg-agri-green-light text-agri-forest",
+    "primary_stress_factors": [
+      "Recurrent mid-season dry spells exceeding 12 days"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 486.7,
+      "mean_effective_rainfall_mm": 276.7,
+      "rainfall_p10_mm": 416.6,
+      "rainfall_p90_mm": 528.6,
+      "rainy_days_count": 46.2,
+      "rainy_days_p10": 38.0,
+      "rainy_days_p90": 54.0,
+      "consecutive_dry_days": 13.8,
+      "extreme_rainfall_days": 0.5,
+      "mean_temp_c": 20.0,
+      "max_temp_c": 26.7,
+      "min_temp_c": 13.7,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 642.2,
+      "mean_effective_rainfall_mm": 403.7,
+      "rainfall_p10_mm": 596.0,
+      "rainfall_p90_mm": 683.2,
+      "rainy_days_count": 58.7,
+      "rainy_days_p10": 47.0,
+      "rainy_days_p90": 71.0,
+      "consecutive_dry_days": 10.2,
+      "extreme_rainfall_days": 1.0,
+      "mean_temp_c": 19.9,
+      "max_temp_c": 27.1,
+      "min_temp_c": 13.7,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 50.2,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 84.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 85.0,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 72.3,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Karongi": {
+    "district": "Karongi",
+    "province": "Western",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1613.8,
+    "annual_effective_rainfall_mm": 1065.1,
+    "historical_stress_score": 39.4,
+    "historical_stress_tier": "Moderate Historical Climate Stress",
+    "tier_badge": "bg-amber-100 text-amber-800",
+    "primary_stress_factors": [
+      "Torrential hillside runoff & topsoil erosion risk"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 726.0,
+      "mean_effective_rainfall_mm": 465.7,
+      "rainfall_p10_mm": 668.8,
+      "rainfall_p90_mm": 780.6,
+      "rainy_days_count": 66.8,
+      "rainy_days_p10": 59.0,
+      "rainy_days_p90": 75.0,
+      "consecutive_dry_days": 9.0,
+      "extreme_rainfall_days": 4.0,
+      "mean_temp_c": 19.9,
+      "max_temp_c": 27.1,
+      "min_temp_c": 14.0,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 887.8,
+      "mean_effective_rainfall_mm": 599.4,
+      "rainfall_p10_mm": 705.8,
+      "rainfall_p90_mm": 1067.8,
+      "rainy_days_count": 72.8,
+      "rainy_days_p10": 61.0,
+      "rainy_days_p90": 84.0,
+      "consecutive_dry_days": 10.0,
+      "extreme_rainfall_days": 4.0,
+      "mean_temp_c": 20.0,
+      "max_temp_c": 26.8,
+      "min_temp_c": 13.6,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 71.5,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 20.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 85.0,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 64.5,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Kayonza": {
+    "district": "Kayonza",
+    "province": "Eastern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 888.6,
+    "annual_effective_rainfall_mm": 495.7,
+    "historical_stress_score": 46.0,
+    "historical_stress_tier": "Moderate Historical Climate Stress",
+    "tier_badge": "bg-amber-100 text-amber-800",
+    "primary_stress_factors": [
+      "Recurrent mid-season dry spells exceeding 12 days",
+      "Daytime heat stress accelerating evapotranspiration (Max temp: 28.1\u00b0C)"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 378.2,
+      "mean_effective_rainfall_mm": 193.9,
+      "rainfall_p10_mm": 276.4,
+      "rainfall_p90_mm": 466.5,
+      "rainy_days_count": 32.0,
+      "rainy_days_p10": 25.0,
+      "rainy_days_p90": 38.5,
+      "consecutive_dry_days": 23.3,
+      "extreme_rainfall_days": 1.3,
+      "mean_temp_c": 21.4,
+      "max_temp_c": 28.1,
+      "min_temp_c": 15.0,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 510.4,
+      "mean_effective_rainfall_mm": 301.8,
+      "rainfall_p10_mm": 492.3,
+      "rainfall_p90_mm": 535.5,
+      "rainy_days_count": 49.0,
+      "rainy_days_p10": 41.0,
+      "rainy_days_p90": 55.5,
+      "consecutive_dry_days": 19.0,
+      "extreme_rainfall_days": 1.5,
+      "mean_temp_c": 21.3,
+      "max_temp_c": 28.0,
+      "min_temp_c": 15.4,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 19.1,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 72.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 65.0,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 70.3,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Kicukiro": {
+    "district": "Kicukiro",
+    "province": "Kigali City",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1211.6,
+    "annual_effective_rainfall_mm": 744.9,
+    "historical_stress_score": 35.4,
+    "historical_stress_tier": "Moderate Historical Climate Stress",
+    "tier_badge": "bg-amber-100 text-amber-800",
+    "primary_stress_factors": [
+      "Recurrent mid-season dry spells exceeding 12 days"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 529.9,
+      "mean_effective_rainfall_mm": 309.7,
+      "rainfall_p10_mm": 452.2,
+      "rainfall_p90_mm": 608.2,
+      "rainy_days_count": 46.2,
+      "rainy_days_p10": 41.5,
+      "rainy_days_p90": 51.5,
+      "consecutive_dry_days": 12.5,
+      "extreme_rainfall_days": 1.3,
+      "mean_temp_c": 20.1,
+      "max_temp_c": 27.7,
+      "min_temp_c": 14.0,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 681.7,
+      "mean_effective_rainfall_mm": 435.2,
+      "rainfall_p10_mm": 637.2,
+      "rainfall_p90_mm": 726.1,
+      "rainy_days_count": 58.2,
+      "rainy_days_p10": 52.0,
+      "rainy_days_p90": 65.5,
+      "consecutive_dry_days": 13.5,
+      "extreme_rainfall_days": 1.0,
+      "mean_temp_c": 20.5,
+      "max_temp_c": 27.6,
+      "min_temp_c": 14.3,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 49.7,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 76.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 71.7,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 63.9,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Kirehe": {
+    "district": "Kirehe",
+    "province": "Eastern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1237.6,
+    "annual_effective_rainfall_mm": 764.7,
+    "historical_stress_score": 31.7,
+    "historical_stress_tier": "Low Historical Climate Stress",
+    "tier_badge": "bg-agri-green-light text-agri-forest",
+    "primary_stress_factors": [
+      "Recurrent mid-season dry spells exceeding 12 days",
+      "Daytime heat stress accelerating evapotranspiration (Max temp: 28.0\u00b0C)"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 514.5,
+      "mean_effective_rainfall_mm": 296.3,
+      "rainfall_p10_mm": 411.6,
+      "rainfall_p90_mm": 593.9,
+      "rainy_days_count": 48.0,
+      "rainy_days_p10": 38.5,
+      "rainy_days_p90": 56.5,
+      "consecutive_dry_days": 13.5,
+      "extreme_rainfall_days": 0.7,
+      "mean_temp_c": 21.2,
+      "max_temp_c": 27.8,
+      "min_temp_c": 15.0,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 723.1,
+      "mean_effective_rainfall_mm": 468.4,
+      "rainfall_p10_mm": 631.2,
+      "rainfall_p90_mm": 813.4,
+      "rainy_days_count": 71.0,
+      "rainy_days_p10": 63.5,
+      "rainy_days_p90": 78.5,
+      "consecutive_dry_days": 13.0,
+      "extreme_rainfall_days": 0.7,
+      "mean_temp_c": 21.1,
+      "max_temp_c": 28.2,
+      "min_temp_c": 14.5,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 49.8,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 86.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 66.7,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 76.0,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Muhanga": {
+    "district": "Muhanga",
+    "province": "Southern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1235.8,
+    "annual_effective_rainfall_mm": 764.2,
+    "historical_stress_score": 27.4,
+    "historical_stress_tier": "Low Historical Climate Stress",
+    "tier_badge": "bg-agri-green-light text-agri-forest",
+    "primary_stress_factors": [
+      "Recurrent mid-season dry spells exceeding 12 days"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 545.1,
+      "mean_effective_rainfall_mm": 322.2,
+      "rainfall_p10_mm": 431.0,
+      "rainfall_p90_mm": 636.2,
+      "rainy_days_count": 46.8,
+      "rainy_days_p10": 35.0,
+      "rainy_days_p90": 60.5,
+      "consecutive_dry_days": 13.5,
+      "extreme_rainfall_days": 0.8,
+      "mean_temp_c": 18.5,
+      "max_temp_c": 25.2,
+      "min_temp_c": 12.0,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 690.7,
+      "mean_effective_rainfall_mm": 442.0,
+      "rainfall_p10_mm": 639.0,
+      "rainfall_p90_mm": 733.9,
+      "rainy_days_count": 63.2,
+      "rainy_days_p10": 55.0,
+      "rainy_days_p90": 71.5,
+      "consecutive_dry_days": 12.5,
+      "extreme_rainfall_days": 1.5,
+      "mean_temp_c": 18.9,
+      "max_temp_c": 26.5,
+      "min_temp_c": 12.7,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 50.4,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 76.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 100.0,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 67.7,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Musanze": {
+    "district": "Musanze",
+    "province": "Northern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1648.7,
+    "annual_effective_rainfall_mm": 1088.6,
+    "historical_stress_score": 37.8,
+    "historical_stress_tier": "Moderate Historical Climate Stress",
+    "tier_badge": "bg-amber-100 text-amber-800",
+    "primary_stress_factors": [
+      "Torrential hillside runoff & topsoil erosion risk",
+      "Highland nocturnal chill stress (Min temp: 9.7\u00b0C)"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 756.0,
+      "mean_effective_rainfall_mm": 487.5,
+      "rainfall_p10_mm": 687.5,
+      "rainfall_p90_mm": 832.3,
+      "rainy_days_count": 72.2,
+      "rainy_days_p10": 58.0,
+      "rainy_days_p90": 84.5,
+      "consecutive_dry_days": 6.2,
+      "extreme_rainfall_days": 3.0,
+      "mean_temp_c": 16.1,
+      "max_temp_c": 22.8,
+      "min_temp_c": 9.7,
+      "primary_risk": "Highland nocturnal cold stress & soil waterlogging on lower terraces"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 892.7,
+      "mean_effective_rainfall_mm": 601.1,
+      "rainfall_p10_mm": 814.0,
+      "rainfall_p90_mm": 971.7,
+      "rainy_days_count": 79.7,
+      "rainy_days_p10": 72.0,
+      "rainy_days_p90": 85.0,
+      "consecutive_dry_days": 8.3,
+      "extreme_rainfall_days": 3.3,
+      "mean_temp_c": 16.1,
+      "max_temp_c": 23.7,
+      "min_temp_c": 9.7,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 78.4,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 36.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 61.7,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 71.4,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Ngoma": {
+    "district": "Ngoma",
+    "province": "Eastern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1206.0,
+    "annual_effective_rainfall_mm": 740.0,
+    "historical_stress_score": 39.6,
+    "historical_stress_tier": "Moderate Historical Climate Stress",
+    "tier_badge": "bg-amber-100 text-amber-800",
+    "primary_stress_factors": [
+      "Recurrent mid-season dry spells exceeding 12 days",
+      "Daytime heat stress accelerating evapotranspiration (Max temp: 28.2\u00b0C)"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 518.9,
+      "mean_effective_rainfall_mm": 300.2,
+      "rainfall_p10_mm": 439.6,
+      "rainfall_p90_mm": 569.5,
+      "rainy_days_count": 48.0,
+      "rainy_days_p10": 42.0,
+      "rainy_days_p90": 56.0,
+      "consecutive_dry_days": 13.5,
+      "extreme_rainfall_days": 1.5,
+      "mean_temp_c": 20.9,
+      "max_temp_c": 28.0,
+      "min_temp_c": 14.7,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 687.1,
+      "mean_effective_rainfall_mm": 439.8,
+      "rainfall_p10_mm": 659.3,
+      "rainfall_p90_mm": 725.0,
+      "rainy_days_count": 56.7,
+      "rainy_days_p10": 52.0,
+      "rainy_days_p90": 62.0,
+      "consecutive_dry_days": 15.3,
+      "extreme_rainfall_days": 1.3,
+      "mean_temp_c": 21.2,
+      "max_temp_c": 28.4,
+      "min_temp_c": 15.2,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 45.3,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 72.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 63.3,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 64.8,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Ngororero": {
+    "district": "Ngororero",
+    "province": "Western",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1668.0,
+    "annual_effective_rainfall_mm": 1108.1,
+    "historical_stress_score": 30.8,
+    "historical_stress_tier": "Low Historical Climate Stress",
+    "tier_badge": "bg-agri-green-light text-agri-forest",
+    "primary_stress_factors": [
+      "Torrential hillside runoff & topsoil erosion risk"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 743.0,
+      "mean_effective_rainfall_mm": 479.2,
+      "rainfall_p10_mm": 686.4,
+      "rainfall_p90_mm": 819.6,
+      "rainy_days_count": 69.8,
+      "rainy_days_p10": 55.5,
+      "rainy_days_p90": 79.0,
+      "consecutive_dry_days": 9.8,
+      "extreme_rainfall_days": 3.0,
+      "mean_temp_c": 18.7,
+      "max_temp_c": 25.3,
+      "min_temp_c": 12.6,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 925.0,
+      "mean_effective_rainfall_mm": 628.9,
+      "rainfall_p10_mm": 800.8,
+      "rainfall_p90_mm": 1048.1,
+      "rainy_days_count": 78.7,
+      "rainy_days_p10": 67.0,
+      "rainy_days_p90": 85.0,
+      "consecutive_dry_days": 8.8,
+      "extreme_rainfall_days": 3.3,
+      "mean_temp_c": 18.5,
+      "max_temp_c": 25.5,
+      "min_temp_c": 12.2,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 72.1,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 36.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 100.0,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 67.7,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Nyabihu": {
+    "district": "Nyabihu",
+    "province": "Western",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1666.2,
+    "annual_effective_rainfall_mm": 1103.0,
+    "historical_stress_score": 45.3,
+    "historical_stress_tier": "Moderate Historical Climate Stress",
+    "tier_badge": "bg-amber-100 text-amber-800",
+    "primary_stress_factors": [
+      "Torrential hillside runoff & topsoil erosion risk",
+      "Highland nocturnal chill stress (Min temp: 8.8\u00b0C)"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 753.3,
+      "mean_effective_rainfall_mm": 485.9,
+      "rainfall_p10_mm": 705.7,
+      "rainfall_p90_mm": 808.3,
+      "rainy_days_count": 71.5,
+      "rainy_days_p10": 66.5,
+      "rainy_days_p90": 76.0,
+      "consecutive_dry_days": 8.5,
+      "extreme_rainfall_days": 4.3,
+      "mean_temp_c": 15.1,
+      "max_temp_c": 22.5,
+      "min_temp_c": 8.8,
+      "primary_risk": "Highland nocturnal cold stress & soil waterlogging on lower terraces"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 912.9,
+      "mean_effective_rainfall_mm": 617.1,
+      "rainfall_p10_mm": 814.6,
+      "rainfall_p90_mm": 1037.3,
+      "rainy_days_count": 78.3,
+      "rainy_days_p10": 69.0,
+      "rainy_days_p90": 85.0,
+      "consecutive_dry_days": 7.5,
+      "extreme_rainfall_days": 3.0,
+      "mean_temp_c": 15.2,
+      "max_temp_c": 22.8,
+      "min_temp_c": 8.8,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 76.0,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 26.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 46.7,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 68.8,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Nyagatare": {
+    "district": "Nyagatare",
+    "province": "Eastern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 902.1,
+    "annual_effective_rainfall_mm": 503.6,
+    "historical_stress_score": 45.5,
+    "historical_stress_tier": "Moderate Historical Climate Stress",
+    "tier_badge": "bg-amber-100 text-amber-800",
+    "primary_stress_factors": [
+      "Recurrent mid-season dry spells exceeding 12 days",
+      "Daytime heat stress accelerating evapotranspiration (Max temp: 28.8\u00b0C)"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 365.1,
+      "mean_effective_rainfall_mm": 185.0,
+      "rainfall_p10_mm": 261.7,
+      "rainfall_p90_mm": 465.2,
+      "rainy_days_count": 32.8,
+      "rainy_days_p10": 23.5,
+      "rainy_days_p90": 43.5,
+      "consecutive_dry_days": 22.0,
+      "extreme_rainfall_days": 0.8,
+      "mean_temp_c": 21.3,
+      "max_temp_c": 29.0,
+      "min_temp_c": 15.4,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 537.0,
+      "mean_effective_rainfall_mm": 318.6,
+      "rainfall_p10_mm": 481.8,
+      "rainfall_p90_mm": 583.0,
+      "rainy_days_count": 50.5,
+      "rainy_days_p10": 47.5,
+      "rainy_days_p90": 55.5,
+      "consecutive_dry_days": 21.5,
+      "extreme_rainfall_days": 0.8,
+      "mean_temp_c": 21.4,
+      "max_temp_c": 28.7,
+      "min_temp_c": 15.1,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 19.4,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 84.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 53.3,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 71.7,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Nyamagabe": {
+    "district": "Nyamagabe",
+    "province": "Southern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1601.5,
+    "annual_effective_rainfall_mm": 1058.6,
+    "historical_stress_score": 34.1,
+    "historical_stress_tier": "Low Historical Climate Stress",
+    "tier_badge": "bg-agri-green-light text-agri-forest",
+    "primary_stress_factors": [
+      "Torrential hillside runoff & topsoil erosion risk"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 728.4,
+      "mean_effective_rainfall_mm": 468.4,
+      "rainfall_p10_mm": 682.5,
+      "rainfall_p90_mm": 783.5,
+      "rainy_days_count": 66.7,
+      "rainy_days_p10": 57.0,
+      "rainy_days_p90": 76.5,
+      "consecutive_dry_days": 7.2,
+      "extreme_rainfall_days": 4.5,
+      "mean_temp_c": 17.3,
+      "max_temp_c": 24.4,
+      "min_temp_c": 11.5,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 873.1,
+      "mean_effective_rainfall_mm": 590.2,
+      "rainfall_p10_mm": 789.5,
+      "rainfall_p90_mm": 952.5,
+      "rainy_days_count": 80.7,
+      "rainy_days_p10": 72.0,
+      "rainy_days_p90": 85.0,
+      "consecutive_dry_days": 8.5,
+      "extreme_rainfall_days": 2.7,
+      "mean_temp_c": 17.4,
+      "max_temp_c": 24.3,
+      "min_temp_c": 11.0,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 76.6,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 28.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 86.7,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 71.3,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Nyamasheke": {
+    "district": "Nyamasheke",
+    "province": "Western",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1664.5,
+    "annual_effective_rainfall_mm": 1109.2,
+    "historical_stress_score": 37.6,
+    "historical_stress_tier": "Moderate Historical Climate Stress",
+    "tier_badge": "bg-amber-100 text-amber-800",
+    "primary_stress_factors": [
+      "Torrential hillside runoff & topsoil erosion risk"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 720.7,
+      "mean_effective_rainfall_mm": 462.9,
+      "rainfall_p10_mm": 656.9,
+      "rainfall_p90_mm": 798.1,
+      "rainy_days_count": 66.8,
+      "rainy_days_p10": 53.5,
+      "rainy_days_p90": 78.5,
+      "consecutive_dry_days": 9.5,
+      "extreme_rainfall_days": 4.2,
+      "mean_temp_c": 20.0,
+      "max_temp_c": 27.9,
+      "min_temp_c": 13.7,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 943.8,
+      "mean_effective_rainfall_mm": 646.3,
+      "rainfall_p10_mm": 855.7,
+      "rainfall_p90_mm": 1065.0,
+      "rainy_days_count": 84.2,
+      "rainy_days_p10": 82.5,
+      "rainy_days_p90": 85.0,
+      "consecutive_dry_days": 7.8,
+      "extreme_rainfall_days": 2.8,
+      "mean_temp_c": 20.4,
+      "max_temp_c": 27.2,
+      "min_temp_c": 14.4,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 73.9,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 30.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 75.0,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 69.8,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Nyanza": {
+    "district": "Nyanza",
+    "province": "Southern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1318.6,
+    "annual_effective_rainfall_mm": 833.7,
+    "historical_stress_score": 24.4,
+    "historical_stress_tier": "Low Historical Climate Stress",
+    "tier_badge": "bg-agri-green-light text-agri-forest",
+    "primary_stress_factors": [
+      "Recurrent mid-season dry spells exceeding 12 days"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 628.9,
+      "mean_effective_rainfall_mm": 387.5,
+      "rainfall_p10_mm": 592.9,
+      "rainfall_p90_mm": 667.8,
+      "rainy_days_count": 58.2,
+      "rainy_days_p10": 53.0,
+      "rainy_days_p90": 64.0,
+      "consecutive_dry_days": 13.2,
+      "extreme_rainfall_days": 1.0,
+      "mean_temp_c": 19.1,
+      "max_temp_c": 26.7,
+      "min_temp_c": 13.0,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 689.7,
+      "mean_effective_rainfall_mm": 446.2,
+      "rainfall_p10_mm": 641.1,
+      "rainfall_p90_mm": 751.0,
+      "rainy_days_count": 66.5,
+      "rainy_days_p10": 57.5,
+      "rainy_days_p90": 78.0,
+      "consecutive_dry_days": 12.7,
+      "extreme_rainfall_days": 0.5,
+      "mean_temp_c": 18.6,
+      "max_temp_c": 25.8,
+      "min_temp_c": 12.3,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 53.4,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 84.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 95.0,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 74.2,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Nyarugenge": {
+    "district": "Nyarugenge",
+    "province": "Kigali City",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1237.3,
+    "annual_effective_rainfall_mm": 766.3,
+    "historical_stress_score": 30.5,
+    "historical_stress_tier": "Low Historical Climate Stress",
+    "tier_badge": "bg-agri-green-light text-agri-forest",
+    "primary_stress_factors": [
+      "Recurrent mid-season dry spells exceeding 12 days"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 537.7,
+      "mean_effective_rainfall_mm": 316.9,
+      "rainfall_p10_mm": 461.8,
+      "rainfall_p90_mm": 615.0,
+      "rainy_days_count": 50.0,
+      "rainy_days_p10": 42.0,
+      "rainy_days_p90": 59.5,
+      "consecutive_dry_days": 13.0,
+      "extreme_rainfall_days": 1.2,
+      "mean_temp_c": 20.4,
+      "max_temp_c": 27.4,
+      "min_temp_c": 13.8,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 699.6,
+      "mean_effective_rainfall_mm": 449.4,
+      "rainfall_p10_mm": 604.6,
+      "rainfall_p90_mm": 778.0,
+      "rainy_days_count": 68.5,
+      "rainy_days_p10": 55.0,
+      "rainy_days_p90": 81.5,
+      "consecutive_dry_days": 12.8,
+      "extreme_rainfall_days": 0.8,
+      "mean_temp_c": 20.3,
+      "max_temp_c": 27.2,
+      "min_temp_c": 14.4,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 50.8,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 80.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 76.7,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 75.6,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Nyaruguru": {
+    "district": "Nyaruguru",
+    "province": "Southern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1674.1,
+    "annual_effective_rainfall_mm": 1116.1,
+    "historical_stress_score": 38.3,
+    "historical_stress_tier": "Moderate Historical Climate Stress",
+    "tier_badge": "bg-amber-100 text-amber-800",
+    "primary_stress_factors": [
+      "Torrential hillside runoff & topsoil erosion risk"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 754.0,
+      "mean_effective_rainfall_mm": 488.6,
+      "rainfall_p10_mm": 679.5,
+      "rainfall_p90_mm": 824.5,
+      "rainy_days_count": 65.5,
+      "rainy_days_p10": 59.5,
+      "rainy_days_p90": 72.5,
+      "consecutive_dry_days": 9.0,
+      "extreme_rainfall_days": 3.7,
+      "mean_temp_c": 16.8,
+      "max_temp_c": 24.0,
+      "min_temp_c": 10.5,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 920.1,
+      "mean_effective_rainfall_mm": 627.5,
+      "rainfall_p10_mm": 859.0,
+      "rainfall_p90_mm": 1019.1,
+      "rainy_days_count": 76.8,
+      "rainy_days_p10": 69.0,
+      "rainy_days_p90": 85.0,
+      "consecutive_dry_days": 8.0,
+      "extreme_rainfall_days": 3.0,
+      "mean_temp_c": 16.6,
+      "max_temp_c": 24.0,
+      "min_temp_c": 10.4,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 74.5,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 34.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 73.3,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 62.4,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Rubavu": {
+    "district": "Rubavu",
+    "province": "Western",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1616.1,
+    "annual_effective_rainfall_mm": 1063.2,
+    "historical_stress_score": 39.4,
+    "historical_stress_tier": "Moderate Historical Climate Stress",
+    "tier_badge": "bg-amber-100 text-amber-800",
+    "primary_stress_factors": [
+      "Torrential hillside runoff & topsoil erosion risk"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 725.8,
+      "mean_effective_rainfall_mm": 463.9,
+      "rainfall_p10_mm": 643.5,
+      "rainfall_p90_mm": 780.9,
+      "rainy_days_count": 64.5,
+      "rainy_days_p10": 52.0,
+      "rainy_days_p90": 73.0,
+      "consecutive_dry_days": 6.0,
+      "extreme_rainfall_days": 4.5,
+      "mean_temp_c": 20.6,
+      "max_temp_c": 27.4,
+      "min_temp_c": 14.7,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 890.3,
+      "mean_effective_rainfall_mm": 599.3,
+      "rainfall_p10_mm": 824.1,
+      "rainfall_p90_mm": 970.6,
+      "rainy_days_count": 80.5,
+      "rainy_days_p10": 74.0,
+      "rainy_days_p90": 85.0,
+      "consecutive_dry_days": 6.2,
+      "extreme_rainfall_days": 4.0,
+      "mean_temp_c": 20.5,
+      "max_temp_c": 27.8,
+      "min_temp_c": 14.0,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 81.7,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 16.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 73.3,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 68.5,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Ruhango": {
+    "district": "Ruhango",
+    "province": "Southern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1199.7,
+    "annual_effective_rainfall_mm": 735.7,
+    "historical_stress_score": 29.1,
+    "historical_stress_tier": "Low Historical Climate Stress",
+    "tier_badge": "bg-agri-green-light text-agri-forest",
+    "primary_stress_factors": [
+      "Recurrent mid-season dry spells exceeding 12 days"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 526.3,
+      "mean_effective_rainfall_mm": 307.4,
+      "rainfall_p10_mm": 504.1,
+      "rainfall_p90_mm": 561.0,
+      "rainy_days_count": 49.7,
+      "rainy_days_p10": 44.0,
+      "rainy_days_p90": 57.0,
+      "consecutive_dry_days": 14.0,
+      "extreme_rainfall_days": 1.2,
+      "mean_temp_c": 19.1,
+      "max_temp_c": 26.3,
+      "min_temp_c": 12.8,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 673.4,
+      "mean_effective_rainfall_mm": 428.3,
+      "rainfall_p10_mm": 592.0,
+      "rainfall_p90_mm": 745.8,
+      "rainy_days_count": 59.5,
+      "rainy_days_p10": 51.0,
+      "rainy_days_p90": 70.5,
+      "consecutive_dry_days": 12.8,
+      "extreme_rainfall_days": 1.0,
+      "mean_temp_c": 19.4,
+      "max_temp_c": 26.6,
+      "min_temp_c": 13.2,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 48.1,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 78.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 91.7,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 70.1,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Rulindo": {
+    "district": "Rulindo",
+    "province": "Northern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1632.6,
+    "annual_effective_rainfall_mm": 1072.5,
+    "historical_stress_score": 31.3,
+    "historical_stress_tier": "Low Historical Climate Stress",
+    "tier_badge": "bg-agri-green-light text-agri-forest",
+    "primary_stress_factors": [
+      "Torrential hillside runoff & topsoil erosion risk"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 776.9,
+      "mean_effective_rainfall_mm": 503.1,
+      "rainfall_p10_mm": 725.9,
+      "rainfall_p90_mm": 822.5,
+      "rainy_days_count": 73.7,
+      "rainy_days_p10": 62.5,
+      "rainy_days_p90": 81.5,
+      "consecutive_dry_days": 8.0,
+      "extreme_rainfall_days": 3.5,
+      "mean_temp_c": 18.2,
+      "max_temp_c": 24.9,
+      "min_temp_c": 11.6,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 855.7,
+      "mean_effective_rainfall_mm": 569.4,
+      "rainfall_p10_mm": 798.3,
+      "rainfall_p90_mm": 901.5,
+      "rainy_days_count": 77.3,
+      "rainy_days_p10": 68.0,
+      "rainy_days_p90": 85.0,
+      "consecutive_dry_days": 8.7,
+      "extreme_rainfall_days": 3.2,
+      "mean_temp_c": 18.2,
+      "max_temp_c": 25.6,
+      "min_temp_c": 11.7,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 75.1,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 34.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 93.3,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 71.9,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Rusizi": {
+    "district": "Rusizi",
+    "province": "Western",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1682.9,
+    "annual_effective_rainfall_mm": 1123.4,
+    "historical_stress_score": 51.4,
+    "historical_stress_tier": "Moderate Historical Climate Stress",
+    "tier_badge": "bg-amber-100 text-amber-800",
+    "primary_stress_factors": [
+      "Torrential hillside runoff & topsoil erosion risk",
+      "Daytime heat stress accelerating evapotranspiration (Max temp: 29.8\u00b0C)"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 733.9,
+      "mean_effective_rainfall_mm": 472.9,
+      "rainfall_p10_mm": 635.6,
+      "rainfall_p90_mm": 816.5,
+      "rainy_days_count": 69.2,
+      "rainy_days_p10": 63.0,
+      "rainy_days_p90": 76.0,
+      "consecutive_dry_days": 8.3,
+      "extreme_rainfall_days": 4.5,
+      "mean_temp_c": 22.7,
+      "max_temp_c": 30.1,
+      "min_temp_c": 16.5,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 949.0,
+      "mean_effective_rainfall_mm": 650.5,
+      "rainfall_p10_mm": 900.0,
+      "rainfall_p90_mm": 1005.8,
+      "rainy_days_count": 82.2,
+      "rainy_days_p10": 76.5,
+      "rainy_days_p90": 85.0,
+      "consecutive_dry_days": 9.0,
+      "extreme_rainfall_days": 4.2,
+      "mean_temp_c": 22.4,
+      "max_temp_c": 29.5,
+      "min_temp_c": 16.2,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 73.9,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 14.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 36.7,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 68.8,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Rutsiro": {
+    "district": "Rutsiro",
+    "province": "Western",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1626.0,
+    "annual_effective_rainfall_mm": 1074.1,
+    "historical_stress_score": 29.0,
+    "historical_stress_tier": "Low Historical Climate Stress",
+    "tier_badge": "bg-agri-green-light text-agri-forest",
+    "primary_stress_factors": [
+      "Torrential hillside runoff & topsoil erosion risk"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 713.7,
+      "mean_effective_rainfall_mm": 455.6,
+      "rainfall_p10_mm": 662.5,
+      "rainfall_p90_mm": 775.4,
+      "rainy_days_count": 66.3,
+      "rainy_days_p10": 57.0,
+      "rainy_days_p90": 72.5,
+      "consecutive_dry_days": 7.0,
+      "extreme_rainfall_days": 1.8,
+      "mean_temp_c": 17.7,
+      "max_temp_c": 24.1,
+      "min_temp_c": 11.5,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 912.3,
+      "mean_effective_rainfall_mm": 618.5,
+      "rainfall_p10_mm": 789.4,
+      "rainfall_p90_mm": 1074.9,
+      "rainy_days_count": 78.5,
+      "rainy_days_p10": 72.0,
+      "rainy_days_p90": 85.0,
+      "consecutive_dry_days": 9.2,
+      "extreme_rainfall_days": 3.8,
+      "mean_temp_c": 17.6,
+      "max_temp_c": 24.7,
+      "min_temp_c": 11.8,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 75.7,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 44.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 95.0,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 67.7,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  },
+  "Rwamagana": {
+    "district": "Rwamagana",
+    "province": "Eastern",
+    "data_source": "NASA POWER Agroclimatology & Meteo Rwanda Gridded Station Network",
+    "historical_period": "2021A\u20132026B (6 years, 12 agricultural survey cycles)",
+    "data_coverage_status": "Complete (12/12 seasons verified for rainfall & temperature)",
+    "annual_rainfall_mm": 1189.0,
+    "annual_effective_rainfall_mm": 727.1,
+    "historical_stress_score": 32.6,
+    "historical_stress_tier": "Low Historical Climate Stress",
+    "tier_badge": "bg-agri-green-light text-agri-forest",
+    "primary_stress_factors": [
+      "Recurrent mid-season dry spells exceeding 12 days"
+    ],
+    "season_a": {
+      "season_name": "Season A (Umuhindo: Sep \u2013 Jan)",
+      "rainfall_pattern": "Regularly distributed rainfall across the entire crop vegetative cycle",
+      "mean_rainfall_mm": 478.7,
+      "mean_effective_rainfall_mm": 268.8,
+      "rainfall_p10_mm": 370.5,
+      "rainfall_p90_mm": 566.7,
+      "rainy_days_count": 42.0,
+      "rainy_days_p10": 36.0,
+      "rainy_days_p90": 48.5,
+      "consecutive_dry_days": 12.0,
+      "extreme_rainfall_days": 1.0,
+      "mean_temp_c": 20.2,
+      "max_temp_c": 26.8,
+      "min_temp_c": 14.0,
+      "primary_risk": "Steady germination conditions with low drought vulnerability"
+    },
+    "season_b": {
+      "season_name": "Season B (Itumba: Feb \u2013 Jun)",
+      "rainfall_pattern": "Front-loaded heavy downpours (March\u2013April), followed by a pronounced dry period (May\u2013June)",
+      "mean_rainfall_mm": 710.3,
+      "mean_effective_rainfall_mm": 458.3,
+      "rainfall_p10_mm": 675.5,
+      "rainfall_p90_mm": 741.4,
+      "rainy_days_count": 60.0,
+      "rainy_days_p10": 57.0,
+      "rainy_days_p90": 63.0,
+      "consecutive_dry_days": 15.8,
+      "extreme_rainfall_days": 1.0,
+      "mean_temp_c": 20.3,
+      "max_temp_c": 27.2,
+      "min_temp_c": 13.9,
+      "primary_risk": "Early deluge erosion & fungal pressure, followed by late dry spell during grain filling"
+    },
+    "components": {
+      "moisture_deficit": {
+        "name": "Moisture Deficit Defense",
+        "weight_pct": 30,
+        "score": 46.3,
+        "variables_inside": [
+          "consecutive_dry_days",
+          "seasonal_rainfall_mm",
+          "seasonal_effective_rainfall_mm",
+          "fao_crop_demand_etc"
+        ],
+        "how_calculated": "Evaluates maximum dry spell days relative to crop water demand (ETc ~ 520mm baseline) and FAO/AGLW monthly estimated effective rainfall. Uses the FAO empirical regression equation to estimate effective precipitation rather than unadjusted gross precipitation."
+      },
+      "excess_deluge": {
+        "name": "Excess Deluge & Erosion Defense",
+        "weight_pct": 25,
+        "score": 80.0,
+        "variables_inside": [
+          "extreme_rainfall_days (>30mm/day)",
+          "terrain_slope_pct"
+        ],
+        "how_calculated": "Measures frequency of torrential downpours (>30mm/day). In steep terraced districts, deluge events trigger hillside soil erosion and fertilizer leaching."
+      },
+      "thermal_envelope": {
+        "name": "Thermal Envelope Defense",
+        "weight_pct": 25,
+        "score": 83.3,
+        "variables_inside": [
+          "min_temperature_c",
+          "max_temperature_c",
+          "crop_cardinal_temperatures"
+        ],
+        "how_calculated": "Evaluates temperatures against crop-specific physiological thresholds. Penalties trigger when nocturnal chill drops below T_base or daytime heat exceeds T_opt_max."
+      },
+      "rainfall_regularity": {
+        "name": "Rainfall Regularity",
+        "weight_pct": 20,
+        "score": 63.4,
+        "variables_inside": [
+          "rainy_days_count",
+          "district_empirical_p10_p90",
+          "seasonal_pattern_a_vs_b"
+        ],
+        "how_calculated": "Compares seasonal rainy day frequency against the district's historical P10\u2013P90 empirical quantiles. Scores steady rainfall delivery vs clustered storms."
+      }
+    },
+    "unmonitored_indicators": {
+      "soil_moisture": "Direct root-zone sensor unavailable (Biophysical proxy: Sentinel-2 VHI)",
+      "wind_speed": "Observation unavailable in current pipeline",
+      "relative_humidity": "Not recorded in primary baseline tables"
+    }
+  }
+}

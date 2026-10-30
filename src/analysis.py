@@ -22,6 +22,7 @@ if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
 
 from src.model import load_dataset
+from src.climate import calculate_single_climate_defense
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
@@ -49,8 +50,14 @@ def compute_district_resilience_rankings(df: pd.DataFrame) -> pd.DataFrame:
         mean_yield_kg_ha=("yield_kg_per_ha", "mean"),
         mean_rainfall_mm=("seasonal_rainfall_mm", "mean"),
         mean_dry_days=("consecutive_dry_days", "mean"),
+        mean_rainy_days=("rainy_days_count", "mean"),
+        mean_extreme_rain=("extreme_rainfall_days", "mean"),
+        mean_temp=("avg_temperature_c", "mean"),
+        max_temp=("max_temperature_c", "max"),
+        min_temp=("min_temperature_c", "min"),
         mean_ndvi=("ndvi_seasonal_mean", "mean"),
         mean_vhi=("vegetation_health_index", "mean"),
+        mean_climate_defense=("climate_defense_score", "mean") if "climate_defense_score" in df.columns else ("seasonal_rainfall_mm", "mean"),
         mean_gross_revenue=("gross_revenue_rwf", "mean"),
         mean_production_cost=("production_cost_rwf", "mean"),
         mean_net_margin=("net_margin_rwf", "mean")
@@ -64,10 +71,25 @@ def compute_district_resilience_rankings(df: pd.DataFrame) -> pd.DataFrame:
     vhi_max = grouped["mean_vhi"].max()
     grouped["score_vegetation"] = ((grouped["mean_vhi"] - vhi_min) / (vhi_max - vhi_min + 1e-5)) * 100.0
 
-    # 3. Climate Stability Score (0-100)
-    dry_min = grouped["mean_dry_days"].min()
-    dry_max = grouped["mean_dry_days"].max()
-    grouped["score_climate"] = (1.0 - (grouped["mean_dry_days"] - dry_min) / (dry_max - dry_min + 1e-5)) * 100.0
+    # 3. Multi-Dimensional Climate Defense Score (0-100)
+    # Grounded in crop water demand (FAO ETc), dry spells, deluge defense, thermal envelopes, and regularity
+    if "climate_defense_score" in df.columns:
+        grouped["score_climate"] = grouped["mean_climate_defense"].round(1)
+    else:
+        # Fallback using identical centralized biophysical formula from src.climate
+        fallback_scores = []
+        for _, r in grouped.iterrows():
+            cd = calculate_single_climate_defense(
+                crop="Maize",
+                rainfall_mm=r["mean_rainfall_mm"],
+                dry_days=r["mean_dry_days"],
+                rainy_days=r["mean_rainy_days"],
+                extreme_rain_days=r["mean_extreme_rain"],
+                max_temp=r["max_temp"],
+                min_temp=r["min_temp"]
+            )
+            fallback_scores.append(cd["climate_defense_score"])
+        grouped["score_climate"] = fallback_scores
 
     # 4. Economic Buffer Score (0-100)
     margin_min = grouped["mean_net_margin"].min()

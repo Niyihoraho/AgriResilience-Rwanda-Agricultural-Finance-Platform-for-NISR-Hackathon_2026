@@ -1,0 +1,2907 @@
+{
+  "active_period_code": "2026_SOND",
+  "bulletins": {
+    "2026_SOND": {
+      "agricultural_season": "Season 2027A / SOND 2026 (September 2026 \u2013 December 2026)",
+      "forecast_authority": "Rwanda Meteorology Agency (Meteo Rwanda)",
+      "bulletin_reference": "Ref: MR/AGRO/2026/08/SOND-OUTLOOK",
+      "forecast_issue_date": "2026-08-28",
+      "valid_from": "2026-09-01",
+      "valid_to": "2026-12-31",
+      "valid_horizon": "September 1, 2026 to December 31, 2026",
+      "valid_period_label": "September\u2013December 2026 (SOND 2026)",
+      "forecast_status": "Current Active Outlook",
+      "geographic_scope": "National Coverage across all 30 Districts (4 Agro-Climatic Zones)",
+      "forecast_methodology": "Consensus tercile probability based on ECMWF, UKMO, Meteo Rwanda dynamical models and ICPAC GHACOF72 regional guidance",
+      "climatological_pattern": "High probability of above-normal rainfall across Rwanda compared to the 30-year Long-Term Mean (LTM)",
+      "cumulative_rainfall_expected": "300 to 1,000 mm nationally (vs LTM baseline 279 to 962 mm)",
+      "driving_climate_factors": "Warmer-than-average sea surface temperatures over central/eastern Pacific (El Ni\u00f1o), positive Indian Ocean Dipole (IOD), and ITCZ southern migration. Analogue years: 1997 and 2023.",
+      "seasonal_rainfall_dynamic": "September started dry/below-normal with delayed planting, followed by heavy intensification across October, November, and December. Elevates flood/erosion hazard on hillsides while recharging soil moisture.",
+      "districts": {
+        "Nyamasheke": {
+          "district": "Nyamasheke",
+          "agroclimatic_zone": "Western Mountainous & South-Western Highlands",
+          "rainfall_terciles": {
+            "above_normal_pct": 60,
+            "normal_pct": 30,
+            "below_normal_pct": 10
+          },
+          "rainfall_outlook": "Enhanced / Above-Normal Rainfall",
+          "expected_rainfall_range_mm": "800 \u2013 1,000 mm",
+          "historical_ref_mean_mm": 760.0,
+          "anomaly_outlook": "Positive anomaly driven by El Ni\u00f1o and positive Indian Ocean Dipole",
+          "temperature_outlook": "Near-normal daytime temperatures, cooler valley nights",
+          "temp_terciles": {
+            "above_normal_pct": 30,
+            "normal_pct": 50,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "15.0\u00b0C \u2013 17.0\u00b0C",
+          "drought_risk": "Low (Continuous high moisture delivery across SOND)",
+          "heavy_rainfall_risk": "High (Steep slope erosion, flash runoff, and landslide hazard)",
+          "extreme_weather_outlook": "Intense convective downpours during October\u2013November peak",
+          "forecast_climate_risk_score": 64.0,
+          "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+          "confidence_level": "High (Dynamical agreement across ECMWF, UKMO, and Meteo Rwanda)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Reinforce contour trenches and hillside drainage furrows before October downpours; split nitrogen fertilizer into 3 top-dressings to avoid severe leaching."
+        },
+        "Rutsiro": {
+          "district": "Rutsiro",
+          "agroclimatic_zone": "Western Mountainous & South-Western Highlands",
+          "rainfall_terciles": {
+            "above_normal_pct": 60,
+            "normal_pct": 30,
+            "below_normal_pct": 10
+          },
+          "rainfall_outlook": "Enhanced / Above-Normal Rainfall",
+          "expected_rainfall_range_mm": "800 \u2013 1,000 mm",
+          "historical_ref_mean_mm": 760.0,
+          "anomaly_outlook": "Positive anomaly driven by El Ni\u00f1o and positive Indian Ocean Dipole",
+          "temperature_outlook": "Near-normal daytime temperatures, cooler valley nights",
+          "temp_terciles": {
+            "above_normal_pct": 30,
+            "normal_pct": 50,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "15.0\u00b0C \u2013 17.0\u00b0C",
+          "drought_risk": "Low (Continuous high moisture delivery across SOND)",
+          "heavy_rainfall_risk": "High (Steep slope erosion, flash runoff, and landslide hazard)",
+          "extreme_weather_outlook": "Intense convective downpours during October\u2013November peak",
+          "forecast_climate_risk_score": 64.0,
+          "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+          "confidence_level": "High (Dynamical agreement across ECMWF, UKMO, and Meteo Rwanda)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Reinforce contour trenches and hillside drainage furrows before October downpours; split nitrogen fertilizer into 3 top-dressings to avoid severe leaching."
+        },
+        "Karongi": {
+          "district": "Karongi",
+          "agroclimatic_zone": "Western Mountainous & South-Western Highlands",
+          "rainfall_terciles": {
+            "above_normal_pct": 60,
+            "normal_pct": 30,
+            "below_normal_pct": 10
+          },
+          "rainfall_outlook": "Enhanced / Above-Normal Rainfall",
+          "expected_rainfall_range_mm": "800 \u2013 1,000 mm",
+          "historical_ref_mean_mm": 760.0,
+          "anomaly_outlook": "Positive anomaly driven by El Ni\u00f1o and positive Indian Ocean Dipole",
+          "temperature_outlook": "Near-normal daytime temperatures, cooler valley nights",
+          "temp_terciles": {
+            "above_normal_pct": 30,
+            "normal_pct": 50,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "15.0\u00b0C \u2013 17.0\u00b0C",
+          "drought_risk": "Low (Continuous high moisture delivery across SOND)",
+          "heavy_rainfall_risk": "High (Steep slope erosion, flash runoff, and landslide hazard)",
+          "extreme_weather_outlook": "Intense convective downpours during October\u2013November peak",
+          "forecast_climate_risk_score": 64.0,
+          "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+          "confidence_level": "High (Dynamical agreement across ECMWF, UKMO, and Meteo Rwanda)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Reinforce contour trenches and hillside drainage furrows before October downpours; split nitrogen fertilizer into 3 top-dressings to avoid severe leaching."
+        },
+        "Nyamagabe": {
+          "district": "Nyamagabe",
+          "agroclimatic_zone": "Western Mountainous & South-Western Highlands",
+          "rainfall_terciles": {
+            "above_normal_pct": 60,
+            "normal_pct": 30,
+            "below_normal_pct": 10
+          },
+          "rainfall_outlook": "Enhanced / Above-Normal Rainfall",
+          "expected_rainfall_range_mm": "800 \u2013 1,000 mm",
+          "historical_ref_mean_mm": 760.0,
+          "anomaly_outlook": "Positive anomaly driven by El Ni\u00f1o and positive Indian Ocean Dipole",
+          "temperature_outlook": "Near-normal daytime temperatures, cooler valley nights",
+          "temp_terciles": {
+            "above_normal_pct": 30,
+            "normal_pct": 50,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "15.0\u00b0C \u2013 17.0\u00b0C",
+          "drought_risk": "Low (Continuous high moisture delivery across SOND)",
+          "heavy_rainfall_risk": "High (Steep slope erosion, flash runoff, and landslide hazard)",
+          "extreme_weather_outlook": "Intense convective downpours during October\u2013November peak",
+          "forecast_climate_risk_score": 64.0,
+          "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+          "confidence_level": "High (Dynamical agreement across ECMWF, UKMO, and Meteo Rwanda)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Reinforce contour trenches and hillside drainage furrows before October downpours; split nitrogen fertilizer into 3 top-dressings to avoid severe leaching."
+        },
+        "Nyaruguru": {
+          "district": "Nyaruguru",
+          "agroclimatic_zone": "Western Mountainous & South-Western Highlands",
+          "rainfall_terciles": {
+            "above_normal_pct": 60,
+            "normal_pct": 30,
+            "below_normal_pct": 10
+          },
+          "rainfall_outlook": "Enhanced / Above-Normal Rainfall",
+          "expected_rainfall_range_mm": "800 \u2013 1,000 mm",
+          "historical_ref_mean_mm": 760.0,
+          "anomaly_outlook": "Positive anomaly driven by El Ni\u00f1o and positive Indian Ocean Dipole",
+          "temperature_outlook": "Near-normal daytime temperatures, cooler valley nights",
+          "temp_terciles": {
+            "above_normal_pct": 30,
+            "normal_pct": 50,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "15.0\u00b0C \u2013 17.0\u00b0C",
+          "drought_risk": "Low (Continuous high moisture delivery across SOND)",
+          "heavy_rainfall_risk": "High (Steep slope erosion, flash runoff, and landslide hazard)",
+          "extreme_weather_outlook": "Intense convective downpours during October\u2013November peak",
+          "forecast_climate_risk_score": 64.0,
+          "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+          "confidence_level": "High (Dynamical agreement across ECMWF, UKMO, and Meteo Rwanda)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Reinforce contour trenches and hillside drainage furrows before October downpours; split nitrogen fertilizer into 3 top-dressings to avoid severe leaching."
+        },
+        "Rusizi": {
+          "district": "Rusizi",
+          "agroclimatic_zone": "Western Mountainous & South-Western Highlands",
+          "rainfall_terciles": {
+            "above_normal_pct": 60,
+            "normal_pct": 30,
+            "below_normal_pct": 10
+          },
+          "rainfall_outlook": "Enhanced / Above-Normal Rainfall",
+          "expected_rainfall_range_mm": "800 \u2013 1,000 mm",
+          "historical_ref_mean_mm": 760.0,
+          "anomaly_outlook": "Positive anomaly driven by El Ni\u00f1o and positive Indian Ocean Dipole",
+          "temperature_outlook": "Near-normal daytime temperatures, cooler valley nights",
+          "temp_terciles": {
+            "above_normal_pct": 30,
+            "normal_pct": 50,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "15.0\u00b0C \u2013 17.0\u00b0C",
+          "drought_risk": "Low (Continuous high moisture delivery across SOND)",
+          "heavy_rainfall_risk": "High (Steep slope erosion, flash runoff, and landslide hazard)",
+          "extreme_weather_outlook": "Intense convective downpours during October\u2013November peak",
+          "forecast_climate_risk_score": 64.0,
+          "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+          "confidence_level": "High (Dynamical agreement across ECMWF, UKMO, and Meteo Rwanda)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Reinforce contour trenches and hillside drainage furrows before October downpours; split nitrogen fertilizer into 3 top-dressings to avoid severe leaching."
+        },
+        "Musanze": {
+          "district": "Musanze",
+          "agroclimatic_zone": "Northern Highlands & Volcanoes Zone",
+          "rainfall_terciles": {
+            "above_normal_pct": 55,
+            "normal_pct": 35,
+            "below_normal_pct": 10
+          },
+          "rainfall_outlook": "Moderate to Above-Normal Rainfall",
+          "expected_rainfall_range_mm": "600 \u2013 800 mm",
+          "historical_ref_mean_mm": 680.0,
+          "anomaly_outlook": "Above long-term mean with strong rain intensification in October\u2013November",
+          "temperature_outlook": "Near normal to slightly cooler during cloudy spells",
+          "temp_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 55,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "16.0\u00b0C \u2013 18.0\u00b0C",
+          "drought_risk": "Low (Optimal soil moisture for Irish potato and maize)",
+          "heavy_rainfall_risk": "Elevated (Fungal blight pressure in Irish potato; waterlogging in heavy soils)",
+          "extreme_weather_outlook": "Persistent cloud cover and frequent morning mists",
+          "forecast_climate_risk_score": 52.0,
+          "forecast_risk_tier": "Favorable Moisture with Fungal Disease Watch",
+          "confidence_level": "High (Multi-model consensus)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Establish prophylactic fungicide schedule for Irish potato Late Blight (Phytophthora infestans); clear raised potato beds for rapid drainage."
+        },
+        "Gakenke": {
+          "district": "Gakenke",
+          "agroclimatic_zone": "Northern Highlands & Volcanoes Zone",
+          "rainfall_terciles": {
+            "above_normal_pct": 55,
+            "normal_pct": 35,
+            "below_normal_pct": 10
+          },
+          "rainfall_outlook": "Moderate to Above-Normal Rainfall",
+          "expected_rainfall_range_mm": "600 \u2013 800 mm",
+          "historical_ref_mean_mm": 680.0,
+          "anomaly_outlook": "Above long-term mean with strong rain intensification in October\u2013November",
+          "temperature_outlook": "Near normal to slightly cooler during cloudy spells",
+          "temp_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 55,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "16.0\u00b0C \u2013 18.0\u00b0C",
+          "drought_risk": "Low (Optimal soil moisture for Irish potato and maize)",
+          "heavy_rainfall_risk": "Elevated (Fungal blight pressure in Irish potato; waterlogging in heavy soils)",
+          "extreme_weather_outlook": "Persistent cloud cover and frequent morning mists",
+          "forecast_climate_risk_score": 52.0,
+          "forecast_risk_tier": "Favorable Moisture with Fungal Disease Watch",
+          "confidence_level": "High (Multi-model consensus)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Establish prophylactic fungicide schedule for Irish potato Late Blight (Phytophthora infestans); clear raised potato beds for rapid drainage."
+        },
+        "Burera": {
+          "district": "Burera",
+          "agroclimatic_zone": "Northern Highlands & Volcanoes Zone",
+          "rainfall_terciles": {
+            "above_normal_pct": 55,
+            "normal_pct": 35,
+            "below_normal_pct": 10
+          },
+          "rainfall_outlook": "Moderate to Above-Normal Rainfall",
+          "expected_rainfall_range_mm": "600 \u2013 800 mm",
+          "historical_ref_mean_mm": 680.0,
+          "anomaly_outlook": "Above long-term mean with strong rain intensification in October\u2013November",
+          "temperature_outlook": "Near normal to slightly cooler during cloudy spells",
+          "temp_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 55,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "16.0\u00b0C \u2013 18.0\u00b0C",
+          "drought_risk": "Low (Optimal soil moisture for Irish potato and maize)",
+          "heavy_rainfall_risk": "Elevated (Fungal blight pressure in Irish potato; waterlogging in heavy soils)",
+          "extreme_weather_outlook": "Persistent cloud cover and frequent morning mists",
+          "forecast_climate_risk_score": 52.0,
+          "forecast_risk_tier": "Favorable Moisture with Fungal Disease Watch",
+          "confidence_level": "High (Multi-model consensus)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Establish prophylactic fungicide schedule for Irish potato Late Blight (Phytophthora infestans); clear raised potato beds for rapid drainage."
+        },
+        "Muhanga": {
+          "district": "Muhanga",
+          "agroclimatic_zone": "Northern Highlands & Volcanoes Zone",
+          "rainfall_terciles": {
+            "above_normal_pct": 55,
+            "normal_pct": 35,
+            "below_normal_pct": 10
+          },
+          "rainfall_outlook": "Moderate to Above-Normal Rainfall",
+          "expected_rainfall_range_mm": "600 \u2013 800 mm",
+          "historical_ref_mean_mm": 680.0,
+          "anomaly_outlook": "Above long-term mean with strong rain intensification in October\u2013November",
+          "temperature_outlook": "Near normal to slightly cooler during cloudy spells",
+          "temp_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 55,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "16.0\u00b0C \u2013 18.0\u00b0C",
+          "drought_risk": "Low (Optimal soil moisture for Irish potato and maize)",
+          "heavy_rainfall_risk": "Elevated (Fungal blight pressure in Irish potato; waterlogging in heavy soils)",
+          "extreme_weather_outlook": "Persistent cloud cover and frequent morning mists",
+          "forecast_climate_risk_score": 52.0,
+          "forecast_risk_tier": "Favorable Moisture with Fungal Disease Watch",
+          "confidence_level": "High (Multi-model consensus)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Establish prophylactic fungicide schedule for Irish potato Late Blight (Phytophthora infestans); clear raised potato beds for rapid drainage."
+        },
+        "Rubavu": {
+          "district": "Rubavu",
+          "agroclimatic_zone": "Northern Highlands & Volcanoes Zone",
+          "rainfall_terciles": {
+            "above_normal_pct": 55,
+            "normal_pct": 35,
+            "below_normal_pct": 10
+          },
+          "rainfall_outlook": "Moderate to Above-Normal Rainfall",
+          "expected_rainfall_range_mm": "600 \u2013 800 mm",
+          "historical_ref_mean_mm": 680.0,
+          "anomaly_outlook": "Above long-term mean with strong rain intensification in October\u2013November",
+          "temperature_outlook": "Near normal to slightly cooler during cloudy spells",
+          "temp_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 55,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "16.0\u00b0C \u2013 18.0\u00b0C",
+          "drought_risk": "Low (Optimal soil moisture for Irish potato and maize)",
+          "heavy_rainfall_risk": "Elevated (Fungal blight pressure in Irish potato; waterlogging in heavy soils)",
+          "extreme_weather_outlook": "Persistent cloud cover and frequent morning mists",
+          "forecast_climate_risk_score": 52.0,
+          "forecast_risk_tier": "Favorable Moisture with Fungal Disease Watch",
+          "confidence_level": "High (Multi-model consensus)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Establish prophylactic fungicide schedule for Irish potato Late Blight (Phytophthora infestans); clear raised potato beds for rapid drainage."
+        },
+        "Ngororero": {
+          "district": "Ngororero",
+          "agroclimatic_zone": "Northern Highlands & Volcanoes Zone",
+          "rainfall_terciles": {
+            "above_normal_pct": 55,
+            "normal_pct": 35,
+            "below_normal_pct": 10
+          },
+          "rainfall_outlook": "Moderate to Above-Normal Rainfall",
+          "expected_rainfall_range_mm": "600 \u2013 800 mm",
+          "historical_ref_mean_mm": 680.0,
+          "anomaly_outlook": "Above long-term mean with strong rain intensification in October\u2013November",
+          "temperature_outlook": "Near normal to slightly cooler during cloudy spells",
+          "temp_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 55,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "16.0\u00b0C \u2013 18.0\u00b0C",
+          "drought_risk": "Low (Optimal soil moisture for Irish potato and maize)",
+          "heavy_rainfall_risk": "Elevated (Fungal blight pressure in Irish potato; waterlogging in heavy soils)",
+          "extreme_weather_outlook": "Persistent cloud cover and frequent morning mists",
+          "forecast_climate_risk_score": 52.0,
+          "forecast_risk_tier": "Favorable Moisture with Fungal Disease Watch",
+          "confidence_level": "High (Multi-model consensus)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Establish prophylactic fungicide schedule for Irish potato Late Blight (Phytophthora infestans); clear raised potato beds for rapid drainage."
+        },
+        "Nyabihu": {
+          "district": "Nyabihu",
+          "agroclimatic_zone": "Northern Highlands & Volcanoes Zone",
+          "rainfall_terciles": {
+            "above_normal_pct": 55,
+            "normal_pct": 35,
+            "below_normal_pct": 10
+          },
+          "rainfall_outlook": "Moderate to Above-Normal Rainfall",
+          "expected_rainfall_range_mm": "600 \u2013 800 mm",
+          "historical_ref_mean_mm": 680.0,
+          "anomaly_outlook": "Above long-term mean with strong rain intensification in October\u2013November",
+          "temperature_outlook": "Near normal to slightly cooler during cloudy spells",
+          "temp_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 55,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "16.0\u00b0C \u2013 18.0\u00b0C",
+          "drought_risk": "Low (Optimal soil moisture for Irish potato and maize)",
+          "heavy_rainfall_risk": "Elevated (Fungal blight pressure in Irish potato; waterlogging in heavy soils)",
+          "extreme_weather_outlook": "Persistent cloud cover and frequent morning mists",
+          "forecast_climate_risk_score": 52.0,
+          "forecast_risk_tier": "Favorable Moisture with Fungal Disease Watch",
+          "confidence_level": "High (Multi-model consensus)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Establish prophylactic fungicide schedule for Irish potato Late Blight (Phytophthora infestans); clear raised potato beds for rapid drainage."
+        },
+        "Gicumbi": {
+          "district": "Gicumbi",
+          "agroclimatic_zone": "Central Plateau & Kigali City",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Near Normal to Slightly Above Normal",
+          "expected_rainfall_range_mm": "450 \u2013 600 mm",
+          "historical_ref_mean_mm": 510.0,
+          "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+          "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+          "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+          "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+          "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+          "forecast_climate_risk_score": 42.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+        },
+        "Rulindo": {
+          "district": "Rulindo",
+          "agroclimatic_zone": "Central Plateau & Kigali City",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Near Normal to Slightly Above Normal",
+          "expected_rainfall_range_mm": "450 \u2013 600 mm",
+          "historical_ref_mean_mm": 510.0,
+          "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+          "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+          "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+          "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+          "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+          "forecast_climate_risk_score": 42.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+        },
+        "Gasabo": {
+          "district": "Gasabo",
+          "agroclimatic_zone": "Central Plateau & Kigali City",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Near Normal to Slightly Above Normal",
+          "expected_rainfall_range_mm": "450 \u2013 600 mm",
+          "historical_ref_mean_mm": 510.0,
+          "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+          "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+          "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+          "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+          "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+          "forecast_climate_risk_score": 42.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+        },
+        "Kicukiro": {
+          "district": "Kicukiro",
+          "agroclimatic_zone": "Central Plateau & Kigali City",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Near Normal to Slightly Above Normal",
+          "expected_rainfall_range_mm": "450 \u2013 600 mm",
+          "historical_ref_mean_mm": 510.0,
+          "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+          "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+          "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+          "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+          "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+          "forecast_climate_risk_score": 42.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+        },
+        "Nyarugenge": {
+          "district": "Nyarugenge",
+          "agroclimatic_zone": "Central Plateau & Kigali City",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Near Normal to Slightly Above Normal",
+          "expected_rainfall_range_mm": "450 \u2013 600 mm",
+          "historical_ref_mean_mm": 510.0,
+          "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+          "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+          "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+          "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+          "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+          "forecast_climate_risk_score": 42.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+        },
+        "Huye": {
+          "district": "Huye",
+          "agroclimatic_zone": "Central Plateau & Kigali City",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Near Normal to Slightly Above Normal",
+          "expected_rainfall_range_mm": "450 \u2013 600 mm",
+          "historical_ref_mean_mm": 510.0,
+          "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+          "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+          "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+          "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+          "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+          "forecast_climate_risk_score": 42.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+        },
+        "Nyanza": {
+          "district": "Nyanza",
+          "agroclimatic_zone": "Central Plateau & Kigali City",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Near Normal to Slightly Above Normal",
+          "expected_rainfall_range_mm": "450 \u2013 600 mm",
+          "historical_ref_mean_mm": 510.0,
+          "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+          "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+          "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+          "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+          "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+          "forecast_climate_risk_score": 42.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+        },
+        "Ruhango": {
+          "district": "Ruhango",
+          "agroclimatic_zone": "Central Plateau & Kigali City",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Near Normal to Slightly Above Normal",
+          "expected_rainfall_range_mm": "450 \u2013 600 mm",
+          "historical_ref_mean_mm": 510.0,
+          "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+          "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+          "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+          "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+          "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+          "forecast_climate_risk_score": 42.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+        },
+        "Gisagara": {
+          "district": "Gisagara",
+          "agroclimatic_zone": "Central Plateau & Kigali City",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Near Normal to Slightly Above Normal",
+          "expected_rainfall_range_mm": "450 \u2013 600 mm",
+          "historical_ref_mean_mm": 510.0,
+          "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+          "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+          "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+          "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+          "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+          "forecast_climate_risk_score": 42.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+        },
+        "Kamonyi": {
+          "district": "Kamonyi",
+          "agroclimatic_zone": "Central Plateau & Kigali City",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Near Normal to Slightly Above Normal",
+          "expected_rainfall_range_mm": "450 \u2013 600 mm",
+          "historical_ref_mean_mm": 510.0,
+          "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+          "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+          "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+          "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+          "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+          "forecast_climate_risk_score": 42.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+        },
+        "Nyagatare": {
+          "district": "Nyagatare",
+          "agroclimatic_zone": "Eastern Lowlands & Savannah Plains",
+          "rainfall_terciles": {
+            "above_normal_pct": 45,
+            "normal_pct": 40,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Moderate / Normal Rainfall with Favorable Rains",
+          "expected_rainfall_range_mm": "300 \u2013 450 mm",
+          "historical_ref_mean_mm": 380.0,
+          "anomaly_outlook": "Slightly above long-term mean with better-than-average pasture regeneration",
+          "temperature_outlook": "Warmer than average (+0.6\u00b0C across Eastern lowlands)",
+          "temp_terciles": {
+            "above_normal_pct": 55,
+            "normal_pct": 35,
+            "below_normal_pct": 10
+          },
+          "expected_mean_temp_c": "22.0\u00b0C \u2013 24.5\u00b0C",
+          "drought_risk": "Moderate (Dry intervals common; benefits from El Ni\u00f1o moisture recharge)",
+          "heavy_rainfall_risk": "Low (Occasional convective storms)",
+          "extreme_weather_outlook": "Warm temperatures increase potential evapotranspiration (ETo)",
+          "forecast_climate_risk_score": 48.0,
+          "forecast_risk_tier": "Moderate Risk / Moisture Dependent",
+          "confidence_level": "Moderate (Sensitivity to Pacific-Indian Ocean SST dipole)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Deploy drought-tolerant and early-maturing maize varieties (e.g., PAN 53); prepare mulching and rainwater harvesting pits for banana and cassava."
+        },
+        "Gatsibo": {
+          "district": "Gatsibo",
+          "agroclimatic_zone": "Eastern Lowlands & Savannah Plains",
+          "rainfall_terciles": {
+            "above_normal_pct": 45,
+            "normal_pct": 40,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Moderate / Normal Rainfall with Favorable Rains",
+          "expected_rainfall_range_mm": "300 \u2013 450 mm",
+          "historical_ref_mean_mm": 380.0,
+          "anomaly_outlook": "Slightly above long-term mean with better-than-average pasture regeneration",
+          "temperature_outlook": "Warmer than average (+0.6\u00b0C across Eastern lowlands)",
+          "temp_terciles": {
+            "above_normal_pct": 55,
+            "normal_pct": 35,
+            "below_normal_pct": 10
+          },
+          "expected_mean_temp_c": "22.0\u00b0C \u2013 24.5\u00b0C",
+          "drought_risk": "Moderate (Dry intervals common; benefits from El Ni\u00f1o moisture recharge)",
+          "heavy_rainfall_risk": "Low (Occasional convective storms)",
+          "extreme_weather_outlook": "Warm temperatures increase potential evapotranspiration (ETo)",
+          "forecast_climate_risk_score": 48.0,
+          "forecast_risk_tier": "Moderate Risk / Moisture Dependent",
+          "confidence_level": "Moderate (Sensitivity to Pacific-Indian Ocean SST dipole)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Deploy drought-tolerant and early-maturing maize varieties (e.g., PAN 53); prepare mulching and rainwater harvesting pits for banana and cassava."
+        },
+        "Kayonza": {
+          "district": "Kayonza",
+          "agroclimatic_zone": "Eastern Lowlands & Savannah Plains",
+          "rainfall_terciles": {
+            "above_normal_pct": 45,
+            "normal_pct": 40,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Moderate / Normal Rainfall with Favorable Rains",
+          "expected_rainfall_range_mm": "300 \u2013 450 mm",
+          "historical_ref_mean_mm": 380.0,
+          "anomaly_outlook": "Slightly above long-term mean with better-than-average pasture regeneration",
+          "temperature_outlook": "Warmer than average (+0.6\u00b0C across Eastern lowlands)",
+          "temp_terciles": {
+            "above_normal_pct": 55,
+            "normal_pct": 35,
+            "below_normal_pct": 10
+          },
+          "expected_mean_temp_c": "22.0\u00b0C \u2013 24.5\u00b0C",
+          "drought_risk": "Moderate (Dry intervals common; benefits from El Ni\u00f1o moisture recharge)",
+          "heavy_rainfall_risk": "Low (Occasional convective storms)",
+          "extreme_weather_outlook": "Warm temperatures increase potential evapotranspiration (ETo)",
+          "forecast_climate_risk_score": 48.0,
+          "forecast_risk_tier": "Moderate Risk / Moisture Dependent",
+          "confidence_level": "Moderate (Sensitivity to Pacific-Indian Ocean SST dipole)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Deploy drought-tolerant and early-maturing maize varieties (e.g., PAN 53); prepare mulching and rainwater harvesting pits for banana and cassava."
+        },
+        "Rwamagana": {
+          "district": "Rwamagana",
+          "agroclimatic_zone": "Eastern Lowlands & Savannah Plains",
+          "rainfall_terciles": {
+            "above_normal_pct": 45,
+            "normal_pct": 40,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Moderate / Normal Rainfall with Favorable Rains",
+          "expected_rainfall_range_mm": "300 \u2013 450 mm",
+          "historical_ref_mean_mm": 380.0,
+          "anomaly_outlook": "Slightly above long-term mean with better-than-average pasture regeneration",
+          "temperature_outlook": "Warmer than average (+0.6\u00b0C across Eastern lowlands)",
+          "temp_terciles": {
+            "above_normal_pct": 55,
+            "normal_pct": 35,
+            "below_normal_pct": 10
+          },
+          "expected_mean_temp_c": "22.0\u00b0C \u2013 24.5\u00b0C",
+          "drought_risk": "Moderate (Dry intervals common; benefits from El Ni\u00f1o moisture recharge)",
+          "heavy_rainfall_risk": "Low (Occasional convective storms)",
+          "extreme_weather_outlook": "Warm temperatures increase potential evapotranspiration (ETo)",
+          "forecast_climate_risk_score": 48.0,
+          "forecast_risk_tier": "Moderate Risk / Moisture Dependent",
+          "confidence_level": "Moderate (Sensitivity to Pacific-Indian Ocean SST dipole)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Deploy drought-tolerant and early-maturing maize varieties (e.g., PAN 53); prepare mulching and rainwater harvesting pits for banana and cassava."
+        },
+        "Kirehe": {
+          "district": "Kirehe",
+          "agroclimatic_zone": "Eastern Lowlands & Savannah Plains",
+          "rainfall_terciles": {
+            "above_normal_pct": 45,
+            "normal_pct": 40,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Moderate / Normal Rainfall with Favorable Rains",
+          "expected_rainfall_range_mm": "300 \u2013 450 mm",
+          "historical_ref_mean_mm": 380.0,
+          "anomaly_outlook": "Slightly above long-term mean with better-than-average pasture regeneration",
+          "temperature_outlook": "Warmer than average (+0.6\u00b0C across Eastern lowlands)",
+          "temp_terciles": {
+            "above_normal_pct": 55,
+            "normal_pct": 35,
+            "below_normal_pct": 10
+          },
+          "expected_mean_temp_c": "22.0\u00b0C \u2013 24.5\u00b0C",
+          "drought_risk": "Moderate (Dry intervals common; benefits from El Ni\u00f1o moisture recharge)",
+          "heavy_rainfall_risk": "Low (Occasional convective storms)",
+          "extreme_weather_outlook": "Warm temperatures increase potential evapotranspiration (ETo)",
+          "forecast_climate_risk_score": 48.0,
+          "forecast_risk_tier": "Moderate Risk / Moisture Dependent",
+          "confidence_level": "Moderate (Sensitivity to Pacific-Indian Ocean SST dipole)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Deploy drought-tolerant and early-maturing maize varieties (e.g., PAN 53); prepare mulching and rainwater harvesting pits for banana and cassava."
+        },
+        "Ngoma": {
+          "district": "Ngoma",
+          "agroclimatic_zone": "Eastern Lowlands & Savannah Plains",
+          "rainfall_terciles": {
+            "above_normal_pct": 45,
+            "normal_pct": 40,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Moderate / Normal Rainfall with Favorable Rains",
+          "expected_rainfall_range_mm": "300 \u2013 450 mm",
+          "historical_ref_mean_mm": 380.0,
+          "anomaly_outlook": "Slightly above long-term mean with better-than-average pasture regeneration",
+          "temperature_outlook": "Warmer than average (+0.6\u00b0C across Eastern lowlands)",
+          "temp_terciles": {
+            "above_normal_pct": 55,
+            "normal_pct": 35,
+            "below_normal_pct": 10
+          },
+          "expected_mean_temp_c": "22.0\u00b0C \u2013 24.5\u00b0C",
+          "drought_risk": "Moderate (Dry intervals common; benefits from El Ni\u00f1o moisture recharge)",
+          "heavy_rainfall_risk": "Low (Occasional convective storms)",
+          "extreme_weather_outlook": "Warm temperatures increase potential evapotranspiration (ETo)",
+          "forecast_climate_risk_score": 48.0,
+          "forecast_risk_tier": "Moderate Risk / Moisture Dependent",
+          "confidence_level": "Moderate (Sensitivity to Pacific-Indian Ocean SST dipole)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Deploy drought-tolerant and early-maturing maize varieties (e.g., PAN 53); prepare mulching and rainwater harvesting pits for banana and cassava."
+        },
+        "Bugesera": {
+          "district": "Bugesera",
+          "agroclimatic_zone": "Eastern Lowlands & Savannah Plains",
+          "rainfall_terciles": {
+            "above_normal_pct": 45,
+            "normal_pct": 40,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Moderate / Normal Rainfall with Favorable Rains",
+          "expected_rainfall_range_mm": "300 \u2013 450 mm",
+          "historical_ref_mean_mm": 380.0,
+          "anomaly_outlook": "Slightly above long-term mean with better-than-average pasture regeneration",
+          "temperature_outlook": "Warmer than average (+0.6\u00b0C across Eastern lowlands)",
+          "temp_terciles": {
+            "above_normal_pct": 55,
+            "normal_pct": 35,
+            "below_normal_pct": 10
+          },
+          "expected_mean_temp_c": "22.0\u00b0C \u2013 24.5\u00b0C",
+          "drought_risk": "Moderate (Dry intervals common; benefits from El Ni\u00f1o moisture recharge)",
+          "heavy_rainfall_risk": "Low (Occasional convective storms)",
+          "extreme_weather_outlook": "Warm temperatures increase potential evapotranspiration (ETo)",
+          "forecast_climate_risk_score": 48.0,
+          "forecast_risk_tier": "Moderate Risk / Moisture Dependent",
+          "confidence_level": "Moderate (Sensitivity to Pacific-Indian Ocean SST dipole)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Deploy drought-tolerant and early-maturing maize varieties (e.g., PAN 53); prepare mulching and rainwater harvesting pits for banana and cassava."
+        }
+      }
+    },
+    "2025A": {
+      "agricultural_season": "Season 2025A (Major Season: September 2024 \u2013 January 2025)",
+      "forecast_authority": "Rwanda Meteorology Agency (Meteo Rwanda)",
+      "bulletin_reference": "Ref: MR/AGRO/2024/09/SEASON-A-OUTLOOK",
+      "forecast_issue_date": "2024-09-05",
+      "valid_from": "2024-09-15",
+      "valid_to": "2025-01-31",
+      "valid_horizon": "September 15, 2024 to January 31, 2025",
+      "valid_period_label": "Season 2025A (Sep 2024 \u2013 Jan 2025)",
+      "forecast_status": "Historical Archived Bulletin",
+      "geographic_scope": "National Coverage across 30 Districts",
+      "forecast_methodology": "Consensus tercile probability based on ECMWF, UKMO, Meteo Rwanda dynamical models and ICPAC GHACOF68 regional guidance",
+      "seasonal_rainfall_dynamic": "Season A Dynamic: Rains fall regularly throughout the growing season. Primary operational focus is on optimal planting date and slope soil erosion control.",
+      "districts": {
+        "Nyabihu": {
+          "district": "Nyabihu",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Enhanced / Above Normal Rainfall",
+          "expected_rainfall_range_mm": "800 \u2013 1,150 mm",
+          "historical_ref_mean_mm": 753.3,
+          "anomaly_outlook": "Modest positive rainfall anomaly (+10% to +20% above long-term norm)",
+          "temperature_outlook": "Near normal daytime temperatures, slightly cooler valley nights",
+          "temp_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 55,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "15.0\u00b0C \u2013 16.5\u00b0C",
+          "drought_risk": "Low (Continuous regular rainfall across cycle)",
+          "heavy_rainfall_risk": "Elevated (Risk of localized hillside runoff, landslides, and nutrient leaching)",
+          "extreme_weather_outlook": "Watch for intense convective thunderstorms during October\u2013November peak",
+          "forecast_climate_risk_score": 62.0,
+          "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+          "confidence_level": "Moderate-High (Multi-model dynamical agreement > 80%)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Reinforce anti-erosion contour trenches; ensure hillside drainage channels are clear before peak rains; apply split nitrogen fertilizer to prevent leaching."
+        },
+        "Rubavu": {
+          "district": "Rubavu",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Enhanced / Above Normal Rainfall",
+          "expected_rainfall_range_mm": "800 \u2013 1,150 mm",
+          "historical_ref_mean_mm": 740.0,
+          "anomaly_outlook": "Modest positive rainfall anomaly (+10% to +20% above long-term norm)",
+          "temperature_outlook": "Near normal daytime temperatures, slightly cooler valley nights",
+          "temp_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 55,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "15.0\u00b0C \u2013 16.5\u00b0C",
+          "drought_risk": "Low (Continuous regular rainfall across cycle)",
+          "heavy_rainfall_risk": "Elevated (Risk of localized hillside runoff, landslides, and nutrient leaching)",
+          "extreme_weather_outlook": "Watch for intense convective thunderstorms during October\u2013November peak",
+          "forecast_climate_risk_score": 62.0,
+          "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+          "confidence_level": "Moderate-High (Multi-model dynamical agreement > 80%)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Reinforce anti-erosion contour trenches; ensure hillside drainage channels are clear before peak rains; apply split nitrogen fertilizer to prevent leaching."
+        },
+        "Musanze": {
+          "district": "Musanze",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Enhanced / Above Normal Rainfall",
+          "expected_rainfall_range_mm": "800 \u2013 1,150 mm",
+          "historical_ref_mean_mm": 740.0,
+          "anomaly_outlook": "Modest positive rainfall anomaly (+10% to +20% above long-term norm)",
+          "temperature_outlook": "Near normal daytime temperatures, slightly cooler valley nights",
+          "temp_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 55,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "15.0\u00b0C \u2013 16.5\u00b0C",
+          "drought_risk": "Low (Continuous regular rainfall across cycle)",
+          "heavy_rainfall_risk": "Elevated (Risk of localized hillside runoff, landslides, and nutrient leaching)",
+          "extreme_weather_outlook": "Watch for intense convective thunderstorms during October\u2013November peak",
+          "forecast_climate_risk_score": 62.0,
+          "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+          "confidence_level": "Moderate-High (Multi-model dynamical agreement > 80%)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Reinforce anti-erosion contour trenches; ensure hillside drainage channels are clear before peak rains; apply split nitrogen fertilizer to prevent leaching."
+        },
+        "Burera": {
+          "district": "Burera",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Enhanced / Above Normal Rainfall",
+          "expected_rainfall_range_mm": "800 \u2013 1,150 mm",
+          "historical_ref_mean_mm": 740.0,
+          "anomaly_outlook": "Modest positive rainfall anomaly (+10% to +20% above long-term norm)",
+          "temperature_outlook": "Near normal daytime temperatures, slightly cooler valley nights",
+          "temp_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 55,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "15.0\u00b0C \u2013 16.5\u00b0C",
+          "drought_risk": "Low (Continuous regular rainfall across cycle)",
+          "heavy_rainfall_risk": "Elevated (Risk of localized hillside runoff, landslides, and nutrient leaching)",
+          "extreme_weather_outlook": "Watch for intense convective thunderstorms during October\u2013November peak",
+          "forecast_climate_risk_score": 62.0,
+          "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+          "confidence_level": "Moderate-High (Multi-model dynamical agreement > 80%)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Reinforce anti-erosion contour trenches; ensure hillside drainage channels are clear before peak rains; apply split nitrogen fertilizer to prevent leaching."
+        },
+        "Rutsiro": {
+          "district": "Rutsiro",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Enhanced / Above Normal Rainfall",
+          "expected_rainfall_range_mm": "800 \u2013 1,150 mm",
+          "historical_ref_mean_mm": 740.0,
+          "anomaly_outlook": "Modest positive rainfall anomaly (+10% to +20% above long-term norm)",
+          "temperature_outlook": "Near normal daytime temperatures, slightly cooler valley nights",
+          "temp_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 55,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "15.0\u00b0C \u2013 16.5\u00b0C",
+          "drought_risk": "Low (Continuous regular rainfall across cycle)",
+          "heavy_rainfall_risk": "Elevated (Risk of localized hillside runoff, landslides, and nutrient leaching)",
+          "extreme_weather_outlook": "Watch for intense convective thunderstorms during October\u2013November peak",
+          "forecast_climate_risk_score": 62.0,
+          "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+          "confidence_level": "Moderate-High (Multi-model dynamical agreement > 80%)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Reinforce anti-erosion contour trenches; ensure hillside drainage channels are clear before peak rains; apply split nitrogen fertilizer to prevent leaching."
+        },
+        "Ngororero": {
+          "district": "Ngororero",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Enhanced / Above Normal Rainfall",
+          "expected_rainfall_range_mm": "800 \u2013 1,150 mm",
+          "historical_ref_mean_mm": 740.0,
+          "anomaly_outlook": "Modest positive rainfall anomaly (+10% to +20% above long-term norm)",
+          "temperature_outlook": "Near normal daytime temperatures, slightly cooler valley nights",
+          "temp_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 55,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "15.0\u00b0C \u2013 16.5\u00b0C",
+          "drought_risk": "Low (Continuous regular rainfall across cycle)",
+          "heavy_rainfall_risk": "Elevated (Risk of localized hillside runoff, landslides, and nutrient leaching)",
+          "extreme_weather_outlook": "Watch for intense convective thunderstorms during October\u2013November peak",
+          "forecast_climate_risk_score": 62.0,
+          "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+          "confidence_level": "Moderate-High (Multi-model dynamical agreement > 80%)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Reinforce anti-erosion contour trenches; ensure hillside drainage channels are clear before peak rains; apply split nitrogen fertilizer to prevent leaching."
+        },
+        "Karongi": {
+          "district": "Karongi",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Enhanced / Above Normal Rainfall",
+          "expected_rainfall_range_mm": "800 \u2013 1,150 mm",
+          "historical_ref_mean_mm": 740.0,
+          "anomaly_outlook": "Modest positive rainfall anomaly (+10% to +20% above long-term norm)",
+          "temperature_outlook": "Near normal daytime temperatures, slightly cooler valley nights",
+          "temp_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 55,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "15.0\u00b0C \u2013 16.5\u00b0C",
+          "drought_risk": "Low (Continuous regular rainfall across cycle)",
+          "heavy_rainfall_risk": "Elevated (Risk of localized hillside runoff, landslides, and nutrient leaching)",
+          "extreme_weather_outlook": "Watch for intense convective thunderstorms during October\u2013November peak",
+          "forecast_climate_risk_score": 62.0,
+          "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+          "confidence_level": "Moderate-High (Multi-model dynamical agreement > 80%)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Reinforce anti-erosion contour trenches; ensure hillside drainage channels are clear before peak rains; apply split nitrogen fertilizer to prevent leaching."
+        },
+        "Nyamagabe": {
+          "district": "Nyamagabe",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Enhanced / Above Normal Rainfall",
+          "expected_rainfall_range_mm": "800 \u2013 1,150 mm",
+          "historical_ref_mean_mm": 740.0,
+          "anomaly_outlook": "Modest positive rainfall anomaly (+10% to +20% above long-term norm)",
+          "temperature_outlook": "Near normal daytime temperatures, slightly cooler valley nights",
+          "temp_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 55,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "15.0\u00b0C \u2013 16.5\u00b0C",
+          "drought_risk": "Low (Continuous regular rainfall across cycle)",
+          "heavy_rainfall_risk": "Elevated (Risk of localized hillside runoff, landslides, and nutrient leaching)",
+          "extreme_weather_outlook": "Watch for intense convective thunderstorms during October\u2013November peak",
+          "forecast_climate_risk_score": 62.0,
+          "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+          "confidence_level": "Moderate-High (Multi-model dynamical agreement > 80%)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Reinforce anti-erosion contour trenches; ensure hillside drainage channels are clear before peak rains; apply split nitrogen fertilizer to prevent leaching."
+        },
+        "Nyaruguru": {
+          "district": "Nyaruguru",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Enhanced / Above Normal Rainfall",
+          "expected_rainfall_range_mm": "800 \u2013 1,150 mm",
+          "historical_ref_mean_mm": 740.0,
+          "anomaly_outlook": "Modest positive rainfall anomaly (+10% to +20% above long-term norm)",
+          "temperature_outlook": "Near normal daytime temperatures, slightly cooler valley nights",
+          "temp_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 55,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "15.0\u00b0C \u2013 16.5\u00b0C",
+          "drought_risk": "Low (Continuous regular rainfall across cycle)",
+          "heavy_rainfall_risk": "Elevated (Risk of localized hillside runoff, landslides, and nutrient leaching)",
+          "extreme_weather_outlook": "Watch for intense convective thunderstorms during October\u2013November peak",
+          "forecast_climate_risk_score": 62.0,
+          "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+          "confidence_level": "Moderate-High (Multi-model dynamical agreement > 80%)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Reinforce anti-erosion contour trenches; ensure hillside drainage channels are clear before peak rains; apply split nitrogen fertilizer to prevent leaching."
+        },
+        "Rusizi": {
+          "district": "Rusizi",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Enhanced / Above Normal Rainfall",
+          "expected_rainfall_range_mm": "800 \u2013 1,150 mm",
+          "historical_ref_mean_mm": 740.0,
+          "anomaly_outlook": "Modest positive rainfall anomaly (+10% to +20% above long-term norm)",
+          "temperature_outlook": "Near normal daytime temperatures, slightly cooler valley nights",
+          "temp_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 55,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "15.0\u00b0C \u2013 16.5\u00b0C",
+          "drought_risk": "Low (Continuous regular rainfall across cycle)",
+          "heavy_rainfall_risk": "Elevated (Risk of localized hillside runoff, landslides, and nutrient leaching)",
+          "extreme_weather_outlook": "Watch for intense convective thunderstorms during October\u2013November peak",
+          "forecast_climate_risk_score": 62.0,
+          "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+          "confidence_level": "Moderate-High (Multi-model dynamical agreement > 80%)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Reinforce anti-erosion contour trenches; ensure hillside drainage channels are clear before peak rains; apply split nitrogen fertilizer to prevent leaching."
+        },
+        "Nyamasheke": {
+          "district": "Nyamasheke",
+          "rainfall_terciles": {
+            "above_normal_pct": 50,
+            "normal_pct": 35,
+            "below_normal_pct": 15
+          },
+          "rainfall_outlook": "Enhanced / Above Normal Rainfall",
+          "expected_rainfall_range_mm": "800 \u2013 1,150 mm",
+          "historical_ref_mean_mm": 740.0,
+          "anomaly_outlook": "Modest positive rainfall anomaly (+10% to +20% above long-term norm)",
+          "temperature_outlook": "Near normal daytime temperatures, slightly cooler valley nights",
+          "temp_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 55,
+            "below_normal_pct": 20
+          },
+          "expected_mean_temp_c": "15.0\u00b0C \u2013 16.5\u00b0C",
+          "drought_risk": "Low (Continuous regular rainfall across cycle)",
+          "heavy_rainfall_risk": "Elevated (Risk of localized hillside runoff, landslides, and nutrient leaching)",
+          "extreme_weather_outlook": "Watch for intense convective thunderstorms during October\u2013November peak",
+          "forecast_climate_risk_score": 62.0,
+          "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+          "confidence_level": "Moderate-High (Multi-model dynamical agreement > 80%)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Reinforce anti-erosion contour trenches; ensure hillside drainage channels are clear before peak rains; apply split nitrogen fertilizer to prevent leaching."
+        },
+        "Gakenke": {
+          "district": "Gakenke",
+          "rainfall_terciles": {
+            "above_normal_pct": 35,
+            "normal_pct": 45,
+            "below_normal_pct": 20
+          },
+          "rainfall_outlook": "Normal to Slightly Enhanced Rainfall",
+          "expected_rainfall_range_mm": "650 \u2013 850 mm",
+          "historical_ref_mean_mm": 680.0,
+          "anomaly_outlook": "Near climatological normal with timely seasonal onset",
+          "temperature_outlook": "Normal to slightly warmer (+0.4\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.0\u00b0C \u2013 21.0\u00b0C",
+          "drought_risk": "Low to Moderate",
+          "heavy_rainfall_risk": "Moderate (Standard seasonal erosion management required)",
+          "extreme_weather_outlook": "Localized heavy showers during seasonal transition",
+          "forecast_climate_risk_score": 38.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "High (Strong regional model consensus)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Proceed with standard seasonal planting schedule; adhere to recommended seed spacing and basal NPK application."
+        },
+        "Rulindo": {
+          "district": "Rulindo",
+          "rainfall_terciles": {
+            "above_normal_pct": 35,
+            "normal_pct": 45,
+            "below_normal_pct": 20
+          },
+          "rainfall_outlook": "Normal to Slightly Enhanced Rainfall",
+          "expected_rainfall_range_mm": "650 \u2013 850 mm",
+          "historical_ref_mean_mm": 680.0,
+          "anomaly_outlook": "Near climatological normal with timely seasonal onset",
+          "temperature_outlook": "Normal to slightly warmer (+0.4\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.0\u00b0C \u2013 21.0\u00b0C",
+          "drought_risk": "Low to Moderate",
+          "heavy_rainfall_risk": "Moderate (Standard seasonal erosion management required)",
+          "extreme_weather_outlook": "Localized heavy showers during seasonal transition",
+          "forecast_climate_risk_score": 38.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "High (Strong regional model consensus)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Proceed with standard seasonal planting schedule; adhere to recommended seed spacing and basal NPK application."
+        },
+        "Gicumbi": {
+          "district": "Gicumbi",
+          "rainfall_terciles": {
+            "above_normal_pct": 35,
+            "normal_pct": 45,
+            "below_normal_pct": 20
+          },
+          "rainfall_outlook": "Normal to Slightly Enhanced Rainfall",
+          "expected_rainfall_range_mm": "650 \u2013 850 mm",
+          "historical_ref_mean_mm": 680.0,
+          "anomaly_outlook": "Near climatological normal with timely seasonal onset",
+          "temperature_outlook": "Normal to slightly warmer (+0.4\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.0\u00b0C \u2013 21.0\u00b0C",
+          "drought_risk": "Low to Moderate",
+          "heavy_rainfall_risk": "Moderate (Standard seasonal erosion management required)",
+          "extreme_weather_outlook": "Localized heavy showers during seasonal transition",
+          "forecast_climate_risk_score": 38.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "High (Strong regional model consensus)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Proceed with standard seasonal planting schedule; adhere to recommended seed spacing and basal NPK application."
+        },
+        "Muhanga": {
+          "district": "Muhanga",
+          "rainfall_terciles": {
+            "above_normal_pct": 35,
+            "normal_pct": 45,
+            "below_normal_pct": 20
+          },
+          "rainfall_outlook": "Normal to Slightly Enhanced Rainfall",
+          "expected_rainfall_range_mm": "650 \u2013 850 mm",
+          "historical_ref_mean_mm": 680.0,
+          "anomaly_outlook": "Near climatological normal with timely seasonal onset",
+          "temperature_outlook": "Normal to slightly warmer (+0.4\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.0\u00b0C \u2013 21.0\u00b0C",
+          "drought_risk": "Low to Moderate",
+          "heavy_rainfall_risk": "Moderate (Standard seasonal erosion management required)",
+          "extreme_weather_outlook": "Localized heavy showers during seasonal transition",
+          "forecast_climate_risk_score": 38.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "High (Strong regional model consensus)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Proceed with standard seasonal planting schedule; adhere to recommended seed spacing and basal NPK application."
+        },
+        "Kamonyi": {
+          "district": "Kamonyi",
+          "rainfall_terciles": {
+            "above_normal_pct": 35,
+            "normal_pct": 45,
+            "below_normal_pct": 20
+          },
+          "rainfall_outlook": "Normal to Slightly Enhanced Rainfall",
+          "expected_rainfall_range_mm": "650 \u2013 850 mm",
+          "historical_ref_mean_mm": 680.0,
+          "anomaly_outlook": "Near climatological normal with timely seasonal onset",
+          "temperature_outlook": "Normal to slightly warmer (+0.4\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.0\u00b0C \u2013 21.0\u00b0C",
+          "drought_risk": "Low to Moderate",
+          "heavy_rainfall_risk": "Moderate (Standard seasonal erosion management required)",
+          "extreme_weather_outlook": "Localized heavy showers during seasonal transition",
+          "forecast_climate_risk_score": 38.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "High (Strong regional model consensus)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Proceed with standard seasonal planting schedule; adhere to recommended seed spacing and basal NPK application."
+        },
+        "Ruhango": {
+          "district": "Ruhango",
+          "rainfall_terciles": {
+            "above_normal_pct": 35,
+            "normal_pct": 45,
+            "below_normal_pct": 20
+          },
+          "rainfall_outlook": "Normal to Slightly Enhanced Rainfall",
+          "expected_rainfall_range_mm": "650 \u2013 850 mm",
+          "historical_ref_mean_mm": 680.0,
+          "anomaly_outlook": "Near climatological normal with timely seasonal onset",
+          "temperature_outlook": "Normal to slightly warmer (+0.4\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.0\u00b0C \u2013 21.0\u00b0C",
+          "drought_risk": "Low to Moderate",
+          "heavy_rainfall_risk": "Moderate (Standard seasonal erosion management required)",
+          "extreme_weather_outlook": "Localized heavy showers during seasonal transition",
+          "forecast_climate_risk_score": 38.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "High (Strong regional model consensus)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Proceed with standard seasonal planting schedule; adhere to recommended seed spacing and basal NPK application."
+        },
+        "Nyanza": {
+          "district": "Nyanza",
+          "rainfall_terciles": {
+            "above_normal_pct": 35,
+            "normal_pct": 45,
+            "below_normal_pct": 20
+          },
+          "rainfall_outlook": "Normal to Slightly Enhanced Rainfall",
+          "expected_rainfall_range_mm": "650 \u2013 850 mm",
+          "historical_ref_mean_mm": 680.0,
+          "anomaly_outlook": "Near climatological normal with timely seasonal onset",
+          "temperature_outlook": "Normal to slightly warmer (+0.4\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.0\u00b0C \u2013 21.0\u00b0C",
+          "drought_risk": "Low to Moderate",
+          "heavy_rainfall_risk": "Moderate (Standard seasonal erosion management required)",
+          "extreme_weather_outlook": "Localized heavy showers during seasonal transition",
+          "forecast_climate_risk_score": 38.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "High (Strong regional model consensus)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Proceed with standard seasonal planting schedule; adhere to recommended seed spacing and basal NPK application."
+        },
+        "Huye": {
+          "district": "Huye",
+          "rainfall_terciles": {
+            "above_normal_pct": 35,
+            "normal_pct": 45,
+            "below_normal_pct": 20
+          },
+          "rainfall_outlook": "Normal to Slightly Enhanced Rainfall",
+          "expected_rainfall_range_mm": "650 \u2013 850 mm",
+          "historical_ref_mean_mm": 680.0,
+          "anomaly_outlook": "Near climatological normal with timely seasonal onset",
+          "temperature_outlook": "Normal to slightly warmer (+0.4\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.0\u00b0C \u2013 21.0\u00b0C",
+          "drought_risk": "Low to Moderate",
+          "heavy_rainfall_risk": "Moderate (Standard seasonal erosion management required)",
+          "extreme_weather_outlook": "Localized heavy showers during seasonal transition",
+          "forecast_climate_risk_score": 38.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "High (Strong regional model consensus)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Proceed with standard seasonal planting schedule; adhere to recommended seed spacing and basal NPK application."
+        },
+        "Gisagara": {
+          "district": "Gisagara",
+          "rainfall_terciles": {
+            "above_normal_pct": 35,
+            "normal_pct": 45,
+            "below_normal_pct": 20
+          },
+          "rainfall_outlook": "Normal to Slightly Enhanced Rainfall",
+          "expected_rainfall_range_mm": "650 \u2013 850 mm",
+          "historical_ref_mean_mm": 680.0,
+          "anomaly_outlook": "Near climatological normal with timely seasonal onset",
+          "temperature_outlook": "Normal to slightly warmer (+0.4\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.0\u00b0C \u2013 21.0\u00b0C",
+          "drought_risk": "Low to Moderate",
+          "heavy_rainfall_risk": "Moderate (Standard seasonal erosion management required)",
+          "extreme_weather_outlook": "Localized heavy showers during seasonal transition",
+          "forecast_climate_risk_score": 38.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "High (Strong regional model consensus)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Proceed with standard seasonal planting schedule; adhere to recommended seed spacing and basal NPK application."
+        },
+        "Gasabo": {
+          "district": "Gasabo",
+          "rainfall_terciles": {
+            "above_normal_pct": 35,
+            "normal_pct": 45,
+            "below_normal_pct": 20
+          },
+          "rainfall_outlook": "Normal to Slightly Enhanced Rainfall",
+          "expected_rainfall_range_mm": "650 \u2013 850 mm",
+          "historical_ref_mean_mm": 680.0,
+          "anomaly_outlook": "Near climatological normal with timely seasonal onset",
+          "temperature_outlook": "Normal to slightly warmer (+0.4\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.0\u00b0C \u2013 21.0\u00b0C",
+          "drought_risk": "Low to Moderate",
+          "heavy_rainfall_risk": "Moderate (Standard seasonal erosion management required)",
+          "extreme_weather_outlook": "Localized heavy showers during seasonal transition",
+          "forecast_climate_risk_score": 38.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "High (Strong regional model consensus)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Proceed with standard seasonal planting schedule; adhere to recommended seed spacing and basal NPK application."
+        },
+        "Kicukiro": {
+          "district": "Kicukiro",
+          "rainfall_terciles": {
+            "above_normal_pct": 35,
+            "normal_pct": 45,
+            "below_normal_pct": 20
+          },
+          "rainfall_outlook": "Normal to Slightly Enhanced Rainfall",
+          "expected_rainfall_range_mm": "650 \u2013 850 mm",
+          "historical_ref_mean_mm": 680.0,
+          "anomaly_outlook": "Near climatological normal with timely seasonal onset",
+          "temperature_outlook": "Normal to slightly warmer (+0.4\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.0\u00b0C \u2013 21.0\u00b0C",
+          "drought_risk": "Low to Moderate",
+          "heavy_rainfall_risk": "Moderate (Standard seasonal erosion management required)",
+          "extreme_weather_outlook": "Localized heavy showers during seasonal transition",
+          "forecast_climate_risk_score": 38.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "High (Strong regional model consensus)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Proceed with standard seasonal planting schedule; adhere to recommended seed spacing and basal NPK application."
+        },
+        "Nyarugenge": {
+          "district": "Nyarugenge",
+          "rainfall_terciles": {
+            "above_normal_pct": 35,
+            "normal_pct": 45,
+            "below_normal_pct": 20
+          },
+          "rainfall_outlook": "Normal to Slightly Enhanced Rainfall",
+          "expected_rainfall_range_mm": "650 \u2013 850 mm",
+          "historical_ref_mean_mm": 680.0,
+          "anomaly_outlook": "Near climatological normal with timely seasonal onset",
+          "temperature_outlook": "Normal to slightly warmer (+0.4\u00b0C anomaly)",
+          "temp_terciles": {
+            "above_normal_pct": 40,
+            "normal_pct": 45,
+            "below_normal_pct": 15
+          },
+          "expected_mean_temp_c": "19.0\u00b0C \u2013 21.0\u00b0C",
+          "drought_risk": "Low to Moderate",
+          "heavy_rainfall_risk": "Moderate (Standard seasonal erosion management required)",
+          "extreme_weather_outlook": "Localized heavy showers during seasonal transition",
+          "forecast_climate_risk_score": 38.0,
+          "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+          "confidence_level": "High (Strong regional model consensus)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Proceed with standard seasonal planting schedule; adhere to recommended seed spacing and basal NPK application."
+        },
+        "Nyagatare": {
+          "district": "Nyagatare",
+          "rainfall_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 45,
+            "below_normal_pct": 30
+          },
+          "rainfall_outlook": "Normal to Below-Normal Rainfall",
+          "expected_rainfall_range_mm": "400 \u2013 600 mm",
+          "historical_ref_mean_mm": 480.0,
+          "anomaly_outlook": "Potential delayed onset and irregular mid-season distribution",
+          "temperature_outlook": "Warmer than average (+0.8\u00b0C anomaly across Eastern lowlands)",
+          "temp_terciles": {
+            "above_normal_pct": 60,
+            "normal_pct": 30,
+            "below_normal_pct": 10
+          },
+          "expected_mean_temp_c": "22.5\u00b0C \u2013 24.5\u00b0C",
+          "drought_risk": "Elevated (Watch for mid-season dry spells > 14 days)",
+          "heavy_rainfall_risk": "Low (Except for isolated flash downpours)",
+          "extreme_weather_outlook": "Elevated evaporative demand and higher heat index",
+          "forecast_climate_risk_score": 58.0,
+          "forecast_risk_tier": "Dry Spell & Heat Exposure Watch",
+          "confidence_level": "Moderate (Sensitivity to Indian Ocean Dipole phase)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Utilize early-maturing and drought-tolerant seed varieties; prepare mulching to conserve root-zone moisture."
+        },
+        "Gatsibo": {
+          "district": "Gatsibo",
+          "rainfall_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 45,
+            "below_normal_pct": 30
+          },
+          "rainfall_outlook": "Normal to Below-Normal Rainfall",
+          "expected_rainfall_range_mm": "400 \u2013 600 mm",
+          "historical_ref_mean_mm": 480.0,
+          "anomaly_outlook": "Potential delayed onset and irregular mid-season distribution",
+          "temperature_outlook": "Warmer than average (+0.8\u00b0C anomaly across Eastern lowlands)",
+          "temp_terciles": {
+            "above_normal_pct": 60,
+            "normal_pct": 30,
+            "below_normal_pct": 10
+          },
+          "expected_mean_temp_c": "22.5\u00b0C \u2013 24.5\u00b0C",
+          "drought_risk": "Elevated (Watch for mid-season dry spells > 14 days)",
+          "heavy_rainfall_risk": "Low (Except for isolated flash downpours)",
+          "extreme_weather_outlook": "Elevated evaporative demand and higher heat index",
+          "forecast_climate_risk_score": 58.0,
+          "forecast_risk_tier": "Dry Spell & Heat Exposure Watch",
+          "confidence_level": "Moderate (Sensitivity to Indian Ocean Dipole phase)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Utilize early-maturing and drought-tolerant seed varieties; prepare mulching to conserve root-zone moisture."
+        },
+        "Kayonza": {
+          "district": "Kayonza",
+          "rainfall_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 45,
+            "below_normal_pct": 30
+          },
+          "rainfall_outlook": "Normal to Below-Normal Rainfall",
+          "expected_rainfall_range_mm": "400 \u2013 600 mm",
+          "historical_ref_mean_mm": 480.0,
+          "anomaly_outlook": "Potential delayed onset and irregular mid-season distribution",
+          "temperature_outlook": "Warmer than average (+0.8\u00b0C anomaly across Eastern lowlands)",
+          "temp_terciles": {
+            "above_normal_pct": 60,
+            "normal_pct": 30,
+            "below_normal_pct": 10
+          },
+          "expected_mean_temp_c": "22.5\u00b0C \u2013 24.5\u00b0C",
+          "drought_risk": "Elevated (Watch for mid-season dry spells > 14 days)",
+          "heavy_rainfall_risk": "Low (Except for isolated flash downpours)",
+          "extreme_weather_outlook": "Elevated evaporative demand and higher heat index",
+          "forecast_climate_risk_score": 58.0,
+          "forecast_risk_tier": "Dry Spell & Heat Exposure Watch",
+          "confidence_level": "Moderate (Sensitivity to Indian Ocean Dipole phase)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Utilize early-maturing and drought-tolerant seed varieties; prepare mulching to conserve root-zone moisture."
+        },
+        "Rwamagana": {
+          "district": "Rwamagana",
+          "rainfall_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 45,
+            "below_normal_pct": 30
+          },
+          "rainfall_outlook": "Normal to Below-Normal Rainfall",
+          "expected_rainfall_range_mm": "400 \u2013 600 mm",
+          "historical_ref_mean_mm": 480.0,
+          "anomaly_outlook": "Potential delayed onset and irregular mid-season distribution",
+          "temperature_outlook": "Warmer than average (+0.8\u00b0C anomaly across Eastern lowlands)",
+          "temp_terciles": {
+            "above_normal_pct": 60,
+            "normal_pct": 30,
+            "below_normal_pct": 10
+          },
+          "expected_mean_temp_c": "22.5\u00b0C \u2013 24.5\u00b0C",
+          "drought_risk": "Elevated (Watch for mid-season dry spells > 14 days)",
+          "heavy_rainfall_risk": "Low (Except for isolated flash downpours)",
+          "extreme_weather_outlook": "Elevated evaporative demand and higher heat index",
+          "forecast_climate_risk_score": 58.0,
+          "forecast_risk_tier": "Dry Spell & Heat Exposure Watch",
+          "confidence_level": "Moderate (Sensitivity to Indian Ocean Dipole phase)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Utilize early-maturing and drought-tolerant seed varieties; prepare mulching to conserve root-zone moisture."
+        },
+        "Kirehe": {
+          "district": "Kirehe",
+          "rainfall_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 45,
+            "below_normal_pct": 30
+          },
+          "rainfall_outlook": "Normal to Below-Normal Rainfall",
+          "expected_rainfall_range_mm": "400 \u2013 600 mm",
+          "historical_ref_mean_mm": 480.0,
+          "anomaly_outlook": "Potential delayed onset and irregular mid-season distribution",
+          "temperature_outlook": "Warmer than average (+0.8\u00b0C anomaly across Eastern lowlands)",
+          "temp_terciles": {
+            "above_normal_pct": 60,
+            "normal_pct": 30,
+            "below_normal_pct": 10
+          },
+          "expected_mean_temp_c": "22.5\u00b0C \u2013 24.5\u00b0C",
+          "drought_risk": "Elevated (Watch for mid-season dry spells > 14 days)",
+          "heavy_rainfall_risk": "Low (Except for isolated flash downpours)",
+          "extreme_weather_outlook": "Elevated evaporative demand and higher heat index",
+          "forecast_climate_risk_score": 58.0,
+          "forecast_risk_tier": "Dry Spell & Heat Exposure Watch",
+          "confidence_level": "Moderate (Sensitivity to Indian Ocean Dipole phase)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Utilize early-maturing and drought-tolerant seed varieties; prepare mulching to conserve root-zone moisture."
+        },
+        "Ngoma": {
+          "district": "Ngoma",
+          "rainfall_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 45,
+            "below_normal_pct": 30
+          },
+          "rainfall_outlook": "Normal to Below-Normal Rainfall",
+          "expected_rainfall_range_mm": "400 \u2013 600 mm",
+          "historical_ref_mean_mm": 480.0,
+          "anomaly_outlook": "Potential delayed onset and irregular mid-season distribution",
+          "temperature_outlook": "Warmer than average (+0.8\u00b0C anomaly across Eastern lowlands)",
+          "temp_terciles": {
+            "above_normal_pct": 60,
+            "normal_pct": 30,
+            "below_normal_pct": 10
+          },
+          "expected_mean_temp_c": "22.5\u00b0C \u2013 24.5\u00b0C",
+          "drought_risk": "Elevated (Watch for mid-season dry spells > 14 days)",
+          "heavy_rainfall_risk": "Low (Except for isolated flash downpours)",
+          "extreme_weather_outlook": "Elevated evaporative demand and higher heat index",
+          "forecast_climate_risk_score": 58.0,
+          "forecast_risk_tier": "Dry Spell & Heat Exposure Watch",
+          "confidence_level": "Moderate (Sensitivity to Indian Ocean Dipole phase)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Utilize early-maturing and drought-tolerant seed varieties; prepare mulching to conserve root-zone moisture."
+        },
+        "Bugesera": {
+          "district": "Bugesera",
+          "rainfall_terciles": {
+            "above_normal_pct": 25,
+            "normal_pct": 45,
+            "below_normal_pct": 30
+          },
+          "rainfall_outlook": "Normal to Below-Normal Rainfall",
+          "expected_rainfall_range_mm": "400 \u2013 600 mm",
+          "historical_ref_mean_mm": 480.0,
+          "anomaly_outlook": "Potential delayed onset and irregular mid-season distribution",
+          "temperature_outlook": "Warmer than average (+0.8\u00b0C anomaly across Eastern lowlands)",
+          "temp_terciles": {
+            "above_normal_pct": 60,
+            "normal_pct": 30,
+            "below_normal_pct": 10
+          },
+          "expected_mean_temp_c": "22.5\u00b0C \u2013 24.5\u00b0C",
+          "drought_risk": "Elevated (Watch for mid-season dry spells > 14 days)",
+          "heavy_rainfall_risk": "Low (Except for isolated flash downpours)",
+          "extreme_weather_outlook": "Elevated evaporative demand and higher heat index",
+          "forecast_climate_risk_score": 58.0,
+          "forecast_risk_tier": "Dry Spell & Heat Exposure Watch",
+          "confidence_level": "Moderate (Sensitivity to Indian Ocean Dipole phase)",
+          "unmonitored_forecasts": {
+            "soil_moisture_forecast": "Forecast unavailable",
+            "wind_speed_forecast": "Forecast unavailable",
+            "evapotranspiration_forecast": "Forecast unavailable"
+          },
+          "recommended_agronomic_action": "Utilize early-maturing and drought-tolerant seed varieties; prepare mulching to conserve root-zone moisture."
+        }
+      }
+    }
+  },
+  "agricultural_season": "Season 2027A / SOND 2026 (September 2026 \u2013 December 2026)",
+  "forecast_authority": "Rwanda Meteorology Agency (Meteo Rwanda)",
+  "bulletin_reference": "Ref: MR/AGRO/2026/08/SOND-OUTLOOK",
+  "forecast_issue_date": "2026-08-28",
+  "valid_from": "2026-09-01",
+  "valid_to": "2026-12-31",
+  "valid_horizon": "September 1, 2026 to December 31, 2026",
+  "valid_period_label": "September\u2013December 2026 (SOND 2026)",
+  "forecast_status": "Current Active Outlook",
+  "geographic_scope": "National Coverage across all 30 Districts (4 Agro-Climatic Zones)",
+  "forecast_methodology": "Consensus tercile probability based on ECMWF, UKMO, Meteo Rwanda dynamical models and ICPAC GHACOF72 regional guidance",
+  "climatological_pattern": "High probability of above-normal rainfall across Rwanda compared to the 30-year Long-Term Mean (LTM)",
+  "cumulative_rainfall_expected": "300 to 1,000 mm nationally (vs LTM baseline 279 to 962 mm)",
+  "driving_climate_factors": "Warmer-than-average sea surface temperatures over central/eastern Pacific (El Ni\u00f1o), positive Indian Ocean Dipole (IOD), and ITCZ southern migration. Analogue years: 1997 and 2023.",
+  "seasonal_rainfall_dynamic": "September started dry/below-normal with delayed planting, followed by heavy intensification across October, November, and December. Elevates flood/erosion hazard on hillsides while recharging soil moisture.",
+  "districts": {
+    "Nyamasheke": {
+      "district": "Nyamasheke",
+      "agroclimatic_zone": "Western Mountainous & South-Western Highlands",
+      "rainfall_terciles": {
+        "above_normal_pct": 60,
+        "normal_pct": 30,
+        "below_normal_pct": 10
+      },
+      "rainfall_outlook": "Enhanced / Above-Normal Rainfall",
+      "expected_rainfall_range_mm": "800 \u2013 1,000 mm",
+      "historical_ref_mean_mm": 760.0,
+      "anomaly_outlook": "Positive anomaly driven by El Ni\u00f1o and positive Indian Ocean Dipole",
+      "temperature_outlook": "Near-normal daytime temperatures, cooler valley nights",
+      "temp_terciles": {
+        "above_normal_pct": 30,
+        "normal_pct": 50,
+        "below_normal_pct": 20
+      },
+      "expected_mean_temp_c": "15.0\u00b0C \u2013 17.0\u00b0C",
+      "drought_risk": "Low (Continuous high moisture delivery across SOND)",
+      "heavy_rainfall_risk": "High (Steep slope erosion, flash runoff, and landslide hazard)",
+      "extreme_weather_outlook": "Intense convective downpours during October\u2013November peak",
+      "forecast_climate_risk_score": 64.0,
+      "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+      "confidence_level": "High (Dynamical agreement across ECMWF, UKMO, and Meteo Rwanda)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Reinforce contour trenches and hillside drainage furrows before October downpours; split nitrogen fertilizer into 3 top-dressings to avoid severe leaching."
+    },
+    "Rutsiro": {
+      "district": "Rutsiro",
+      "agroclimatic_zone": "Western Mountainous & South-Western Highlands",
+      "rainfall_terciles": {
+        "above_normal_pct": 60,
+        "normal_pct": 30,
+        "below_normal_pct": 10
+      },
+      "rainfall_outlook": "Enhanced / Above-Normal Rainfall",
+      "expected_rainfall_range_mm": "800 \u2013 1,000 mm",
+      "historical_ref_mean_mm": 760.0,
+      "anomaly_outlook": "Positive anomaly driven by El Ni\u00f1o and positive Indian Ocean Dipole",
+      "temperature_outlook": "Near-normal daytime temperatures, cooler valley nights",
+      "temp_terciles": {
+        "above_normal_pct": 30,
+        "normal_pct": 50,
+        "below_normal_pct": 20
+      },
+      "expected_mean_temp_c": "15.0\u00b0C \u2013 17.0\u00b0C",
+      "drought_risk": "Low (Continuous high moisture delivery across SOND)",
+      "heavy_rainfall_risk": "High (Steep slope erosion, flash runoff, and landslide hazard)",
+      "extreme_weather_outlook": "Intense convective downpours during October\u2013November peak",
+      "forecast_climate_risk_score": 64.0,
+      "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+      "confidence_level": "High (Dynamical agreement across ECMWF, UKMO, and Meteo Rwanda)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Reinforce contour trenches and hillside drainage furrows before October downpours; split nitrogen fertilizer into 3 top-dressings to avoid severe leaching."
+    },
+    "Karongi": {
+      "district": "Karongi",
+      "agroclimatic_zone": "Western Mountainous & South-Western Highlands",
+      "rainfall_terciles": {
+        "above_normal_pct": 60,
+        "normal_pct": 30,
+        "below_normal_pct": 10
+      },
+      "rainfall_outlook": "Enhanced / Above-Normal Rainfall",
+      "expected_rainfall_range_mm": "800 \u2013 1,000 mm",
+      "historical_ref_mean_mm": 760.0,
+      "anomaly_outlook": "Positive anomaly driven by El Ni\u00f1o and positive Indian Ocean Dipole",
+      "temperature_outlook": "Near-normal daytime temperatures, cooler valley nights",
+      "temp_terciles": {
+        "above_normal_pct": 30,
+        "normal_pct": 50,
+        "below_normal_pct": 20
+      },
+      "expected_mean_temp_c": "15.0\u00b0C \u2013 17.0\u00b0C",
+      "drought_risk": "Low (Continuous high moisture delivery across SOND)",
+      "heavy_rainfall_risk": "High (Steep slope erosion, flash runoff, and landslide hazard)",
+      "extreme_weather_outlook": "Intense convective downpours during October\u2013November peak",
+      "forecast_climate_risk_score": 64.0,
+      "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+      "confidence_level": "High (Dynamical agreement across ECMWF, UKMO, and Meteo Rwanda)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Reinforce contour trenches and hillside drainage furrows before October downpours; split nitrogen fertilizer into 3 top-dressings to avoid severe leaching."
+    },
+    "Nyamagabe": {
+      "district": "Nyamagabe",
+      "agroclimatic_zone": "Western Mountainous & South-Western Highlands",
+      "rainfall_terciles": {
+        "above_normal_pct": 60,
+        "normal_pct": 30,
+        "below_normal_pct": 10
+      },
+      "rainfall_outlook": "Enhanced / Above-Normal Rainfall",
+      "expected_rainfall_range_mm": "800 \u2013 1,000 mm",
+      "historical_ref_mean_mm": 760.0,
+      "anomaly_outlook": "Positive anomaly driven by El Ni\u00f1o and positive Indian Ocean Dipole",
+      "temperature_outlook": "Near-normal daytime temperatures, cooler valley nights",
+      "temp_terciles": {
+        "above_normal_pct": 30,
+        "normal_pct": 50,
+        "below_normal_pct": 20
+      },
+      "expected_mean_temp_c": "15.0\u00b0C \u2013 17.0\u00b0C",
+      "drought_risk": "Low (Continuous high moisture delivery across SOND)",
+      "heavy_rainfall_risk": "High (Steep slope erosion, flash runoff, and landslide hazard)",
+      "extreme_weather_outlook": "Intense convective downpours during October\u2013November peak",
+      "forecast_climate_risk_score": 64.0,
+      "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+      "confidence_level": "High (Dynamical agreement across ECMWF, UKMO, and Meteo Rwanda)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Reinforce contour trenches and hillside drainage furrows before October downpours; split nitrogen fertilizer into 3 top-dressings to avoid severe leaching."
+    },
+    "Nyaruguru": {
+      "district": "Nyaruguru",
+      "agroclimatic_zone": "Western Mountainous & South-Western Highlands",
+      "rainfall_terciles": {
+        "above_normal_pct": 60,
+        "normal_pct": 30,
+        "below_normal_pct": 10
+      },
+      "rainfall_outlook": "Enhanced / Above-Normal Rainfall",
+      "expected_rainfall_range_mm": "800 \u2013 1,000 mm",
+      "historical_ref_mean_mm": 760.0,
+      "anomaly_outlook": "Positive anomaly driven by El Ni\u00f1o and positive Indian Ocean Dipole",
+      "temperature_outlook": "Near-normal daytime temperatures, cooler valley nights",
+      "temp_terciles": {
+        "above_normal_pct": 30,
+        "normal_pct": 50,
+        "below_normal_pct": 20
+      },
+      "expected_mean_temp_c": "15.0\u00b0C \u2013 17.0\u00b0C",
+      "drought_risk": "Low (Continuous high moisture delivery across SOND)",
+      "heavy_rainfall_risk": "High (Steep slope erosion, flash runoff, and landslide hazard)",
+      "extreme_weather_outlook": "Intense convective downpours during October\u2013November peak",
+      "forecast_climate_risk_score": 64.0,
+      "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+      "confidence_level": "High (Dynamical agreement across ECMWF, UKMO, and Meteo Rwanda)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Reinforce contour trenches and hillside drainage furrows before October downpours; split nitrogen fertilizer into 3 top-dressings to avoid severe leaching."
+    },
+    "Rusizi": {
+      "district": "Rusizi",
+      "agroclimatic_zone": "Western Mountainous & South-Western Highlands",
+      "rainfall_terciles": {
+        "above_normal_pct": 60,
+        "normal_pct": 30,
+        "below_normal_pct": 10
+      },
+      "rainfall_outlook": "Enhanced / Above-Normal Rainfall",
+      "expected_rainfall_range_mm": "800 \u2013 1,000 mm",
+      "historical_ref_mean_mm": 760.0,
+      "anomaly_outlook": "Positive anomaly driven by El Ni\u00f1o and positive Indian Ocean Dipole",
+      "temperature_outlook": "Near-normal daytime temperatures, cooler valley nights",
+      "temp_terciles": {
+        "above_normal_pct": 30,
+        "normal_pct": 50,
+        "below_normal_pct": 20
+      },
+      "expected_mean_temp_c": "15.0\u00b0C \u2013 17.0\u00b0C",
+      "drought_risk": "Low (Continuous high moisture delivery across SOND)",
+      "heavy_rainfall_risk": "High (Steep slope erosion, flash runoff, and landslide hazard)",
+      "extreme_weather_outlook": "Intense convective downpours during October\u2013November peak",
+      "forecast_climate_risk_score": 64.0,
+      "forecast_risk_tier": "Elevated Excess-Rain & Runoff Risk",
+      "confidence_level": "High (Dynamical agreement across ECMWF, UKMO, and Meteo Rwanda)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Reinforce contour trenches and hillside drainage furrows before October downpours; split nitrogen fertilizer into 3 top-dressings to avoid severe leaching."
+    },
+    "Musanze": {
+      "district": "Musanze",
+      "agroclimatic_zone": "Northern Highlands & Volcanoes Zone",
+      "rainfall_terciles": {
+        "above_normal_pct": 55,
+        "normal_pct": 35,
+        "below_normal_pct": 10
+      },
+      "rainfall_outlook": "Moderate to Above-Normal Rainfall",
+      "expected_rainfall_range_mm": "600 \u2013 800 mm",
+      "historical_ref_mean_mm": 680.0,
+      "anomaly_outlook": "Above long-term mean with strong rain intensification in October\u2013November",
+      "temperature_outlook": "Near normal to slightly cooler during cloudy spells",
+      "temp_terciles": {
+        "above_normal_pct": 25,
+        "normal_pct": 55,
+        "below_normal_pct": 20
+      },
+      "expected_mean_temp_c": "16.0\u00b0C \u2013 18.0\u00b0C",
+      "drought_risk": "Low (Optimal soil moisture for Irish potato and maize)",
+      "heavy_rainfall_risk": "Elevated (Fungal blight pressure in Irish potato; waterlogging in heavy soils)",
+      "extreme_weather_outlook": "Persistent cloud cover and frequent morning mists",
+      "forecast_climate_risk_score": 52.0,
+      "forecast_risk_tier": "Favorable Moisture with Fungal Disease Watch",
+      "confidence_level": "High (Multi-model consensus)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Establish prophylactic fungicide schedule for Irish potato Late Blight (Phytophthora infestans); clear raised potato beds for rapid drainage."
+    },
+    "Gakenke": {
+      "district": "Gakenke",
+      "agroclimatic_zone": "Northern Highlands & Volcanoes Zone",
+      "rainfall_terciles": {
+        "above_normal_pct": 55,
+        "normal_pct": 35,
+        "below_normal_pct": 10
+      },
+      "rainfall_outlook": "Moderate to Above-Normal Rainfall",
+      "expected_rainfall_range_mm": "600 \u2013 800 mm",
+      "historical_ref_mean_mm": 680.0,
+      "anomaly_outlook": "Above long-term mean with strong rain intensification in October\u2013November",
+      "temperature_outlook": "Near normal to slightly cooler during cloudy spells",
+      "temp_terciles": {
+        "above_normal_pct": 25,
+        "normal_pct": 55,
+        "below_normal_pct": 20
+      },
+      "expected_mean_temp_c": "16.0\u00b0C \u2013 18.0\u00b0C",
+      "drought_risk": "Low (Optimal soil moisture for Irish potato and maize)",
+      "heavy_rainfall_risk": "Elevated (Fungal blight pressure in Irish potato; waterlogging in heavy soils)",
+      "extreme_weather_outlook": "Persistent cloud cover and frequent morning mists",
+      "forecast_climate_risk_score": 52.0,
+      "forecast_risk_tier": "Favorable Moisture with Fungal Disease Watch",
+      "confidence_level": "High (Multi-model consensus)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Establish prophylactic fungicide schedule for Irish potato Late Blight (Phytophthora infestans); clear raised potato beds for rapid drainage."
+    },
+    "Burera": {
+      "district": "Burera",
+      "agroclimatic_zone": "Northern Highlands & Volcanoes Zone",
+      "rainfall_terciles": {
+        "above_normal_pct": 55,
+        "normal_pct": 35,
+        "below_normal_pct": 10
+      },
+      "rainfall_outlook": "Moderate to Above-Normal Rainfall",
+      "expected_rainfall_range_mm": "600 \u2013 800 mm",
+      "historical_ref_mean_mm": 680.0,
+      "anomaly_outlook": "Above long-term mean with strong rain intensification in October\u2013November",
+      "temperature_outlook": "Near normal to slightly cooler during cloudy spells",
+      "temp_terciles": {
+        "above_normal_pct": 25,
+        "normal_pct": 55,
+        "below_normal_pct": 20
+      },
+      "expected_mean_temp_c": "16.0\u00b0C \u2013 18.0\u00b0C",
+      "drought_risk": "Low (Optimal soil moisture for Irish potato and maize)",
+      "heavy_rainfall_risk": "Elevated (Fungal blight pressure in Irish potato; waterlogging in heavy soils)",
+      "extreme_weather_outlook": "Persistent cloud cover and frequent morning mists",
+      "forecast_climate_risk_score": 52.0,
+      "forecast_risk_tier": "Favorable Moisture with Fungal Disease Watch",
+      "confidence_level": "High (Multi-model consensus)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Establish prophylactic fungicide schedule for Irish potato Late Blight (Phytophthora infestans); clear raised potato beds for rapid drainage."
+    },
+    "Muhanga": {
+      "district": "Muhanga",
+      "agroclimatic_zone": "Northern Highlands & Volcanoes Zone",
+      "rainfall_terciles": {
+        "above_normal_pct": 55,
+        "normal_pct": 35,
+        "below_normal_pct": 10
+      },
+      "rainfall_outlook": "Moderate to Above-Normal Rainfall",
+      "expected_rainfall_range_mm": "600 \u2013 800 mm",
+      "historical_ref_mean_mm": 680.0,
+      "anomaly_outlook": "Above long-term mean with strong rain intensification in October\u2013November",
+      "temperature_outlook": "Near normal to slightly cooler during cloudy spells",
+      "temp_terciles": {
+        "above_normal_pct": 25,
+        "normal_pct": 55,
+        "below_normal_pct": 20
+      },
+      "expected_mean_temp_c": "16.0\u00b0C \u2013 18.0\u00b0C",
+      "drought_risk": "Low (Optimal soil moisture for Irish potato and maize)",
+      "heavy_rainfall_risk": "Elevated (Fungal blight pressure in Irish potato; waterlogging in heavy soils)",
+      "extreme_weather_outlook": "Persistent cloud cover and frequent morning mists",
+      "forecast_climate_risk_score": 52.0,
+      "forecast_risk_tier": "Favorable Moisture with Fungal Disease Watch",
+      "confidence_level": "High (Multi-model consensus)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Establish prophylactic fungicide schedule for Irish potato Late Blight (Phytophthora infestans); clear raised potato beds for rapid drainage."
+    },
+    "Rubavu": {
+      "district": "Rubavu",
+      "agroclimatic_zone": "Northern Highlands & Volcanoes Zone",
+      "rainfall_terciles": {
+        "above_normal_pct": 55,
+        "normal_pct": 35,
+        "below_normal_pct": 10
+      },
+      "rainfall_outlook": "Moderate to Above-Normal Rainfall",
+      "expected_rainfall_range_mm": "600 \u2013 800 mm",
+      "historical_ref_mean_mm": 680.0,
+      "anomaly_outlook": "Above long-term mean with strong rain intensification in October\u2013November",
+      "temperature_outlook": "Near normal to slightly cooler during cloudy spells",
+      "temp_terciles": {
+        "above_normal_pct": 25,
+        "normal_pct": 55,
+        "below_normal_pct": 20
+      },
+      "expected_mean_temp_c": "16.0\u00b0C \u2013 18.0\u00b0C",
+      "drought_risk": "Low (Optimal soil moisture for Irish potato and maize)",
+      "heavy_rainfall_risk": "Elevated (Fungal blight pressure in Irish potato; waterlogging in heavy soils)",
+      "extreme_weather_outlook": "Persistent cloud cover and frequent morning mists",
+      "forecast_climate_risk_score": 52.0,
+      "forecast_risk_tier": "Favorable Moisture with Fungal Disease Watch",
+      "confidence_level": "High (Multi-model consensus)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Establish prophylactic fungicide schedule for Irish potato Late Blight (Phytophthora infestans); clear raised potato beds for rapid drainage."
+    },
+    "Ngororero": {
+      "district": "Ngororero",
+      "agroclimatic_zone": "Northern Highlands & Volcanoes Zone",
+      "rainfall_terciles": {
+        "above_normal_pct": 55,
+        "normal_pct": 35,
+        "below_normal_pct": 10
+      },
+      "rainfall_outlook": "Moderate to Above-Normal Rainfall",
+      "expected_rainfall_range_mm": "600 \u2013 800 mm",
+      "historical_ref_mean_mm": 680.0,
+      "anomaly_outlook": "Above long-term mean with strong rain intensification in October\u2013November",
+      "temperature_outlook": "Near normal to slightly cooler during cloudy spells",
+      "temp_terciles": {
+        "above_normal_pct": 25,
+        "normal_pct": 55,
+        "below_normal_pct": 20
+      },
+      "expected_mean_temp_c": "16.0\u00b0C \u2013 18.0\u00b0C",
+      "drought_risk": "Low (Optimal soil moisture for Irish potato and maize)",
+      "heavy_rainfall_risk": "Elevated (Fungal blight pressure in Irish potato; waterlogging in heavy soils)",
+      "extreme_weather_outlook": "Persistent cloud cover and frequent morning mists",
+      "forecast_climate_risk_score": 52.0,
+      "forecast_risk_tier": "Favorable Moisture with Fungal Disease Watch",
+      "confidence_level": "High (Multi-model consensus)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Establish prophylactic fungicide schedule for Irish potato Late Blight (Phytophthora infestans); clear raised potato beds for rapid drainage."
+    },
+    "Nyabihu": {
+      "district": "Nyabihu",
+      "agroclimatic_zone": "Northern Highlands & Volcanoes Zone",
+      "rainfall_terciles": {
+        "above_normal_pct": 55,
+        "normal_pct": 35,
+        "below_normal_pct": 10
+      },
+      "rainfall_outlook": "Moderate to Above-Normal Rainfall",
+      "expected_rainfall_range_mm": "600 \u2013 800 mm",
+      "historical_ref_mean_mm": 680.0,
+      "anomaly_outlook": "Above long-term mean with strong rain intensification in October\u2013November",
+      "temperature_outlook": "Near normal to slightly cooler during cloudy spells",
+      "temp_terciles": {
+        "above_normal_pct": 25,
+        "normal_pct": 55,
+        "below_normal_pct": 20
+      },
+      "expected_mean_temp_c": "16.0\u00b0C \u2013 18.0\u00b0C",
+      "drought_risk": "Low (Optimal soil moisture for Irish potato and maize)",
+      "heavy_rainfall_risk": "Elevated (Fungal blight pressure in Irish potato; waterlogging in heavy soils)",
+      "extreme_weather_outlook": "Persistent cloud cover and frequent morning mists",
+      "forecast_climate_risk_score": 52.0,
+      "forecast_risk_tier": "Favorable Moisture with Fungal Disease Watch",
+      "confidence_level": "High (Multi-model consensus)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Establish prophylactic fungicide schedule for Irish potato Late Blight (Phytophthora infestans); clear raised potato beds for rapid drainage."
+    },
+    "Gicumbi": {
+      "district": "Gicumbi",
+      "agroclimatic_zone": "Central Plateau & Kigali City",
+      "rainfall_terciles": {
+        "above_normal_pct": 50,
+        "normal_pct": 35,
+        "below_normal_pct": 15
+      },
+      "rainfall_outlook": "Near Normal to Slightly Above Normal",
+      "expected_rainfall_range_mm": "450 \u2013 600 mm",
+      "historical_ref_mean_mm": 510.0,
+      "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+      "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+      "temp_terciles": {
+        "above_normal_pct": 40,
+        "normal_pct": 45,
+        "below_normal_pct": 15
+      },
+      "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+      "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+      "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+      "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+      "forecast_climate_risk_score": 42.0,
+      "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+      "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+    },
+    "Rulindo": {
+      "district": "Rulindo",
+      "agroclimatic_zone": "Central Plateau & Kigali City",
+      "rainfall_terciles": {
+        "above_normal_pct": 50,
+        "normal_pct": 35,
+        "below_normal_pct": 15
+      },
+      "rainfall_outlook": "Near Normal to Slightly Above Normal",
+      "expected_rainfall_range_mm": "450 \u2013 600 mm",
+      "historical_ref_mean_mm": 510.0,
+      "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+      "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+      "temp_terciles": {
+        "above_normal_pct": 40,
+        "normal_pct": 45,
+        "below_normal_pct": 15
+      },
+      "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+      "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+      "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+      "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+      "forecast_climate_risk_score": 42.0,
+      "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+      "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+    },
+    "Gasabo": {
+      "district": "Gasabo",
+      "agroclimatic_zone": "Central Plateau & Kigali City",
+      "rainfall_terciles": {
+        "above_normal_pct": 50,
+        "normal_pct": 35,
+        "below_normal_pct": 15
+      },
+      "rainfall_outlook": "Near Normal to Slightly Above Normal",
+      "expected_rainfall_range_mm": "450 \u2013 600 mm",
+      "historical_ref_mean_mm": 510.0,
+      "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+      "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+      "temp_terciles": {
+        "above_normal_pct": 40,
+        "normal_pct": 45,
+        "below_normal_pct": 15
+      },
+      "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+      "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+      "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+      "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+      "forecast_climate_risk_score": 42.0,
+      "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+      "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+    },
+    "Kicukiro": {
+      "district": "Kicukiro",
+      "agroclimatic_zone": "Central Plateau & Kigali City",
+      "rainfall_terciles": {
+        "above_normal_pct": 50,
+        "normal_pct": 35,
+        "below_normal_pct": 15
+      },
+      "rainfall_outlook": "Near Normal to Slightly Above Normal",
+      "expected_rainfall_range_mm": "450 \u2013 600 mm",
+      "historical_ref_mean_mm": 510.0,
+      "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+      "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+      "temp_terciles": {
+        "above_normal_pct": 40,
+        "normal_pct": 45,
+        "below_normal_pct": 15
+      },
+      "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+      "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+      "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+      "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+      "forecast_climate_risk_score": 42.0,
+      "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+      "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+    },
+    "Nyarugenge": {
+      "district": "Nyarugenge",
+      "agroclimatic_zone": "Central Plateau & Kigali City",
+      "rainfall_terciles": {
+        "above_normal_pct": 50,
+        "normal_pct": 35,
+        "below_normal_pct": 15
+      },
+      "rainfall_outlook": "Near Normal to Slightly Above Normal",
+      "expected_rainfall_range_mm": "450 \u2013 600 mm",
+      "historical_ref_mean_mm": 510.0,
+      "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+      "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+      "temp_terciles": {
+        "above_normal_pct": 40,
+        "normal_pct": 45,
+        "below_normal_pct": 15
+      },
+      "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+      "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+      "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+      "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+      "forecast_climate_risk_score": 42.0,
+      "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+      "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+    },
+    "Huye": {
+      "district": "Huye",
+      "agroclimatic_zone": "Central Plateau & Kigali City",
+      "rainfall_terciles": {
+        "above_normal_pct": 50,
+        "normal_pct": 35,
+        "below_normal_pct": 15
+      },
+      "rainfall_outlook": "Near Normal to Slightly Above Normal",
+      "expected_rainfall_range_mm": "450 \u2013 600 mm",
+      "historical_ref_mean_mm": 510.0,
+      "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+      "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+      "temp_terciles": {
+        "above_normal_pct": 40,
+        "normal_pct": 45,
+        "below_normal_pct": 15
+      },
+      "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+      "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+      "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+      "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+      "forecast_climate_risk_score": 42.0,
+      "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+      "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+    },
+    "Nyanza": {
+      "district": "Nyanza",
+      "agroclimatic_zone": "Central Plateau & Kigali City",
+      "rainfall_terciles": {
+        "above_normal_pct": 50,
+        "normal_pct": 35,
+        "below_normal_pct": 15
+      },
+      "rainfall_outlook": "Near Normal to Slightly Above Normal",
+      "expected_rainfall_range_mm": "450 \u2013 600 mm",
+      "historical_ref_mean_mm": 510.0,
+      "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+      "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+      "temp_terciles": {
+        "above_normal_pct": 40,
+        "normal_pct": 45,
+        "below_normal_pct": 15
+      },
+      "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+      "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+      "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+      "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+      "forecast_climate_risk_score": 42.0,
+      "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+      "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+    },
+    "Ruhango": {
+      "district": "Ruhango",
+      "agroclimatic_zone": "Central Plateau & Kigali City",
+      "rainfall_terciles": {
+        "above_normal_pct": 50,
+        "normal_pct": 35,
+        "below_normal_pct": 15
+      },
+      "rainfall_outlook": "Near Normal to Slightly Above Normal",
+      "expected_rainfall_range_mm": "450 \u2013 600 mm",
+      "historical_ref_mean_mm": 510.0,
+      "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+      "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+      "temp_terciles": {
+        "above_normal_pct": 40,
+        "normal_pct": 45,
+        "below_normal_pct": 15
+      },
+      "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+      "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+      "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+      "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+      "forecast_climate_risk_score": 42.0,
+      "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+      "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+    },
+    "Gisagara": {
+      "district": "Gisagara",
+      "agroclimatic_zone": "Central Plateau & Kigali City",
+      "rainfall_terciles": {
+        "above_normal_pct": 50,
+        "normal_pct": 35,
+        "below_normal_pct": 15
+      },
+      "rainfall_outlook": "Near Normal to Slightly Above Normal",
+      "expected_rainfall_range_mm": "450 \u2013 600 mm",
+      "historical_ref_mean_mm": 510.0,
+      "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+      "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+      "temp_terciles": {
+        "above_normal_pct": 40,
+        "normal_pct": 45,
+        "below_normal_pct": 15
+      },
+      "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+      "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+      "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+      "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+      "forecast_climate_risk_score": 42.0,
+      "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+      "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+    },
+    "Kamonyi": {
+      "district": "Kamonyi",
+      "agroclimatic_zone": "Central Plateau & Kigali City",
+      "rainfall_terciles": {
+        "above_normal_pct": 50,
+        "normal_pct": 35,
+        "below_normal_pct": 15
+      },
+      "rainfall_outlook": "Near Normal to Slightly Above Normal",
+      "expected_rainfall_range_mm": "450 \u2013 600 mm",
+      "historical_ref_mean_mm": 510.0,
+      "anomaly_outlook": "Delayed onset in September followed by healthy replenishment October\u2013December",
+      "temperature_outlook": "Normal to slightly warmer (+0.3\u00b0C anomaly)",
+      "temp_terciles": {
+        "above_normal_pct": 40,
+        "normal_pct": 45,
+        "below_normal_pct": 15
+      },
+      "expected_mean_temp_c": "19.5\u00b0C \u2013 21.5\u00b0C",
+      "drought_risk": "Low to Moderate (Transient dry intervals during September planting)",
+      "heavy_rainfall_risk": "Moderate (Terraced slopes perform well; watch roadside gullying)",
+      "extreme_weather_outlook": "Heavy thunderstorms during seasonal transition in October",
+      "forecast_climate_risk_score": 42.0,
+      "forecast_risk_tier": "Favorable Agroclimatic Conditions",
+      "confidence_level": "Moderate-High (ICPAC GHACOF72 regional guidance)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Accelerate planting of maize and climbing beans following late September/early October moisture arrival; apply mulching to prevent crusting."
+    },
+    "Nyagatare": {
+      "district": "Nyagatare",
+      "agroclimatic_zone": "Eastern Lowlands & Savannah Plains",
+      "rainfall_terciles": {
+        "above_normal_pct": 45,
+        "normal_pct": 40,
+        "below_normal_pct": 15
+      },
+      "rainfall_outlook": "Moderate / Normal Rainfall with Favorable Rains",
+      "expected_rainfall_range_mm": "300 \u2013 450 mm",
+      "historical_ref_mean_mm": 380.0,
+      "anomaly_outlook": "Slightly above long-term mean with better-than-average pasture regeneration",
+      "temperature_outlook": "Warmer than average (+0.6\u00b0C across Eastern lowlands)",
+      "temp_terciles": {
+        "above_normal_pct": 55,
+        "normal_pct": 35,
+        "below_normal_pct": 10
+      },
+      "expected_mean_temp_c": "22.0\u00b0C \u2013 24.5\u00b0C",
+      "drought_risk": "Moderate (Dry intervals common; benefits from El Ni\u00f1o moisture recharge)",
+      "heavy_rainfall_risk": "Low (Occasional convective storms)",
+      "extreme_weather_outlook": "Warm temperatures increase potential evapotranspiration (ETo)",
+      "forecast_climate_risk_score": 48.0,
+      "forecast_risk_tier": "Moderate Risk / Moisture Dependent",
+      "confidence_level": "Moderate (Sensitivity to Pacific-Indian Ocean SST dipole)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Deploy drought-tolerant and early-maturing maize varieties (e.g., PAN 53); prepare mulching and rainwater harvesting pits for banana and cassava."
+    },
+    "Gatsibo": {
+      "district": "Gatsibo",
+      "agroclimatic_zone": "Eastern Lowlands & Savannah Plains",
+      "rainfall_terciles": {
+        "above_normal_pct": 45,
+        "normal_pct": 40,
+        "below_normal_pct": 15
+      },
+      "rainfall_outlook": "Moderate / Normal Rainfall with Favorable Rains",
+      "expected_rainfall_range_mm": "300 \u2013 450 mm",
+      "historical_ref_mean_mm": 380.0,
+      "anomaly_outlook": "Slightly above long-term mean with better-than-average pasture regeneration",
+      "temperature_outlook": "Warmer than average (+0.6\u00b0C across Eastern lowlands)",
+      "temp_terciles": {
+        "above_normal_pct": 55,
+        "normal_pct": 35,
+        "below_normal_pct": 10
+      },
+      "expected_mean_temp_c": "22.0\u00b0C \u2013 24.5\u00b0C",
+      "drought_risk": "Moderate (Dry intervals common; benefits from El Ni\u00f1o moisture recharge)",
+      "heavy_rainfall_risk": "Low (Occasional convective storms)",
+      "extreme_weather_outlook": "Warm temperatures increase potential evapotranspiration (ETo)",
+      "forecast_climate_risk_score": 48.0,
+      "forecast_risk_tier": "Moderate Risk / Moisture Dependent",
+      "confidence_level": "Moderate (Sensitivity to Pacific-Indian Ocean SST dipole)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Deploy drought-tolerant and early-maturing maize varieties (e.g., PAN 53); prepare mulching and rainwater harvesting pits for banana and cassava."
+    },
+    "Kayonza": {
+      "district": "Kayonza",
+      "agroclimatic_zone": "Eastern Lowlands & Savannah Plains",
+      "rainfall_terciles": {
+        "above_normal_pct": 45,
+        "normal_pct": 40,
+        "below_normal_pct": 15
+      },
+      "rainfall_outlook": "Moderate / Normal Rainfall with Favorable Rains",
+      "expected_rainfall_range_mm": "300 \u2013 450 mm",
+      "historical_ref_mean_mm": 380.0,
+      "anomaly_outlook": "Slightly above long-term mean with better-than-average pasture regeneration",
+      "temperature_outlook": "Warmer than average (+0.6\u00b0C across Eastern lowlands)",
+      "temp_terciles": {
+        "above_normal_pct": 55,
+        "normal_pct": 35,
+        "below_normal_pct": 10
+      },
+      "expected_mean_temp_c": "22.0\u00b0C \u2013 24.5\u00b0C",
+      "drought_risk": "Moderate (Dry intervals common; benefits from El Ni\u00f1o moisture recharge)",
+      "heavy_rainfall_risk": "Low (Occasional convective storms)",
+      "extreme_weather_outlook": "Warm temperatures increase potential evapotranspiration (ETo)",
+      "forecast_climate_risk_score": 48.0,
+      "forecast_risk_tier": "Moderate Risk / Moisture Dependent",
+      "confidence_level": "Moderate (Sensitivity to Pacific-Indian Ocean SST dipole)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Deploy drought-tolerant and early-maturing maize varieties (e.g., PAN 53); prepare mulching and rainwater harvesting pits for banana and cassava."
+    },
+    "Rwamagana": {
+      "district": "Rwamagana",
+      "agroclimatic_zone": "Eastern Lowlands & Savannah Plains",
+      "rainfall_terciles": {
+        "above_normal_pct": 45,
+        "normal_pct": 40,
+        "below_normal_pct": 15
+      },
+      "rainfall_outlook": "Moderate / Normal Rainfall with Favorable Rains",
+      "expected_rainfall_range_mm": "300 \u2013 450 mm",
+      "historical_ref_mean_mm": 380.0,
+      "anomaly_outlook": "Slightly above long-term mean with better-than-average pasture regeneration",
+      "temperature_outlook": "Warmer than average (+0.6\u00b0C across Eastern lowlands)",
+      "temp_terciles": {
+        "above_normal_pct": 55,
+        "normal_pct": 35,
+        "below_normal_pct": 10
+      },
+      "expected_mean_temp_c": "22.0\u00b0C \u2013 24.5\u00b0C",
+      "drought_risk": "Moderate (Dry intervals common; benefits from El Ni\u00f1o moisture recharge)",
+      "heavy_rainfall_risk": "Low (Occasional convective storms)",
+      "extreme_weather_outlook": "Warm temperatures increase potential evapotranspiration (ETo)",
+      "forecast_climate_risk_score": 48.0,
+      "forecast_risk_tier": "Moderate Risk / Moisture Dependent",
+      "confidence_level": "Moderate (Sensitivity to Pacific-Indian Ocean SST dipole)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Deploy drought-tolerant and early-maturing maize varieties (e.g., PAN 53); prepare mulching and rainwater harvesting pits for banana and cassava."
+    },
+    "Kirehe": {
+      "district": "Kirehe",
+      "agroclimatic_zone": "Eastern Lowlands & Savannah Plains",
+      "rainfall_terciles": {
+        "above_normal_pct": 45,
+        "normal_pct": 40,
+        "below_normal_pct": 15
+      },
+      "rainfall_outlook": "Moderate / Normal Rainfall with Favorable Rains",
+      "expected_rainfall_range_mm": "300 \u2013 450 mm",
+      "historical_ref_mean_mm": 380.0,
+      "anomaly_outlook": "Slightly above long-term mean with better-than-average pasture regeneration",
+      "temperature_outlook": "Warmer than average (+0.6\u00b0C across Eastern lowlands)",
+      "temp_terciles": {
+        "above_normal_pct": 55,
+        "normal_pct": 35,
+        "below_normal_pct": 10
+      },
+      "expected_mean_temp_c": "22.0\u00b0C \u2013 24.5\u00b0C",
+      "drought_risk": "Moderate (Dry intervals common; benefits from El Ni\u00f1o moisture recharge)",
+      "heavy_rainfall_risk": "Low (Occasional convective storms)",
+      "extreme_weather_outlook": "Warm temperatures increase potential evapotranspiration (ETo)",
+      "forecast_climate_risk_score": 48.0,
+      "forecast_risk_tier": "Moderate Risk / Moisture Dependent",
+      "confidence_level": "Moderate (Sensitivity to Pacific-Indian Ocean SST dipole)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Deploy drought-tolerant and early-maturing maize varieties (e.g., PAN 53); prepare mulching and rainwater harvesting pits for banana and cassava."
+    },
+    "Ngoma": {
+      "district": "Ngoma",
+      "agroclimatic_zone": "Eastern Lowlands & Savannah Plains",
+      "rainfall_terciles": {
+        "above_normal_pct": 45,
+        "normal_pct": 40,
+        "below_normal_pct": 15
+      },
+      "rainfall_outlook": "Moderate / Normal Rainfall with Favorable Rains",
+      "expected_rainfall_range_mm": "300 \u2013 450 mm",
+      "historical_ref_mean_mm": 380.0,
+      "anomaly_outlook": "Slightly above long-term mean with better-than-average pasture regeneration",
+      "temperature_outlook": "Warmer than average (+0.6\u00b0C across Eastern lowlands)",
+      "temp_terciles": {
+        "above_normal_pct": 55,
+        "normal_pct": 35,
+        "below_normal_pct": 10
+      },
+      "expected_mean_temp_c": "22.0\u00b0C \u2013 24.5\u00b0C",
+      "drought_risk": "Moderate (Dry intervals common; benefits from El Ni\u00f1o moisture recharge)",
+      "heavy_rainfall_risk": "Low (Occasional convective storms)",
+      "extreme_weather_outlook": "Warm temperatures increase potential evapotranspiration (ETo)",
+      "forecast_climate_risk_score": 48.0,
+      "forecast_risk_tier": "Moderate Risk / Moisture Dependent",
+      "confidence_level": "Moderate (Sensitivity to Pacific-Indian Ocean SST dipole)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Deploy drought-tolerant and early-maturing maize varieties (e.g., PAN 53); prepare mulching and rainwater harvesting pits for banana and cassava."
+    },
+    "Bugesera": {
+      "district": "Bugesera",
+      "agroclimatic_zone": "Eastern Lowlands & Savannah Plains",
+      "rainfall_terciles": {
+        "above_normal_pct": 45,
+        "normal_pct": 40,
+        "below_normal_pct": 15
+      },
+      "rainfall_outlook": "Moderate / Normal Rainfall with Favorable Rains",
+      "expected_rainfall_range_mm": "300 \u2013 450 mm",
+      "historical_ref_mean_mm": 380.0,
+      "anomaly_outlook": "Slightly above long-term mean with better-than-average pasture regeneration",
+      "temperature_outlook": "Warmer than average (+0.6\u00b0C across Eastern lowlands)",
+      "temp_terciles": {
+        "above_normal_pct": 55,
+        "normal_pct": 35,
+        "below_normal_pct": 10
+      },
+      "expected_mean_temp_c": "22.0\u00b0C \u2013 24.5\u00b0C",
+      "drought_risk": "Moderate (Dry intervals common; benefits from El Ni\u00f1o moisture recharge)",
+      "heavy_rainfall_risk": "Low (Occasional convective storms)",
+      "extreme_weather_outlook": "Warm temperatures increase potential evapotranspiration (ETo)",
+      "forecast_climate_risk_score": 48.0,
+      "forecast_risk_tier": "Moderate Risk / Moisture Dependent",
+      "confidence_level": "Moderate (Sensitivity to Pacific-Indian Ocean SST dipole)",
+      "unmonitored_forecasts": {
+        "soil_moisture_forecast": "Forecast unavailable",
+        "wind_speed_forecast": "Forecast unavailable",
+        "evapotranspiration_forecast": "Forecast unavailable"
+      },
+      "recommended_agronomic_action": "Deploy drought-tolerant and early-maturing maize varieties (e.g., PAN 53); prepare mulching and rainwater harvesting pits for banana and cassava."
+    }
+  }
+}

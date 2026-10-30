@@ -8,6 +8,18 @@ venv/
 .venv/
 env/
 
+# Node modules & frontend build cache
+frontend/node_modules/
+node_modules/
+
+# Raw Large Microdata files (available via NISR Microdata portal per README instructions)
+docs/Microdata*
+data/raw/nisr_microdata/
+*.sav
+*.dta
+*.zip
+*.tar.gz
+
 # Pytest / Coverage
 .pytest_cache/
 .coverage

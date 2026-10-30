@@ -1,65 +1,66 @@
 {
-  "train_samples": 4387,
-  "test_samples": 2256,
-  "train_years": "2021-2024",
-  "test_years": "2025-2026",
-  "yield_regression": {
-    "baseline_mae_kg_ha": 810.23,
-    "baseline_rmse_kg_ha": 1344.41,
-    "baseline_r2": 0.9147,
-    "ml_mae_kg_ha": 840.92,
-    "ml_rmse_kg_ha": 1368.31,
-    "ml_r2": 0.9117,
-    "mae_reduction_pct": -3.79
+  "model_1_yield_regressor": {
+    "model_type": "RandomForestRegressor (Stage 1 Agrometeorological)",
+    "training_dataset": "NISR Seasonal Agricultural Survey Microdata (2019-2023)",
+    "training_samples": 60000,
+    "test_dataset": "NISR Seasonal Agricultural Survey Microdata (2024-2025 Out-of-Season)",
+    "test_samples": 30000,
+    "r2_score": 0.4959,
+    "mae_kg_per_ha": 1025.8,
+    "rmse_kg_per_ha": 1995.4,
+    "baseline_benchmark_mae_kg_per_ha": 1102.0,
+    "baseline_benchmark_rmse_kg_per_ha": 2198.4,
+    "mae_improvement_pct": 6.91,
+    "ndvi_included": false
   },
-  "shortfall_classification": {
-    "roc_auc": 0.5788,
-    "f1_score": 0.0328,
-    "precision": 0.0682,
-    "recall": 0.0216,
-    "brier_score": 0.059,
-    "threshold_used": 0.4
+  "model_2_shortfall_classifier": {
+    "model_type": "RandomForestClassifier (Stage 1 Non-NDVI)",
+    "training_dataset": "NISR Seasonal Agricultural Survey Microdata (2019-2023)",
+    "training_samples": 60000,
+    "test_dataset": "NISR Seasonal Agricultural Survey Microdata (2024-2025 Out-of-Season)",
+    "test_samples": 30000,
+    "roc_auc": 0.6346,
+    "brier_score": 0.2101,
+    "brier_baseline": 0.1706,
+    "brier_skill_score": -0.232,
+    "screening_decision_threshold": 0.25,
+    "recall_at_screening_threshold": 0.9574,
+    "precision_at_screening_threshold": 0.2248,
+    "f1_at_screening_threshold": 0.3641,
+    "ndvi_included": false
   },
-  "top_features": [
+  "top_feature_drivers": [
     {
-      "feature": "cultivated_area_ha",
-      "importance": 0.295754771993071
+      "feature": "Regional Benchmark Yield",
+      "importance": 0.432
     },
     {
-      "feature": "ndvi_anomaly_pct",
-      "importance": 0.1987861894646158
+      "feature": "Cultivated Area (ha)",
+      "importance": 0.3353
     },
     {
-      "feature": "seasonal_rainfall_mm",
-      "importance": 0.1930572489427969
+      "feature": "Crop Category",
+      "importance": 0.0986
     },
     {
-      "feature": "regional_benchmark_yield",
-      "importance": 0.08507855097345962
+      "feature": "Moisture Deficit Defense (ETc)",
+      "importance": 0.052
     },
     {
-      "feature": "ndvi_vigor_ratio",
-      "importance": 0.023406479316233544
+      "feature": "District Category",
+      "importance": 0.0166
     },
     {
-      "feature": "ndvi_mid_season",
-      "importance": 0.023292764935600754
+      "feature": "Stage 1 Climate Defense Score",
+      "importance": 0.0139
     },
     {
-      "feature": "rainfall_intensity_mm_day",
-      "importance": 0.02089295329736706
+      "feature": "Rainfall Regularity Defense",
+      "importance": 0.0118
     },
     {
-      "feature": "ndvi_senescence_drop",
-      "importance": 0.018939819460115553
-    },
-    {
-      "feature": "dry_spell_ratio",
-      "importance": 0.016525894714182452
-    },
-    {
-      "feature": "ndvi_seasonal_mean",
-      "importance": 0.012456483732198459
+      "feature": "Season Category",
+      "importance": 0.0108
     }
   ]
 }
