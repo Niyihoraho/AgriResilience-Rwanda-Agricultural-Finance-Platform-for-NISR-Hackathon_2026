@@ -1,0 +1,1 @@
+# AgriResilience-Rwanda-Agricultural-Finance-Platform-for-NISR-Hackathon_2026
