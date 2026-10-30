@@ -2,7 +2,7 @@ Team Name: IHAME
 Team Leader:  Heroic NIYIHORAHO
 Team Member: David Karenzi
 VIDEO: https://app.screencastify.com/watch/4ZH58h5FwfgpStJ7B4k5
-website: https://agri-resilience-rwanda-agricultural-cyan.vercel.app/
+dashboard: https://agri-resilience-rwanda-agricultural-cyan.vercel.app/
 
 # AgriResilience Rwanda
 ### Data-Driven Agricultural Finance & Climate Risk Decision Platform
